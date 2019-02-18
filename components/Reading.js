@@ -321,7 +321,13 @@ class Reading extends React.Component {
   }
 
   render() {
-    const { document, modal, opacityAnim, topAnim } = this.state;
+    const {
+      confessionChapterIndex,
+      document,
+      modal,
+      opacityAnim,
+      topAnim
+    } = this.state;
     const {
       onHandleSidebarDrag,
       onToggleSettings,
@@ -347,6 +353,7 @@ class Reading extends React.Component {
       >
         {this.renderScriptures()}
         <Sidebar
+          confessionChapterIndex={confessionChapterIndex}
           documentData={document}
           setConfessionChapterIndex={this.setConfessionChapterIndex}
         />

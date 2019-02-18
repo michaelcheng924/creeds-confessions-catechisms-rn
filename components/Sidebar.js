@@ -10,6 +10,7 @@ import {
   TouchableOpacity,
   View
 } from "react-native";
+import AppText from "./AppText";
 import Icon from "@expo/vector-icons";
 
 import { handleSidebarDrag, setDocument, toggleSidebar } from "../actions";
@@ -44,7 +45,11 @@ class Sidebar extends React.Component {
   }
 
   renderChapters() {
-    const { documentData, setConfessionChapterIndex } = this.props;
+    const {
+      confessionChapterIndex,
+      documentData,
+      setConfessionChapterIndex
+    } = this.props;
 
     if (documentData.type !== "confession") {
       return null;
@@ -53,7 +58,7 @@ class Sidebar extends React.Component {
     return (
       <View>
         <View style={[styles.row, styles.rowHeading]}>
-          <Text>Table of Contents</Text>
+          <AppText>Table of Contents</AppText>
         </View>
         {documentData.content.map((chapter, index) => {
           return (
@@ -62,9 +67,9 @@ class Sidebar extends React.Component {
               onPress={() => setConfessionChapterIndex(index)}
             >
               <View style={styles.row}>
-                <Text>
+                <AppText bold={index === confessionChapterIndex}>
                   {chapter.chapter}. {chapter.title}
-                </Text>
+                </AppText>
               </View>
             </TouchableOpacity>
           );
@@ -105,7 +110,7 @@ class Sidebar extends React.Component {
                 size={25}
                 style={{ marginRight: 10 }}
               />
-              <Text>CLOSE DOCUMENT</Text>
+              <AppText>CLOSE DOCUMENT</AppText>
             </View>
           </TouchableOpacity>
           <View style={styles.arrowleft}>
@@ -121,7 +126,9 @@ class Sidebar extends React.Component {
               size={25}
               style={{ marginRight: 10 }}
             />
-            <Text>About "The {documentData.title}"</Text>
+            <AppText style={{ flexShrink: 1 }}>
+              About "The {documentData.title}"
+            </AppText>
           </View>
         </TouchableOpacity>
         {this.renderChapters()}
