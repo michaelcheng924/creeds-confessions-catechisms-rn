@@ -8,7 +8,7 @@ import {
   StyleSheet,
   Text,
   TouchableOpacity,
-  View
+  View,
 } from "react-native";
 import AppText from "./AppText";
 import Icon from "@expo/vector-icons";
@@ -17,21 +17,21 @@ import { handleSidebarDrag, setDocument, toggleSidebar } from "../actions";
 
 class Sidebar extends React.Component {
   state = {
-    leftAnim: new Animated.Value(-300)
+    leftAnim: new Animated.Value(-300),
   };
 
   componentDidUpdate(prevProps) {
     if (!prevProps.showSidebar && this.props.showSidebar) {
       Animated.timing(this.state.leftAnim, {
         toValue: 0,
-        duration: 300
+        duration: 300,
       }).start();
     }
 
     if (prevProps.showSidebar && !this.props.showSidebar) {
       Animated.timing(this.state.leftAnim, {
         toValue: -300,
-        duration: 300
+        duration: 300,
       }).start();
     }
 
@@ -39,7 +39,7 @@ class Sidebar extends React.Component {
       Animated.timing(this.state.leftAnim, {
         toValue: this.props.sidebarX,
         duration: 0,
-        easing: Easing.linear
+        easing: Easing.linear,
       }).start();
     }
   }
@@ -48,7 +48,7 @@ class Sidebar extends React.Component {
     const {
       confessionChapterIndex,
       documentData,
-      setConfessionChapterIndex
+      setConfessionChapterIndex,
     } = this.props;
 
     if (documentData.type !== "confession") {
@@ -78,13 +78,47 @@ class Sidebar extends React.Component {
     );
   }
 
+  renderCatechismSections() {
+    const {
+      catechismSectionIndex,
+      documentData,
+      setCatechismSectionIndex,
+    } = this.props;
+
+    if (documentData.slug !== "boys-girls") {
+      return null;
+    }
+
+    return (
+      <View>
+        <View style={[styles.row, styles.rowHeading]}>
+          <AppText>Table of Contents</AppText>
+        </View>
+        {documentData.content.map((section, index) => {
+          return (
+            <TouchableOpacity
+              key={section.section}
+              onPress={() => setCatechismSectionIndex(index)}
+            >
+              <View style={styles.row}>
+                <AppText bold={index === catechismSectionIndex}>
+                  {section.section}
+                </AppText>
+              </View>
+            </TouchableOpacity>
+          );
+        })}
+      </View>
+    );
+  }
+
   render() {
     const {
       documentData,
       onHandleSidebarDrag,
       onSetDocument,
       onToggleSidebar,
-      showSidebar
+      showSidebar,
     } = this.props;
 
     return (
@@ -98,8 +132,8 @@ class Sidebar extends React.Component {
           styles.container,
           {
             left: this.state.leftAnim,
-            shadowOpacity: showSidebar ? 0.3 : 0
-          }
+            shadowOpacity: showSidebar ? 0.3 : 0,
+          },
         ]}
       >
         <View style={styles.row}>
@@ -119,7 +153,7 @@ class Sidebar extends React.Component {
             </TouchableOpacity>
           </View>
         </View>
-        <TouchableOpacity onPress={() => true}>
+        {/* <TouchableOpacity onPress={() => true}>
           <View style={styles.row}>
             <Icon.Ionicons
               name="md-information-circle-outline"
@@ -130,8 +164,9 @@ class Sidebar extends React.Component {
               About "The {documentData.title}"
             </AppText>
           </View>
-        </TouchableOpacity>
+        </TouchableOpacity> */}
         {this.renderChapters()}
+        {this.renderCatechismSections()}
       </Animated.ScrollView>
     );
   }
@@ -147,17 +182,17 @@ const styles = StyleSheet.create({
     shadowOffset: { width: 10, height: 0 },
     shadowRadius: 50,
     width: 300,
-    zIndex: 2
+    zIndex: 2,
   },
   closeDocument: {
     alignItems: "center",
     display: "flex",
-    flexDirection: "row"
+    flexDirection: "row",
   },
   arrowleft: {
     position: "absolute",
     right: 10,
-    top: 5
+    top: 5,
   },
   row: {
     alignItems: "center",
@@ -169,11 +204,11 @@ const styles = StyleSheet.create({
     paddingLeft: 15,
     paddingRight: 15,
     paddingTop: 10,
-    position: "relative"
+    position: "relative",
   },
   rowHeading: {
-    backgroundColor: "#e0e0e0"
-  }
+    backgroundColor: "#e0e0e0",
+  },
 });
 
 const mapStateToProps = state => state;
@@ -181,7 +216,7 @@ const mapStateToProps = state => state;
 const mapDispatchToProps = {
   onHandleSidebarDrag: handleSidebarDrag,
   onSetDocument: setDocument,
-  onToggleSidebar: toggleSidebar
+  onToggleSidebar: toggleSidebar,
 };
 
 export default connect(

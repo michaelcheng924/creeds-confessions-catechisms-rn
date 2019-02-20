@@ -5,7 +5,7 @@ import {
   StyleSheet,
   Text,
   TouchableOpacity,
-  View
+  View,
 } from "react-native";
 import AppText from "./AppText";
 
@@ -16,21 +16,21 @@ import { documents, documentsFlat } from "../constants/documents";
 const sortOptions = [
   {
     label: "Type",
-    value: "type"
+    value: "type",
   },
   {
     label: "Name",
-    value: "name"
+    value: "name",
   },
   {
     label: "Date",
-    value: "date"
-  }
+    value: "date",
+  },
 ];
 
 class DocumentsList extends React.Component {
   state = {
-    sortOption: "type"
+    sortOption: "type",
   };
 
   renderType() {
@@ -45,6 +45,16 @@ class DocumentsList extends React.Component {
                 </AppText>
               </View>
               {category.items.map(document => {
+                if (!document.content) {
+                  return (
+                    <View key={document.slug} style={styles.documentRow}>
+                      <AppText italic style={{ color: "#9e9e9e" }}>
+                        {document.title} (Coming soon!)
+                      </AppText>
+                    </View>
+                  );
+                }
+
                 return (
                   <TouchableOpacity
                     key={document.slug}
@@ -52,7 +62,7 @@ class DocumentsList extends React.Component {
                   >
                     <View style={styles.documentRow}>
                       <AppText style={styles.documentRowText}>
-                        {document.title}
+                        {document.title} ({document.date})
                       </AppText>
                     </View>
                   </TouchableOpacity>
@@ -80,7 +90,7 @@ class DocumentsList extends React.Component {
             >
               <View style={styles.documentRow}>
                 <AppText style={styles.documentRowText}>
-                  {document.title}
+                  {document.title} ({document.date})
                 </AppText>
               </View>
             </TouchableOpacity>
@@ -113,8 +123,8 @@ class DocumentsList extends React.Component {
                   style={[
                     styles.documentRowText,
                     {
-                      flexShrink: 1
-                    }
+                      flexShrink: 1,
+                    },
                   ]}
                 >
                   {document.title}
@@ -149,10 +159,7 @@ class DocumentsList extends React.Component {
                 key={option.value}
                 onPress={() => this.setState({ sortOption: option.value })}
               >
-                <AppText
-                  bold={isActive}
-                  style={style}
-                >
+                <AppText bold={isActive} style={style}>
                   {option.label}
                 </AppText>
               </TouchableOpacity>
@@ -177,17 +184,17 @@ const styles = StyleSheet.create({
     paddingBottom: 10,
     paddingLeft: 20,
     paddingRight: 20,
-    paddingTop: 10
+    paddingTop: 10,
   },
   sortOption: {
     color: "#757575",
-    marginRight: 40
+    marginRight: 40,
   },
   sortOptionActive: {
-    color: "rgba(0, 0, 0, .84)"
+    color: "rgba(0, 0, 0, .84)",
   },
   sortOptionLabel: {
-    color: "#757575"
+    color: "#757575",
   },
   documentRow: {
     borderBottomColor: "#eee",
@@ -197,25 +204,25 @@ const styles = StyleSheet.create({
     paddingBottom: 10,
     paddingLeft: 20,
     paddingRight: 20,
-    paddingTop: 10
+    paddingTop: 10,
   },
   documentRowHeading: {
     backgroundColor: "#eeeeee",
     borderBottomColor: "rgba(0, 0, 0, .84)",
     borderBottomWidth: 1,
     borderTopColor: "rgba(0, 0, 0, .84)",
-    borderTopWidth: 1
+    borderTopWidth: 1,
   },
   documentRowTextDate: {
-    width: 100
+    width: 100,
   },
   documentRowHeadingText: {
-    fontSize: 22
-  }
+    fontSize: 22,
+  },
 });
 
 const mapDispatchToProps = {
-  onSetDocument: setDocument
+  onSetDocument: setDocument,
 };
 
 export default connect(

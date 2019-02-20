@@ -4,7 +4,7 @@ import { isArray } from "lodash";
 
 export default class HeadingText extends React.Component {
   render() {
-    const { bold, semibold, style } = this.props;
+    const { bold, italic, semibold, style } = this.props;
 
     let fontFamily = "proxima-nova";
 
@@ -14,6 +14,10 @@ export default class HeadingText extends React.Component {
 
     if (bold) {
       fontFamily = "proxima-nova-bold";
+    }
+
+    if (italic) {
+      fontFamily = "proxima-nova-italic";
     }
 
     const appStyle = {
