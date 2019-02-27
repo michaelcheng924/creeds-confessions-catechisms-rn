@@ -37,12 +37,14 @@ export default (state = initialState, { type, payload }) => {
 
       if (state.initialSidebarX === null) {
         initialSidebarX = payload.sidebarX;
-      } else if (payload.isRelease) {
-        if (payload.sidebarX - state.initialSidebarX < 0) {
+      }
+      
+      if (payload.isRelease) {
+        if (payload.sidebarX - initialSidebarX < 0) {
           showSidebar = false;
         } else if (
           payload.isOverlay &&
-          payload.sidebarX - state.initialSidebarX <= 0
+          payload.sidebarX - initialSidebarX <= 0
         ) {
           showSidebar = false;
         }

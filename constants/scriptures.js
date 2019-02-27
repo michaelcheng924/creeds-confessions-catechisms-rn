@@ -13,10 +13,16 @@ export default {
         "Follow the pattern of the sound words that you have heard from me, in the faith and love that are in Christ Jesus.",
     },
     "2": {
+      "2":
+        "and what you have heard from me in the presence of many witnesses entrust to faithful men who will be able to teach others also.",
       "4":
         "No soldier gets entangled in civilian pursuits, since his aim is to please the one who enlisted him.",
       "12":
         "if we endure, we will also reign with him; if we deny him, he also will deny us;",
+      "13":
+        "if we are faithless, he remains faithful--for he cannot deny himself.",
+      "15":
+        "Do your best to present yourself to God as one approved, a worker who has no need to be ashamed, rightly handling the word of truth.",
       "18":
         "who have swerved from the truth, saying that the resurrection has already happened. They are upsetting the faith of some.",
       "19":
@@ -25,6 +31,8 @@ export default {
         "Now in a great house there are not only vessels of gold and silver but also of wood and clay, some for honorable use, some for dishonorable.",
     },
     "3": {
+      "13":
+        "while evil people and impostors will go on from bad to worse, deceiving and being deceived.",
       "14":
         "But as for you, continue in what you have learned and have firmly believed, knowing from whom you learned it",
       "15":
@@ -39,20 +47,40 @@ export default {
         "I charge you in the presence of God and of Christ Jesus, who is to judge the living and the dead, and by his appearing and his kingdom:",
       "2":
         "preach the word; be ready in season and out of season; reprove, rebuke, and exhort, with complete patience and teaching.",
+      "3":
+        "For the time is coming when people will not endure sound teaching, but having itching ears they will accumulate for themselves teachers to suit their own passions,",
+      "4":
+        "and will turn away from listening to the truth and wander off into myths.",
+      "7":
+        "I have fought the good fight, I have finished the race, I have kept the faith.",
       "8":
         "Henceforth there is laid up for me the crown of righteousness, which the Lord, the righteous judge, will award to me on that Day, and not only to me but also to all who have loved his appearing.",
     },
   },
   Isaiah: {
     "1": {
+      "3":
+        "The ox knows its owner, and the donkey its master's crib, but Israel does not know, my people do not understand.\"",
+      "9":
+        "If the LORD of hosts had not left us a few survivors, we should have been like Sodom, and become like Gomorrah.",
+      "11":
+        '"What to me is the multitude of your sacrifices? says the LORD; I have had enough of burnt offerings of rams and the fat of well-fed beasts; I do not delight in the blood of bulls, or of lambs, or of goats.',
       "12":
         '"When you come to appear before me, who has required of you this trampling of my courts?',
+      "13":
+        "Bring no more vain offerings; incense is an abomination to me. New moon and Sabbath and the calling of convocations--I cannot endure iniquity and solemn assembly.",
+      "14":
+        "Your new moons and your appointed feasts my soul hates; they have become a burden to me; I am weary of bearing them.",
+      "15":
+        "When you spread out your hands, I will hide my eyes from you; even though you make many prayers, I will not listen; your hands are full of blood.",
       "16":
         "Wash yourselves; make yourselves clean; remove the evil of your deeds from before my eyes; cease to do evil,",
       "17":
         "learn to do good; seek justice, correct oppression; bring justice to the fatherless, plead the widow's cause.",
       "18":
         '"Come now, let us reason together, says the LORD: though your sins are like scarlet, they shall be as white as snow; though they are red like crimson, they shall become like wool.',
+      "20":
+        'but if you refuse and rebel, you shall be eaten by the sword; for the mouth of the LORD has spoken."',
     },
     "2": {
       "3":
@@ -65,6 +93,10 @@ export default {
         "And he said, \"Go, and say to this people: \"'Keep on hearing, but do not understand; keep on seeing, but do not perceive.'",
       "10":
         'Make the heart of this people dull, and their ears heavy, and blind their eyes; lest they see with their eyes, and hear with their ears, and understand with their hearts, and turn and be healed."',
+    },
+    "7": {
+      "14":
+        "Therefore the Lord himself will give you a sign. Behold, the virgin shall conceive and bear a son, and shall call his name Immanuel.",
     },
     "8": {
       "13":
@@ -83,14 +115,29 @@ export default {
         "Of the increase of his government and of peace there will be no end, on the throne of David and over his kingdom, to establish it and to uphold it with justice and with righteousness from this time forth and forevermore. The zeal of the LORD of hosts will do this.",
     },
     "10": {
+      "5":
+        "Ah, Assyria, the rod of my anger; the staff in their hands is my fury!",
       "6":
         "Against a godless nation I send him, and against the people of my wrath I command him, to take spoil and seize plunder, and to tread them down like the mire of the streets.",
       "7":
         "But he does not so intend, and his heart does not so think; but it is in his heart to destroy, and to cut off nations not a few;",
       "12":
         "When the Lord has finished all his work on Mount Zion and on Jerusalem, he will punish the speech of the arrogant heart of the king of Assyria and the boastful look in his eyes.",
+      "26":
+        "And the LORD of hosts will wield against them a whip, as when he struck Midian at the rock of Oreb. And his staff will be over the sea, and he will lift it as he did in Egypt.",
+    },
+    "12": {},
+    "15": {
+      "7":
+        "Therefore the abundance they have gained and what they have laid up they carry away over the Brook of the Willows.",
+      "8":
+        "For a cry has gone around the land of Moab; her wailing reaches to Eglaim; her wailing reaches to Beer-elim.",
     },
     "19": {
+      "6":
+        "and its canals will become foul, and the branches of Egypt's Nile will diminish and dry up, reeds and rushes will rot away.",
+      "13":
+        "The princes of Zoan have become fools, and the princes of Memphis are deluded; those who are the cornerstones of her tribes have made Egypt stagger.",
       "21":
         "And the LORD will make himself known to the Egyptians, and the Egyptians will know the LORD in that day and worship with sacrifice and offering, and they will make vows to the LORD and perform them.",
     },
@@ -141,6 +188,22 @@ export default {
         "Lebanon would not suffice for fuel, nor are its beasts enough for a burnt offering.",
       "17":
         "All the nations are as nothing before him, they are accounted by him as less than nothing and emptiness.",
+      "18":
+        "To whom then will you liken God, or what likeness compare with him?",
+      "19":
+        "An idol! A craftsman casts it, and a goldsmith overlays it with gold and casts for it silver chains.",
+      "20":
+        "He who is too impoverished for an offering chooses wood that will not rot; he seeks out a skillful craftsman to set up an idol that will not move.",
+      "21":
+        "Do you not know? Do you not hear? Has it not been told you from the beginning? Have you not understood from the foundations of the earth?",
+      "22":
+        "It is he who sits above the circle of the earth, and its inhabitants are like grasshoppers; who stretches out the heavens like a curtain, and spreads them like a tent to dwell in;",
+      "23":
+        "who brings princes to nothing, and makes the rulers of the earth as emptiness.",
+      "24":
+        "Scarcely are they planted, scarcely sown, scarcely has their stem taken root in the earth, when he blows on them, and they wither, and the tempest carries them off like stubble.",
+      "25":
+        "To whom then will you compare me, that I should be like him? says the Holy One.",
     },
     "42": {
       "1":
@@ -157,10 +220,16 @@ export default {
         "Because you are precious in my eyes, and honored, and I love you, I give men in return for you, peoples in exchange for your life.",
       "5":
         "Fear not, for I am with you; I will bring your offspring from the east, and from the west I will gather you.",
+      "11": "I, I am the LORD, and besides me there is no savior.",
       "14":
         'Thus says the LORD, your Redeemer, the Holy One of Israel: "For your sake I send to Babylon and bring them all down as fugitives, even the Chaldeans, in the ships in which they rejoice.',
     },
     "44": {
+      "1": '"But now hear, O Jacob my servant, Israel whom I have chosen!',
+      "2":
+        "Thus says the LORD who made you, who formed you from the womb and will help you: Fear not, O Jacob my servant, Jeshurun whom I have chosen.",
+      "3":
+        "For I will pour water on the thirsty land, and streams on the dry ground; I will pour my Spirit upon your offspring, and my blessing on your descendants.",
       "6":
         'Thus says the LORD, the King of Israel and his Redeemer, the LORD of hosts: "I am the first and I am the last; besides me there is no god.',
       "9":
@@ -187,6 +256,8 @@ export default {
         'No one considers, nor is there knowledge or discernment to say, "Half of it I burned in the fire; I also baked bread on its coals; I roasted meat and have eaten. And shall I make the rest of it an abomination? Shall I fall down before a block of wood?"',
       "20":
         'He feeds on ashes; a deluded heart has led him astray, and he cannot deliver himself or say, "Is there not a lie in my right hand?"',
+      "24":
+        'Thus says the LORD, your Redeemer, who formed you from the womb: "I am the LORD, who made all things, who alone stretched out the heavens, who spread out the earth by myself,',
     },
     "45": {
       "5":
@@ -287,8 +358,22 @@ export default {
     "57": {
       "2":
         "he enters into peace; they rest in their beds who walk in their uprightness.",
+      "15":
+        'For thus says the One who is high and lifted up, who inhabits eternity, whose name is Holy: "I dwell in the high and holy place, and also with him who is of a contrite and lowly spirit, to revive the spirit of the lowly, and to revive the heart of the contrite.',
     },
     "58": {
+      "5":
+        "Is such the fast that I choose, a day for a person to humble himself? Is it to bow down his head like a reed, and to spread sackcloth and ashes under him? Will you call this a fast, and a day acceptable to the LORD?",
+      "6":
+        '"Is not this the fast that I choose: to loose the bonds of wickedness, to undo the straps of the yoke, to let the oppressed go free, and to break every yoke?',
+      "7":
+        "Is it not to share your bread with the hungry and bring the homeless poor into your house; when you see the naked, to cover him, and not to hide yourself from your own flesh?",
+      "8":
+        "Then shall your light break forth like the dawn, and your healing shall spring up speedily; your righteousness shall go before you; the glory of the LORD shall be your rear guard.",
+      "9":
+        "Then you shall call, and the LORD will answer; you shall cry, and he will say, 'Here I am.' If you take away the yoke from your midst, the pointing of the finger, and speaking wickedness,",
+      "10":
+        "if you pour yourself out for the hungry and satisfy the desire of the afflicted, then shall your light rise in the darkness and your gloom be as the noonday.",
       "13":
         '"If you turn back your foot from the Sabbath, from doing your pleasure on my holy day, and call the Sabbath a delight and the holy day of the LORD honorable; if you honor it, not going your own ways, or seeking your own pleasure, or talking idly;',
       "14":
@@ -303,6 +388,10 @@ export default {
         "For behold, darkness shall cover the earth, and thick darkness the peoples; but the LORD will arise upon you, and his glory will be seen upon you.",
       "3":
         "And nations shall come to your light, and kings to the brightness of your rising.",
+    },
+    "61": {
+      "1":
+        "The Spirit of the Lord GOD is upon me, because the LORD has anointed me to bring good news to the poor; he has sent me to bind up the brokenhearted, to proclaim liberty to the captives, and the opening of the prison to those who are bound;",
     },
     "63": {
       "14":
@@ -323,8 +412,12 @@ export default {
     "65": {
       "16":
         "So that he who blesses himself in the land shall bless himself by the God of truth, and he who takes an oath in the land shall swear by the God of truth; because the former troubles are forgotten and are hidden from my eyes.",
+      "24":
+        "Before they call I will answer; while they are yet speaking I will hear.",
     },
     "66": {
+      "1":
+        'Thus says the LORD: "Heaven is my throne, and the earth is my footstool; what is the house that you would build for me, and what is the place of my rest?',
       "2":
         "All these things my hand has made, and so all these things came to be, declares the LORD. But this is the one to whom I will look: he who is humble and contrite in spirit and trembles at my word.",
       "22":
@@ -335,6 +428,8 @@ export default {
   },
   Luke: {
     "1": {
+      "2":
+        "just as those who from the beginning were eyewitnesses and ministers of the word have delivered them to us,",
       "3":
         "it seemed good to me also, having followed all things closely for some time past, to write an orderly account for you, most excellent Theophilus,",
       "4":
@@ -347,6 +442,8 @@ export default {
         "to a virgin betrothed to a man whose name was Joseph, of the house of David. And the virgin's name was Mary.",
       "31":
         "And behold, you will conceive in your womb and bear a son, and you shall call his name Jesus.",
+      "32":
+        "He will be great and will be called the Son of the Most High. And the Lord God will give to him the throne of his father David,",
       "33":
         'and he will reign over the house of Jacob forever, and of his kingdom there will be no end."',
       "34":
@@ -355,14 +452,44 @@ export default {
         'And the angel answered her, "The Holy Spirit will come upon you, and the power of the Most High will overshadow you; therefore the child to be born will be called holy--the Son of God.',
       "42":
         'and she exclaimed with a loud cry, "Blessed are you among women, and blessed is the fruit of your womb!',
+      "46": 'And Mary said, "My soul magnifies the Lord,',
+      "47": "and my spirit rejoices in God my Savior,",
+      "48":
+        "for he has looked on the humble estate of his servant. For behold, from now on all generations will call me blessed;",
+      "49":
+        "for he who is mighty has done great things for me, and holy is his name.",
+      "50":
+        "And his mercy is for those who fear him from generation to generation.",
+      "51":
+        "He has shown strength with his arm; he has scattered the proud in the thoughts of their hearts;",
+      "52":
+        "he has brought down the mighty from their thrones and exalted those of humble estate;",
+      "53":
+        "he has filled the hungry with good things, and the rich he has sent empty away.",
+      "54": "He has helped his servant Israel, in remembrance of his mercy,",
+      "55":
+        'as he spoke to our fathers, to Abraham and to his offspring forever."',
+      "68":
+        '"Blessed be the Lord God of Israel, for he has visited and redeemed his people',
+      "69":
+        "and has raised up a horn of salvation for us in the house of his servant David,",
+      "70": "as he spoke by the mouth of his holy prophets from of old,",
+      "71":
+        "that we should be saved from our enemies and from the hand of all who hate us;",
+      "72":
+        "to show the mercy promised to our fathers and to remember his holy covenant,",
       "73": "the oath that he swore to our father Abraham, to grant us",
       "74":
         "that we, being delivered from the hand of our enemies, might serve him without fear,",
       "75": "in holiness and righteousness before him all our days.",
+      "77":
+        "to give knowledge of salvation to his people in the forgiveness of their sins,",
     },
     "2": {
       "7":
         "And she gave birth to her firstborn son and wrapped him in swaddling cloths and laid him in a manger, because there was no place for them in the inn.",
+      "11":
+        "For unto you is born this day in the city of David a Savior, who is Christ the Lord.",
     },
     "3": {
       "7":
@@ -371,14 +498,29 @@ export default {
         "Bear fruits in keeping with repentance. And do not begin to say to yourselves, 'We have Abraham as our father.' For I tell you, God is able from these stones to raise up children for Abraham.",
       "14":
         'Soldiers also asked him, "And we, what shall we do?" And he said to them, "Do not extort money from anyone by threats or by false accusation, and be content with your wages."',
+      "21":
+        "Now when all the people were baptized, and when Jesus also had been baptized and was praying, the heavens were opened,",
+      "22":
+        'and the Holy Spirit descended on him in bodily form, like a dove; and a voice came from heaven, "You are my beloved Son; with you I am well pleased."',
     },
     "4": {
       "16":
         "And he came to Nazareth, where he had been brought up. And as was his custom, he went to the synagogue on the Sabbath day, and he stood up to read.",
+      "18":
+        '"The Spirit of the Lord is upon me, because he has anointed me to proclaim good news to the poor. He has sent me to proclaim liberty to the captives and recovering of sight to the blind, to set at liberty those who are oppressed,',
     },
     "6": {
       "35":
         "But love your enemies, and do good, and lend, expecting nothing in return, and your reward will be great, and you will be sons of the Most High, for he is kind to the ungrateful and the evil.",
+      "36": "Be merciful, even as your Father is merciful.",
+      "37":
+        '"Judge not, and you will not be judged; condemn not, and you will not be condemned; forgive, and you will be forgiven;',
+      "43":
+        '"For no good tree bears bad fruit, nor again does a bad tree bear good fruit,',
+      "44":
+        "for each tree is known by its own fruit. For figs are not gathered from thornbushes, nor are grapes picked from a bramble bush.",
+      "45":
+        "The good person out of the good treasure of his heart produces good, and the evil person out of his evil treasure produces evil, for out of the abundance of the heart his mouth speaks.",
     },
     "7": {
       "30":
@@ -391,6 +533,8 @@ export default {
         'Take care then how you hear, for to the one who has, more will be given, and from the one who has not, even what he thinks that he has will be taken away."',
     },
     "10": {
+      "16":
+        '"The one who hears you hears me, and the one who rejects you rejects me, and the one who rejects me rejects him who sent me."',
       "20":
         'Nevertheless, do not rejoice in this, that the spirits are subject to you, but rejoice that your names are written in heaven."',
       "25":
@@ -462,6 +606,26 @@ export default {
         'Someone in the crowd said to him, "Teacher, tell my brother to divide the inheritance with me."',
       "14":
         'But he said to him, "Man, who made me a judge or arbitrator over you?"',
+      "15":
+        'And he said to them, "Take care, and be on your guard against all covetousness, for one\'s life does not consist in the abundance of his possessions."',
+      "22":
+        'And he said to his disciples, "Therefore I tell you, do not be anxious about your life, what you will eat, nor about your body, what you will put on.',
+      "23": "For life is more than food, and the body more than clothing.",
+      "24":
+        "Consider the ravens: they neither sow nor reap, they have neither storehouse nor barn, and yet God feeds them. Of how much more value are you than the birds!",
+      "25":
+        "And which of you by being anxious can add a single hour to his span of life?",
+      "26":
+        "If then you are not able to do as small a thing as that, why are you anxious about the rest?",
+      "27":
+        "Consider the lilies, how they grow: they neither toil nor spin, yet I tell you, even Solomon in all his glory was not arrayed like one of these.",
+      "28":
+        "But if God so clothes the grass, which is alive in the field today, and tomorrow is thrown into the oven, how much more will he clothe you, O you of little faith!",
+      "29":
+        "And do not seek what you are to eat and what you are to drink, nor be worried.",
+      "30":
+        "For all the nations of the world seek after these things, and your Father knows that you need them.",
+      "31": "Instead, seek his kingdom, and these things will be added to you.",
       "35": '"Stay dressed for action and keep your lamps burning,',
       "36":
         "and be like men who are waiting for their master to come home from the wedding feast, so that they may open the door to him at once when he comes and knocks.",
@@ -484,8 +648,34 @@ export default {
       "24":
         '"Strive to enter through the narrow door. For many, I tell you, will seek to enter and will not be able.',
     },
-    "14": { "6": "And they could not reply to these things." },
+    "14": {
+      "6": "And they could not reply to these things.",
+      "14":
+        'and you will be blessed, because they cannot repay you. You will be repaid at the resurrection of the just."',
+    },
+    "15": {
+      "20":
+        "And he arose and came to his father. But while he was still a long way off, his father saw him and felt compassion, and ran and embraced him and kissed him.",
+      "21":
+        "And the son said to him, 'Father, I have sinned against heaven and before you. I am no longer worthy to be called your son.'",
+      "22":
+        "But the father said to his servants, 'Bring quickly the best robe, and put it on him, and put a ring on his hand, and shoes on his feet.",
+      "23":
+        "And bring the fattened calf and kill it, and let us eat and celebrate.",
+      "24":
+        "For this my son was dead, and is alive again; he was lost, and is found.' And they began to celebrate.",
+    },
     "16": {
+      "10":
+        '"One who is faithful in a very little is also faithful in much, and one who is dishonest in a very little is also dishonest in much.',
+      "11":
+        "If then you have not been faithful in the unrighteous wealth, who will entrust to you the true riches?",
+      "12":
+        "And if you have not been faithful in that which is another's, who will give you that which is your own?",
+      "13":
+        'No servant can serve two masters, for either he will hate the one and love the other, or he will be devoted to the one and despise the other. You cannot serve God and money."',
+      "15":
+        'And he said to them, "You are those who justify yourselves before men, but God knows your hearts. For what is exalted among men is an abomination in the sight of God.',
       "19":
         '"There was a rich man who was clothed in purple and fine linen and who feasted sumptuously every day.',
       "20":
@@ -546,27 +736,171 @@ export default {
         "and they asked him a question, saying, \"Teacher, Moses wrote for us that if a man's brother dies, having a wife but no children, the man must take the widow and raise up offspring for his brother.",
     },
     "21": {
+      "16":
+        "You will be delivered up even by parents and brothers and relatives and friends, and some of you they will put to death.",
+      "17": "You will be hated by all for my name's sake.",
+      "18": "But not a hair of your head will perish.",
       "27":
         "And then they will see the Son of Man coming in a cloud with power and great glory.",
       "28":
         'Now when these things begin to take place, straighten up and raise your heads, because your redemption is drawing near."',
     },
     "22": {
+      "1":
+        "Now the Feast of Unleavened Bread drew near, which is called the Passover.",
+      "2":
+        "And the chief priests and the scribes were seeking how to put him to death, for they feared the people.",
+      "3":
+        "Then Satan entered into Judas called Iscariot, who was of the number of the twelve.",
+      "4":
+        "He went away and conferred with the chief priests and officers how he might betray him to them.",
+      "5": "And they were glad, and agreed to give him money.",
+      "6":
+        "So he consented and sought an opportunity to betray him to them in the absence of a crowd.",
+      "7":
+        "Then came the day of Unleavened Bread, on which the Passover lamb had to be sacrificed.",
+      "8":
+        'So Jesus sent Peter and John, saying, "Go and prepare the Passover for us, that we may eat it."',
+      "9": 'They said to him, "Where will you have us prepare it?"',
+      "10":
+        'He said to them, "Behold, when you have entered the city, a man carrying a jar of water will meet you. Follow him into the house that he enters',
+      "11":
+        "and tell the master of the house, 'The Teacher says to you, Where is the guest room, where I may eat the Passover with my disciples?'",
+      "12":
+        'And he will show you a large upper room furnished; prepare it there."',
+      "13":
+        "And they went and found it just as he had told them, and they prepared the Passover.",
+      "14":
+        "And when the hour came, he reclined at table, and the apostles with him.",
+      "15":
+        'And he said to them, "I have earnestly desired to eat this Passover with you before I suffer.',
+      "16":
+        'For I tell you I will not eat it until it is fulfilled in the kingdom of God."',
+      "17":
+        'And he took a cup, and when he had given thanks he said, "Take this, and divide it among yourselves.',
+      "18":
+        'For I tell you that from now on I will not drink of the fruit of the vine until the kingdom of God comes."',
       "19":
         'And he took bread, and when he had given thanks, he broke it and gave it to them, saying, "This is my body, which is given for you. Do this in remembrance of me."',
       "20":
         'And likewise the cup after they had eaten, saying, "This cup that is poured out for you is the new covenant in my blood.',
+      "21":
+        "But behold, the hand of him who betrays me is with me on the table.",
+      "22":
+        'For the Son of Man goes as it has been determined, but woe to that man by whom he is betrayed!"',
+      "23":
+        "And they began to question one another, which of them it could be who was going to do this.",
+      "24":
+        "A dispute also arose among them, as to which of them was to be regarded as the greatest.",
+      "25":
+        'And he said to them, "The kings of the Gentiles exercise lordship over them, and those in authority over them are called benefactors.',
+      "26":
+        "But not so with you. Rather, let the greatest among you become as the youngest, and the leader as one who serves.",
+      "27":
+        "For who is the greater, one who reclines at table or one who serves? Is it not the one who reclines at table? But I am among you as the one who serves.",
+      "28": '"You are those who have stayed with me in my trials,',
+      "29": "and I assign to you, as my Father assigned to me, a kingdom,",
+      "30":
+        "that you may eat and drink at my table in my kingdom and sit on thrones judging the twelve tribes of Israel.",
       "31":
         '"Simon, Simon, behold, Satan demanded to have you, that he might sift you like wheat,',
       "32":
         'but I have prayed for you that your faith may not fail. And when you have turned again, strengthen your brothers."',
+      "33":
+        'Peter said to him, "Lord, I am ready to go with you both to prison and to death."',
+      "34":
+        'Jesus said, "I tell you, Peter, the rooster will not crow this day, until you deny three times that you know me."',
+      "35":
+        'And he said to them, "When I sent you out with no moneybag or knapsack or sandals, did you lack anything?" They said, "Nothing."',
+      "36":
+        'He said to them, "But now let the one who has a moneybag take it, and likewise a knapsack. And let the one who has no sword sell his cloak and buy one.',
+      "37":
+        "For I tell you that this Scripture must be fulfilled in me: 'And he was numbered with the transgressors.' For what is written about me has its fulfillment.\"",
+      "38":
+        'And they said, "Look, Lord, here are two swords." And he said to them, "It is enough."',
+      "39":
+        "And he came out and went, as was his custom, to the Mount of Olives, and the disciples followed him.",
+      "40":
+        'And when he came to the place, he said to them, "Pray that you may not enter into temptation."',
+      "41":
+        "And he withdrew from them about a stone's throw, and knelt down and prayed,",
+      "42":
+        'saying, "Father, if you are willing, remove this cup from me. Nevertheless, not my will, but yours, be done."',
+      "43":
+        "And there appeared to him an angel from heaven, strengthening him.",
       "44":
         "And being in an agony he prayed more earnestly; and his sweat became like great drops of blood falling down to the ground.",
+      "45":
+        "And when he rose from prayer, he came to the disciples and found them sleeping for sorrow,",
+      "46":
+        'and he said to them, "Why are you sleeping? Rise and pray that you may not enter into temptation."',
+      "47":
+        "While he was still speaking, there came a crowd, and the man called Judas, one of the twelve, was leading them. He drew near to Jesus to kiss him,",
+      "48":
+        'but Jesus said to him, "Judas, would you betray the Son of Man with a kiss?"',
+      "49":
+        'And when those who were around him saw what would follow, they said, "Lord, shall we strike with the sword?"',
+      "50":
+        "And one of them struck the servant of the high priest and cut off his right ear.",
+      "51":
+        'But Jesus said, "No more of this!" And he touched his ear and healed him.',
+      "52":
+        'Then Jesus said to the chief priests and officers of the temple and elders, who had come out against him, "Have you come out as against a robber, with swords and clubs?',
+      "53":
+        'When I was with you day after day in the temple, you did not lay hands on me. But this is your hour, and the power of darkness."',
+      "54":
+        "Then they seized him and led him away, bringing him into the high priest's house, and Peter was following at a distance.",
+      "55":
+        "And when they had kindled a fire in the middle of the courtyard and sat down together, Peter sat down among them.",
+      "56":
+        'Then a servant girl, seeing him as he sat in the light and looking closely at him, said, "This man also was with him."',
+      "57": 'But he denied it, saying, "Woman, I do not know him."',
+      "58":
+        'And a little later someone else saw him and said, "You also are one of them." But Peter said, "Man, I am not."',
+      "59":
+        'And after an interval of about an hour still another insisted, saying, "Certainly this man also was with him, for he too is a Galilean."',
+      "60":
+        'But Peter said, "Man, I do not know what you are talking about." And immediately, while he was still speaking, the rooster crowed.',
       "61":
         'And the Lord turned and looked at Peter. And Peter remembered the saying of the Lord, how he had said to him, "Before the rooster crows today, you will deny me three times."',
       "62": "And he went out and wept bitterly.",
+      "63":
+        "Now the men who were holding Jesus in custody were mocking him as they beat him.",
+      "64":
+        'They also blindfolded him and kept asking him, "Prophesy! Who is it that struck you?"',
+      "65": "And they said many other things against him, blaspheming him.",
+      "66":
+        "When day came, the assembly of the elders of the people gathered together, both chief priests and scribes. And they led him away to their council, and they said,",
+      "67":
+        '"If you are the Christ, tell us." But he said to them, "If I tell you, you will not believe,',
+      "68": "and if I ask you, you will not answer.",
+      "69":
+        'But from now on the Son of Man shall be seated at the right hand of the power of God."',
+      "70":
+        'So they all said, "Are you the Son of God, then?" And he said to them, "You say that I am."',
+      "71":
+        'Then they said, "What further testimony do we need? We have heard it ourselves from his own lips."',
     },
     "23": {
+      "13":
+        "Pilate then called together the chief priests and the rulers and the people,",
+      "14":
+        'and said to them, "You brought me this man as one who was misleading the people. And after examining him before you, behold, I did not find this man guilty of any of your charges against him.',
+      "15":
+        "Neither did Herod, for he sent him back to us. Look, nothing deserving death has been done by him.",
+      "16": 'I will therefore punish and release him."',
+      "17": "See Footnote",
+      "18":
+        'But they all cried out together, "Away with this man, and release to us Barabbas"--',
+      "19":
+        "a man who had been thrown into prison for an insurrection started in the city and for murder.",
+      "20": "Pilate addressed them once more, desiring to release Jesus,",
+      "21": 'but they kept shouting, "Crucify, crucify him!"',
+      "22":
+        'A third time he said to them, "Why, what evil has he done? I have found in him no guilt deserving death. I will therefore punish and release him."',
+      "23":
+        "But they were urgent, demanding with loud cries that he should be crucified. And their voices prevailed.",
+      "24": "So Pilate decided that their demand should be granted.",
       "26":
         "And as they led him away, they seized one Simon of Cyrene, who was coming in from the country, and laid on him the cross, to carry it behind Jesus.",
       "27":
@@ -617,6 +951,10 @@ export default {
         'And as they were frightened and bowed their faces to the ground, the men said to them, "Why do you seek the living among the dead?',
       "6":
         "He is not here, but has risen. Remember how he told you, while he was still in Galilee,",
+      "25":
+        'And he said to them, "O foolish ones, and slow of heart to believe all that the prophets have spoken!',
+      "26":
+        'Was it not necessary that the Christ should suffer these things and enter into his glory?"',
       "27":
         "And beginning with Moses and all the Prophets, he interpreted to them in all the Scriptures the things concerning himself.",
       "30":
@@ -641,6 +979,10 @@ export default {
         'and said to them, "Thus it is written, that the Christ should suffer and on the third day rise from the dead,',
       "47":
         "and that repentance and forgiveness of sins should be proclaimed in his name to all nations, beginning from Jerusalem.",
+      "50":
+        "Then he led them out as far as Bethany, and lifting up his hands he blessed them.",
+      "51":
+        "While he blessed them, he parted from them and was carried up into heaven.",
     },
   },
   Ephesians: {
@@ -722,6 +1064,7 @@ export default {
         "so that through the church the manifold wisdom of God might now be made known to the rulers and authorities in the heavenly places.",
       "12":
         "in whom we have boldness and access with confidence through our faith in him.",
+      "14": "For this reason I bow my knees before the Father,",
       "15": "from whom every family in heaven and on earth is named,",
       "16":
         "that according to the riches of his glory he may grant you to be strengthened with power through his Spirit in your inner being,",
@@ -733,9 +1076,24 @@ export default {
         "and to know the love of Christ that surpasses knowledge, that you may be filled with all the fullness of God.",
     },
     "4": {
+      "1":
+        "I therefore, a prisoner for the Lord, urge you to walk in a manner worthy of the calling to which you have been called,",
       "2":
         "with all humility and gentleness, with patience, bearing with one another in love,",
       "3": "eager to maintain the unity of the Spirit in the bond of peace.",
+      "4":
+        "There is one body and one Spirit--just as you were called to the one hope that belongs to your call--",
+      "5": "one Lord, one faith, one baptism,",
+      "6":
+        "one God and Father of all, who is over all and through all and in all.",
+      "7":
+        "But grace was given to each one of us according to the measure of Christ's gift.",
+      "8":
+        'Therefore it says, "When he ascended on high he led a host of captives, and he gave gifts to men."',
+      "9":
+        '(In saying, "He ascended," what does it mean but that he had also descended into the lower parts of the earth?',
+      "10":
+        "He who descended is the one who also ascended far above all the heavens, that he might fill all things.)",
       "11":
         "And he gave the apostles, the prophets, the evangelists, the pastors and teachers,",
       "12":
@@ -760,6 +1118,10 @@ export default {
       "23": "and to be renewed in the spirit of your minds,",
       "24":
         "and to put on the new self, created after the likeness of God in true righteousness and holiness.",
+      "25":
+        "Therefore, having put away falsehood, let each one of you speak the truth with his neighbor, for we are members one of another.",
+      "26":
+        "Be angry and do not sin; do not let the sun go down on your anger,",
       "28":
         "Let the thief no longer steal, but rather let him labor, doing honest work with his own hands, so that he may have something to share with anyone in need.",
       "30":
@@ -779,9 +1141,31 @@ export default {
         "For you may be sure of this, that everyone who is sexually immoral or impure, or who is covetous (that is, an idolater), has no inheritance in the kingdom of Christ and God.",
       "6":
         "Let no one deceive you with empty words, for because of these things the wrath of God comes upon the sons of disobedience.",
+      "7": "Therefore do not associate with them;",
+      "8":
+        "for at one time you were darkness, but now you are light in the Lord. Walk as children of light",
+      "9":
+        "(for the fruit of light is found in all that is good and right and true),",
+      "10": "and try to discern what is pleasing to the Lord.",
+      "11":
+        "Take no part in the unfruitful works of darkness, but instead expose them.",
+      "12":
+        "For it is shameful even to speak of the things that they do in secret.",
+      "13": "But when anything is exposed by the light, it becomes visible,",
+      "14":
+        'for anything that becomes visible is light. Therefore it says, "Awake, O sleeper, and arise from the dead, and Christ will shine on you."',
+      "15": "Look carefully then how you walk, not as unwise but as wise,",
+      "16": "making the best use of the time, because the days are evil.",
+      "17":
+        "Therefore do not be foolish, but understand what the will of the Lord is.",
+      "18":
+        "And do not get drunk with wine, for that is debauchery, but be filled with the Spirit,",
       "19":
         "addressing one another in psalms and hymns and spiritual songs, singing and making melody to the Lord with all your heart,",
+      "20":
+        "giving thanks always and for everything to God the Father in the name of our Lord Jesus Christ,",
       "21": "submitting to one another out of reverence for Christ.",
+      "22": "Wives, submit to your own husbands, as to the Lord.",
       "23":
         "For the husband is the head of the wife even as Christ is the head of the church, his body, and is himself its Savior.",
       "25":
@@ -794,6 +1178,7 @@ export default {
         "In the same way husbands should love their wives as their own bodies. He who loves his wife loves himself.",
       "29":
         "For no one ever hated his own flesh, but nourishes and cherishes it, just as Christ does the church,",
+      "30": "because we are members of his body.",
       "32":
         "This mystery is profound, and I am saying that it refers to Christ and the church.",
     },
@@ -805,6 +1190,22 @@ export default {
         '"that it may go well with you and that you may live long in the land."',
       "4":
         "Fathers, do not provoke your children to anger, but bring them up in the discipline and instruction of the Lord.",
+      "5":
+        "Slaves, obey your earthly masters with fear and trembling, with a sincere heart, as you would Christ,",
+      "6":
+        "not by the way of eye-service, as people-pleasers, but as servants of Christ, doing the will of God from the heart,",
+      "7": "rendering service with a good will as to the Lord and not to man,",
+      "8":
+        "knowing that whatever good anyone does, this he will receive back from the Lord, whether he is a slave or free.",
+      "9":
+        "Masters, do the same to them, and stop your threatening, knowing that he who is both their Master and yours is in heaven, and that there is no partiality with him.",
+      "10": "Finally, be strong in the Lord and in the strength of his might.",
+      "11":
+        "Put on the whole armor of God, that you may be able to stand against the schemes of the devil.",
+      "12":
+        "For we do not wrestle against flesh and blood, but against the rulers, against the authorities, against the cosmic powers over this present darkness, against the spiritual forces of evil in the heavenly places.",
+      "13":
+        "Therefore take up the whole armor of God, that you may be able to withstand in the evil day, and having done all, to stand firm.",
       "16":
         "In all circumstances take up the shield of faith, with which you can extinguish all the flaming darts of the evil one;",
       "18":
@@ -814,12 +1215,16 @@ export default {
   },
   Romans: {
     "1": {
+      "2":
+        "which he promised beforehand through his prophets in the holy Scriptures,",
       "3":
         "concerning his Son, who was descended from David according to the flesh",
       "4":
         "and was declared to be the Son of God in power according to the Spirit of holiness by his resurrection from the dead, Jesus Christ our Lord,",
       "7":
         "To all those in Rome who are loved by God and called to be saints:Grace to you and peace from God our Father and the Lord Jesus Christ.",
+      "9":
+        "For God is my witness, whom I serve with my spirit in the gospel of his Son, that without ceasing I mention you",
       "11":
         "For I long to see you, that I may impart to you some spiritual gift to strengthen you--",
       "12":
@@ -861,15 +1266,26 @@ export default {
         "Though they know God's decree that those who practice such things deserve to die, they not only do them but give approval to those who practice them.",
     },
     "2": {
+      "1":
+        "Therefore you have no excuse, O man, every one of you who judges. For in passing judgment on another you condemn yourself, because you, the judge, practice the very same things.",
       "2":
         "We know that the judgment of God rightly falls on those who do such things.",
+      "3":
+        "Do you suppose, O man--you who judge those who do such things and yet do them yourself--that you will escape the judgment of God?",
+      "4":
+        "Or do you presume on the riches of his kindness and forbearance and patience, not knowing that God's kindness is meant to lead you to repentance?",
       "5":
         "But because of your hard and impenitent heart you are storing up wrath for yourself on the day of wrath when God's righteous judgment will be revealed.",
       "6": "He will render to each one according to his works:",
+      "7":
+        "to those who by patience in well-doing seek for glory and honor and immortality, he will give eternal life;",
       "8":
         "but for those who are self-seeking and do not obey the truth, but obey unrighteousness, there will be wrath and fury.",
       "9":
         "There will be tribulation and distress for every human being who does evil, the Jew first and also the Greek,",
+      "10":
+        "but glory and honor and peace for everyone who does good, the Jew first and also the Greek.",
+      "11": "For God shows no partiality.",
       "12":
         "For all who have sinned without the law will also perish without the law, and all who have sinned under the law will be judged by the law.",
       "14":
@@ -928,6 +1344,8 @@ export default {
         "What then shall we say was gained by Abraham, our forefather according to the flesh?",
       "2":
         "For if Abraham was justified by works, he has something to boast about, but not before God.",
+      "3":
+        'For what does the Scripture say? "Abraham believed God, and it was counted to him as righteousness."',
       "4":
         "Now to the one who works, his wages are not counted as a gift but as his due.",
       "5":
@@ -939,6 +1357,8 @@ export default {
       "8": 'blessed is the man against whom the Lord will not count his sin."',
       "11":
         "He received the sign of circumcision as a seal of the righteousness that he had by faith while he was still uncircumcised. The purpose was to make him the father of all who believe without being circumcised, so that righteousness would be counted to them as well,",
+      "18":
+        'In hope he believed against hope, that he should become the father of many nations, as he had been told, "So shall your offspring be."',
       "19":
         "He did not weaken in faith when he considered his own body, which was as good as dead (since he was about a hundred years old), or when he considered the barrenness of Sarah's womb.",
       "20":
@@ -957,6 +1377,9 @@ export default {
         "Therefore, since we have been justified by faith, we have peace with God through our Lord Jesus Christ.",
       "2":
         "Through him we have also obtained access by faith into this grace in which we stand, and we rejoice in hope of the glory of God.",
+      "3":
+        "More than that, we rejoice in our sufferings, knowing that suffering produces endurance,",
+      "4": "and endurance produces character, and character produces hope,",
       "5":
         "and hope does not put us to shame, because God's love has been poured into our hearts through the Holy Spirit who has been given to us.",
       "6":
@@ -1000,8 +1423,15 @@ export default {
         "For if we have been united with him in a death like his, we shall certainly be united with him in a resurrection like his.",
       "6":
         "We know that our old self was crucified with him in order that the body of sin might be brought to nothing, so that we would no longer be enslaved to sin.",
+      "7": "For one who has died has been set free from sin.",
+      "8":
+        "Now if we have died with Christ, we believe that we will also live with him.",
       "9":
         "We know that Christ being raised from the dead will never die again; death no longer has dominion over him.",
+      "10":
+        "For the death he died he died to sin, once for all, but the life he lives he lives to God.",
+      "11":
+        "So you also must consider yourselves dead to sin and alive to God in Christ Jesus.",
       "12":
         "Let not sin therefore reign in your mortal bodies, to make you obey their passions.",
       "13":
@@ -1034,18 +1464,27 @@ export default {
         "But sin, seizing an opportunity through the commandment, produced in me all kinds of covetousness. Apart from the law, sin lies dead.",
       "9":
         "I was once alive apart from the law, but when the commandment came, sin came alive and I died.",
+      "10": "The very commandment that promised life proved to be death to me.",
+      "11":
+        "For sin, seizing an opportunity through the commandment, deceived me and through it killed me.",
       "12":
         "So the law is holy, and the commandment is holy and righteous and good.",
+      "13":
+        "Did that which is good, then, bring death to me? By no means! It was sin, producing death in me through what is good, in order that sin might be shown to be sin, and through the commandment might become sinful beyond measure.",
       "14":
         "For we know that the law is spiritual, but I am of the flesh, sold under sin.",
       "15":
         "I do not understand my own actions. For I do not do what I want, but I do the very thing I hate.",
+      "16":
+        "Now if I do what I do not want, I agree with the law, that it is good.",
       "17":
         "So now it is no longer I who do it, but sin that dwells within me.",
       "18":
         "For I know that nothing good dwells in me, that is, in my flesh. For I have the desire to do what is right, but not the ability to carry it out.",
       "19":
         "For I do not do the good I want, but the evil I do not want is what I keep on doing.",
+      "20":
+        "Now if I do what I do not want, it is no longer I who do it, but sin that dwells within me.",
       "21":
         "So I find it to be a law that when I want to do right, evil lies close at hand.",
       "22": "For I delight in the law of God, in my inner being,",
@@ -1093,6 +1532,8 @@ export default {
         "For I consider that the sufferings of this present time are not worth comparing with the glory that is to be revealed to us.",
       "20":
         "For the creation was subjected to futility, not willingly, but because of him who subjected it, in hope",
+      "22":
+        "For we know that the whole creation has been groaning together in the pains of childbirth until now.",
       "23":
         "And not only the creation, but we ourselves, who have the firstfruits of the Spirit, groan inwardly as we wait eagerly for adoption as sons, the redemption of our bodies.",
       "24":
@@ -1117,13 +1558,30 @@ export default {
         "Who shall bring any charge against God's elect? It is God who justifies.",
       "34":
         "Who is to condemn? Christ Jesus is the one who died--more than that, who was raised--who is at the right hand of God, who indeed is interceding for us.",
+      "35":
+        "Who shall separate us from the love of Christ? Shall tribulation, or distress, or persecution, or famine, or nakedness, or danger, or sword?",
+      "36":
+        'As it is written, "For your sake we are being killed all the day long; we are regarded as sheep to be slaughtered."',
+      "37":
+        "No, in all these things we are more than conquerors through him who loved us.",
+      "38":
+        "For I am sure that neither death nor life, nor angels nor rulers, nor things present nor things to come, nor powers,",
+      "39":
+        "nor height nor depth, nor anything else in all creation, will be able to separate us from the love of God in Christ Jesus our Lord.",
     },
     "9": {
+      "1":
+        "I am speaking the truth in Christ--I am not lying; my conscience bears me witness in the Holy Spirit--",
       "5":
         "To them belong the patriarchs, and from their race, according to the flesh, is the Christ who is God over all, blessed forever. Amen.",
+      "6":
+        "But it is not as though the word of God has failed. For not all who are descended from Israel belong to Israel,",
       "11":
         "though they were not yet born and had done nothing either good or bad--in order that God's purpose of election might continue, not because of works but because of his call--",
+      "12": 'she was told, "The older will serve the younger."',
       "13": 'As it is written, "Jacob I loved, but Esau I hated."',
+      "14":
+        "What shall we say then? Is there injustice on God's part? By no means!",
       "15":
         'For he says to Moses, "I will have mercy on whom I have mercy, and I will have compassion on whom I have compassion."',
       "16":
@@ -1132,6 +1590,8 @@ export default {
         'For the Scripture says to Pharaoh, "For this very purpose I have raised you up, that I might show my power in you, and that my name might be proclaimed in all the earth."',
       "18":
         "So then he has mercy on whomever he wills, and he hardens whomever he wills.",
+      "19":
+        'You will say to me then, "Why does he still find fault? For who can resist his will?"',
       "20":
         'But who are you, O man, to answer back to God? Will what is molded say to its molder, "Why have you made me like this?"',
       "21":
@@ -1152,8 +1612,16 @@ export default {
         "For Moses writes about the righteousness that is based on the law, that the person who does the commandments shall live by them.",
       "6":
         "But the righteousness based on faith says, \"Do not say in your heart, 'Who will ascend into heaven?'\" (that is, to bring Christ down)",
+      "7":
+        "or \"'Who will descend into the abyss?'\" (that is, to bring Christ up from the dead).",
+      "8":
+        'But what does it say? "The word is near you, in your mouth and in your heart" (that is, the word of faith that we proclaim);',
       "9":
         "because, if you confess with your mouth that Jesus is Lord and believe in your heart that God raised him from the dead, you will be saved.",
+      "10":
+        "For with the heart one believes and is justified, and with the mouth one confesses and is saved.",
+      "11":
+        'For the Scripture says, "Everyone who believes in him will not be put to shame."',
       "12":
         "For there is no distinction between Jew and Greek; the same Lord is Lord of all, bestowing his riches on all who call on him.",
       "13": 'For "everyone who calls on the name of the Lord will be saved."',
@@ -1180,6 +1648,8 @@ export default {
         'as it is written, "God gave them a spirit of stupor, eyes that would not see and ears that would not hear, down to this very day."',
       "16":
         "If the dough offered as firstfruits is holy, so is the whole lump, and if the root is holy, so are the branches.",
+      "17":
+        "But if some of the branches were broken off, and you, although a wild olive shoot, were grafted in among the others and now share in the nourishing root of the olive tree,",
       "18":
         "do not be arrogant toward the branches. If you are, remember it is not you who support the root, but the root that supports you.",
       "19":
@@ -1203,11 +1673,29 @@ export default {
         "For from him and through him and to him are all things. To him be glory forever. Amen.",
     },
     "12": {
+      "1":
+        "I appeal to you therefore, brothers, by the mercies of God, to present your bodies as a living sacrifice, holy and acceptable to God, which is your spiritual worship.",
       "2":
         "Do not be conformed to this world, but be transformed by the renewal of your mind, that by testing you may discern what is the will of God, what is good and acceptable and perfect.",
+      "4":
+        "For as in one body we have many members, and the members do not all have the same function,",
+      "5":
+        "so we, though many, are one body in Christ, and individually members one of another.",
+      "6":
+        "Having gifts that differ according to the grace given to us, let us use them: if prophecy, in proportion to our faith;",
+      "7": "if service, in our serving; the one who teaches, in his teaching;",
+      "8":
+        "the one who exhorts, in his exhortation; the one who contributes, in generosity; the one who leads, with zeal; the one who does acts of mercy, with cheerfulness.",
       "10":
         "Love one another with brotherly affection. Outdo one another in showing honor.",
       "15": "Rejoice with those who rejoice, weep with those who weep.",
+      "18":
+        "If possible, so far as it depends on you, live peaceably with all.",
+      "19":
+        'Beloved, never avenge yourselves, but leave it to the wrath of God, for it is written, "Vengeance is mine, I will repay, says the Lord."',
+      "20":
+        'To the contrary, "if your enemy is hungry, feed him; if he is thirsty, give him something to drink; for by so doing you will heap burning coals on his head."',
+      "21": "Do not be overcome by evil, but overcome evil with good.",
     },
     "13": {
       "1":
@@ -1230,10 +1718,21 @@ export default {
         'The commandments, "You shall not commit adultery, You shall not murder, You shall not steal, You shall not covet," and any other commandment, are summed up in this word: "You shall love your neighbor as yourself."',
       "10":
         "Love does no wrong to a neighbor; therefore love is the fulfilling of the law.",
+      "11":
+        "Besides this you know the time, that the hour has come for you to wake from sleep. For salvation is nearer to us now than when we first believed.",
+      "12":
+        "The night is far gone; the day is at hand. So then let us cast off the works of darkness and put on the armor of light.",
+      "13":
+        "Let us walk properly as in the daytime, not in orgies and drunkenness, not in sexual immorality and sensuality, not in quarreling and jealousy.",
+      "14":
+        "But put on the Lord Jesus Christ, and make no provision for the flesh, to gratify its desires.",
     },
     "14": {
       "4":
         "Who are you to pass judgment on the servant of another? It is before his own master that he stands or falls. And he will be upheld, for the Lord is able to make him stand.",
+      "7": "For none of us lives to himself, and none of us dies to himself.",
+      "8":
+        "If we live, we live to the Lord, and if we die, we die to the Lord. So then, whether we live or whether we die, we are the Lord's.",
       "9":
         "For to this end Christ died and lived again, that he might be Lord both of the dead and of the living.",
       "10":
@@ -1241,6 +1740,10 @@ export default {
       "12": "So then each of us will give an account of himself to God.",
       "17":
         "For the kingdom of God is not a matter of eating and drinking but of righteousness and peace and joy in the Holy Spirit.",
+      "18":
+        "Whoever thus serves Christ is acceptable to God and approved by men.",
+      "19":
+        "So then let us pursue what makes for peace and for mutual upbuilding.",
       "23":
         "But whoever has doubts is condemned if he eats, because the eating is not from faith. For whatever does not proceed from faith is sin.",
     },
@@ -1268,6 +1771,10 @@ export default {
         "I commend to you our sister Phoebe, a servant of the church at Cenchreae,",
       "2":
         "that you may welcome her in the Lord in a way worthy of the saints, and help her in whatever she may need from you, for she has been a patron of many and of myself as well.",
+      "17":
+        "I appeal to you, brothers, to watch out for those who cause divisions and create obstacles contrary to the doctrine that you have been taught; avoid them.",
+      "20":
+        "The God of peace will soon crush Satan under your feet. The grace of our Lord Jesus Christ be with you.",
       "26":
         "but has now been disclosed and through the prophetic writings has been made known to all nations, according to the command of the eternal God, to bring about the obedience of faith--",
       "27":
@@ -1275,8 +1782,22 @@ export default {
     },
   },
   Psalms: {
-    "1": {},
+    "1": {
+      "1":
+        "Blessed is the man who walks not in the counsel of the wicked, nor stands in the way of sinners, nor sits in the seat of scoffers;",
+      "2":
+        "but his delight is in the law of the LORD, and on his law he meditates day and night.",
+    },
     "2": {
+      "1": "Why do the nations rage and the peoples plot in vain?",
+      "2":
+        "The kings of the earth set themselves, and the rulers take counsel together, against the LORD and against his anointed, saying,",
+      "3":
+        '"Let us burst their bonds apart and cast away their cords from us."',
+      "4":
+        "He who sits in the heavens laughs; the Lord holds them in derision.",
+      "5":
+        "Then he will speak to them in his wrath, and terrify them in his fury, saying,",
       "6": '"As for me, I have set my King on Zion, my holy hill."',
       "7":
         'I will tell of the decree: The LORD said to me, "You are my Son; today I have begotten you.',
@@ -1297,6 +1818,8 @@ export default {
         "You have put more joy in my heart than they have when their grain and wine abound.",
     },
     "5": {
+      "4":
+        "For you are not a God who delights in wickedness; evil may not dwell with you.",
       "5":
         "The boastful shall not stand before your eyes; you hate all evildoers.",
       "6":
@@ -1309,6 +1832,10 @@ export default {
     "8": {
       "1":
         "O LORD, our Lord, how majestic is your name in all the earth! You have set your glory above the heavens.",
+      "2":
+        "Out of the mouth of babes and infants, you have established strength because of your foes, to still the enemy and the avenger.",
+      "3":
+        "When I look at your heavens, the work of your fingers, the moon and the stars, which you have set in place,",
       "4":
         "what is man that you are mindful of him, and the son of man that you care for him?",
       "5":
@@ -1318,6 +1845,7 @@ export default {
       "7": "all sheep and oxen, and also the beasts of the field,",
       "8":
         "the birds of the heavens, and the fish of the sea, whatever passes along the paths of the seas.",
+      "9": "O LORD, our Lord, how majestic is your name in all the earth!",
     },
     "9": {
       "16":
@@ -1344,6 +1872,8 @@ export default {
         "who does not slander with his tongue and does no evil to his neighbor, nor takes up a reproach against his friend;",
       "4":
         "in whose eyes a vile person is despised, but who honors those who fear the LORD; who swears to his own hurt and does not change;",
+      "5":
+        "who does not put out his money at interest and does not take a bribe against the innocent. He who does these things shall never be moved.",
     },
     "16": {
       "2":
@@ -1358,6 +1888,8 @@ export default {
         "The heavens declare the glory of God, and the sky above proclaims his handiwork.",
       "2": "Day to day pours out speech, and night to night reveals knowledge.",
       "3": "There is no speech, nor are there words, whose voice is not heard.",
+      "4":
+        "Their measuring line goes out through all the earth, and their words to the end of the world. In them he has set a tent for the sun,",
       "7":
         "The law of the LORD is perfect, reviving the soul; the testimony of the LORD is sure, making wise the simple;",
       "8":
@@ -1368,8 +1900,12 @@ export default {
         "More to be desired are they than gold, even much fine gold; sweeter also than honey and drippings of the honeycomb.",
       "11":
         "Moreover, by them is your servant warned; in keeping them there is great reward.",
+      "12":
+        "Who can discern his errors? Declare me innocent from hidden faults.",
       "13":
         "Keep back your servant also from presumptuous sins; let them not have dominion over me! Then I shall be blameless, and innocent of great transgression.",
+      "14":
+        "Let the words of my mouth and the meditation of my heart be acceptable in your sight, O LORD, my rock and my redeemer.",
     },
     "22": {
       "1":
@@ -1470,6 +2006,10 @@ export default {
       "11":
         "The counsel of the LORD stands forever, the plans of his heart to all generations.",
     },
+    "34": {
+      "18":
+        "The LORD is near to the brokenhearted and saves the crushed in spirit.",
+    },
     "36": {
       "3":
         "The words of his mouth are trouble and deceit; he has ceased to act wisely and do good.",
@@ -1477,11 +2017,17 @@ export default {
     "37": {
       "11":
         "But the meek shall inherit the land and delight themselves in abundant peace.",
+      "16":
+        "Better is the little that the righteous has than the abundance of many wicked.",
     },
     "40": {
       "7":
         'Then I said, "Behold, I have come; in the scroll of the book it is written of me:',
       "8": 'I desire to do your will, O my God; your law is within my heart."',
+      "9":
+        "I have told the glad news of deliverance in the great congregation; behold, I have not restrained my lips, as you know, O LORD.",
+      "10":
+        "I have not hidden your deliverance within my heart; I have spoken of your faithfulness and your salvation; I have not concealed your steadfast love and your faithfulness from the great congregation.",
     },
     "42": {
       "5":
@@ -1505,16 +2051,28 @@ export default {
       "11":
         "and the king will desire your beauty. Since he is your lord, bow to him.",
     },
+    "46": {
+      "5":
+        "God is in the midst of her; she shall not be moved; God will help her when morning dawns.",
+    },
     "47": {
       "7": "For God is the King of all the earth; sing praises with a psalm!",
     },
     "49": {
+      "7":
+        "Truly no man can ransom another, or give to God the price of his life,",
+      "8": "for the ransom of their life is costly and can never suffice,",
+      "9": "that he should live on forever and never see the pit.",
       "14":
         "Like sheep they are appointed for Sheol; Death shall be their shepherd, and the upright shall rule over them in the morning. Their form shall be consumed in Sheol, with no place to dwell.",
     },
     "50": {
       "14":
         "Offer to God a sacrifice of thanksgiving, and perform your vows to the Most High,",
+      "15":
+        'and call upon me in the day of trouble; I will deliver you, and you shall glorify me."',
+      "16":
+        'But to the wicked God says: "What right have you to recite my statutes or take my covenant on your lips?',
       "21":
         "These things you have done, and I have been silent; you thought that I was one like yourself. But now I rebuke you and lay the charge before you.",
     },
@@ -1557,6 +2115,8 @@ export default {
     "55": {
       "17":
         "Evening and morning and at noon I utter my complaint and moan, and he hears my voice.",
+      "22":
+        "Cast your burden on the LORD, and he will sustain you; he will never permit the righteous to be moved.",
     },
     "58": {
       "3":
@@ -1570,7 +2130,11 @@ export default {
       "8":
         "Trust in him at all times, O people; pour out your heart before him; God is a refuge for us. Selah",
     },
-    "65": { "2": "O you who hears prayer, to you shall all flesh come." },
+    "65": {
+      "2": "O you who hears prayer, to you shall all flesh come.",
+      "4":
+        "Blessed is the one you choose and bring near, to dwell in your courts! We shall be satisfied with the goodness of your house, the holiness of your temple!",
+    },
     "66": {
       "13":
         "I will come into your house with burnt offerings; I will perform my vows to you,",
@@ -1596,6 +2160,8 @@ export default {
         "Sing to God, sing praises to his name; lift up a song to him who rides through the deserts; his name is the LORD; exult before him!",
       "18":
         "You ascended on high, leading a host of captives in your train and receiving gifts among men, even among the rebellious, that the LORD God may dwell there.",
+      "26":
+        '"Bless God in the great congregation, the LORD, O you who are of Israel\'s fountain!"',
     },
     "69": {},
     "72": {
@@ -1704,10 +2270,20 @@ export default {
         "So I gave them over to their stubborn hearts, to follow their own counsels.",
     },
     "82": {
+      "1":
+        "God has taken his place in the divine council; in the midst of the gods he holds judgment:",
+      "2":
+        '"How long will you judge unjustly and show partiality to the wicked? Selah',
       "3":
         "Give justice to the weak and the fatherless; maintain the right of the afflicted and the destitute.",
       "4":
         'Rescue the weak and the needy; deliver them from the hand of the wicked."',
+      "5":
+        "They have neither knowledge nor understanding, they walk about in darkness; all the foundations of the earth are shaken.",
+      "6": 'I said, "You are gods, sons of the Most High, all of you;',
+      "7": 'nevertheless, like men you shall die, and fall like any prince."',
+      "8":
+        "Arise, O God, judge the earth; for you shall inherit all the nations!",
     },
     "83": {
       "1":
@@ -1789,6 +2365,8 @@ export default {
         "but I will not remove from him my steadfast love or be false to my faithfulness.",
       "34":
         "I will not violate my covenant or alter the word that went forth from my lips.",
+      "36":
+        "His offspring shall endure forever, his throne as long as the sun before me.",
     },
     "90": {
       "2":
@@ -1824,19 +2402,44 @@ export default {
       "9":
         "For you, O LORD, are most high over all the earth; you are exalted far above all gods.",
     },
+    "99": {
+      "1":
+        "The LORD reigns; let the peoples tremble! He sits enthroned upon the cherubim; let the earth quake!",
+      "2": "The LORD is great in Zion; he is exalted over all the peoples.",
+      "3": "Let them praise your great and awesome name! Holy is he!",
+      "4":
+        "The King in his might loves justice. You have established equity; you have executed justice and righteousness in Jacob.",
+      "5": "Exalt the LORD our God; worship at his footstool! Holy is he!",
+    },
     "100": {
       "2": "Serve the LORD with gladness! Come into his presence with singing!",
       "3":
         "Know that the LORD, he is God! It is he who made us, and we are his; we are his people, and the sheep of his pasture.",
     },
     "102": {
+      "18":
+        "Let this be recorded for a generation to come, so that a people yet to be created may praise the LORD:",
       "28":
         "The children of your servants shall dwell secure; their offspring shall be established before you.",
     },
     "103": {
+      "3": "who forgives all your iniquity, who heals all your diseases,",
+      "4":
+        "who redeems your life from the pit, who crowns you with steadfast love and mercy,",
+      "8":
+        "The LORD is merciful and gracious, slow to anger and abounding in steadfast love.",
+      "9": "He will not always chide, nor will he keep his anger forever.",
+      "10":
+        "He does not deal with us according to our sins, nor repay us according to our iniquities.",
+      "12":
+        "as far as the east is from the west, so far does he remove our transgressions from us.",
       "13":
         "As a father shows compassion to his children, so the LORD shows compassion to those who fear him.",
       "14": "For he knows our frame; he remembers that we are dust.",
+      "15":
+        "As for man, his days are like grass; he flourishes like a flower of the field;",
+      "16":
+        "for the wind passes over it, and it is gone, and its place knows it no more.",
       "19":
         "The LORD has established his throne in the heavens, and his kingdom rules over all.",
       "20":
@@ -1846,8 +2449,70 @@ export default {
         "Bless the LORD, all his works, in all places of his dominion. Bless the LORD, O my soul!",
     },
     "104": {
+      "1":
+        "Bless the LORD, O my soul! O LORD my God, you are very great! You are clothed with splendor and majesty,",
+      "2":
+        "covering yourself with light as with a garment, stretching out the heavens like a tent.",
+      "3":
+        "He lays the beams of his chambers on the waters; he makes the clouds his chariot; he rides on the wings of the wind;",
+      "4": "he makes his messengers winds, his ministers a flaming fire.",
+      "5":
+        "He set the earth on its foundations, so that it should never be moved.",
+      "6":
+        "You covered it with the deep as with a garment; the waters stood above the mountains.",
+      "7":
+        "At your rebuke they fled; at the sound of your thunder they took to flight.",
+      "8":
+        "The mountains rose, the valleys sank down to the place that you appointed for them.",
+      "9":
+        "You set a boundary that they may not pass, so that they might not again cover the earth.",
+      "10":
+        "You make springs gush forth in the valleys; they flow between the hills;",
+      "11":
+        "they give drink to every beast of the field; the wild donkeys quench their thirst.",
+      "12":
+        "Beside them the birds of the heavens dwell; they sing among the branches.",
+      "13":
+        "From your lofty abode you water the mountains; the earth is satisfied with the fruit of your work.",
+      "14":
+        "You cause the grass to grow for the livestock and plants for man to cultivate, that he may bring forth food from the earth",
+      "15":
+        "and wine to gladden the heart of man, oil to make his face shine and bread to strengthen man's heart.",
+      "16":
+        "The trees of the LORD are watered abundantly, the cedars of Lebanon that he planted.",
+      "17":
+        "In them the birds build their nests; the stork has her home in the fir trees.",
+      "18":
+        "The high mountains are for the wild goats; the rocks are a refuge for the rock badgers.",
+      "19":
+        "He made the moon to mark the seasons; the sun knows its time for setting.",
+      "20":
+        "You make darkness, and it is night, when all the beasts of the forest creep about.",
+      "21": "The young lions roar for their prey, seeking their food from God.",
+      "22": "When the sun rises, they steal away and lie down in their dens.",
+      "23": "Man goes out to his work and to his labor until the evening.",
       "24":
         "O LORD, how manifold are your works! In wisdom have you made them all; the earth is full of your creatures.",
+      "25":
+        "Here is the sea, great and wide, which teems with creatures innumerable, living things both small and great.",
+      "26":
+        "There go the ships, and Leviathan, which you formed to play in it.",
+      "27": "These all look to you, to give them their food in due season.",
+      "28":
+        "When you give it to them, they gather it up; when you open your hand, they are filled with good things.",
+      "29":
+        "When you hide your face, they are dismayed; when you take away their breath, they die and return to their dust.",
+      "30":
+        "When you send forth your Spirit, they are created, and you renew the face of the ground.",
+      "31":
+        "May the glory of the LORD endure forever; may the LORD rejoice in his works,",
+      "32":
+        "who looks on the earth and it trembles, who touches the mountains and they smoke!",
+      "33":
+        "I will sing to the LORD as long as I live; I will sing praise to my God while I have being.",
+      "34": "May my meditation be pleasing to him, for I rejoice in the LORD.",
+      "35":
+        "Let sinners be consumed from the earth, and let the wicked be no more! Bless the LORD, O my soul! Praise the LORD!",
     },
     "107": {
       "1":
@@ -1949,6 +2614,10 @@ export default {
       "7":
         "He will drink from the brook by the way; therefore he will lift up his head.",
     },
+    "111": {
+      "1":
+        "Praise the LORD! I will give thanks to the LORD with my whole heart, in the company of the upright, in the congregation.",
+    },
     "113": {
       "1":
         "Praise the LORD! Praise, O servants of the LORD, praise the name of the LORD!",
@@ -1959,12 +2628,25 @@ export default {
       "5": "Who is like the LORD our God, who is seated on high,",
       "6": "who looks far down on the heavens and the earth?",
     },
-    "115": { "3": "Our God is in the heavens; he does all that he pleases." },
+    "115": {
+      "1":
+        "Not to us, O LORD, not to us, but to your name give glory, for the sake of your steadfast love and your faithfulness!",
+      "3": "Our God is in the heavens; he does all that he pleases.",
+    },
     "116": {
       "11": 'I said in my alarm, "All mankind are liars."',
       "12": "What shall I render to the LORD for all his benefits to me?",
       "13":
         "I will lift up the cup of salvation and call on the name of the LORD,",
+      "14": "I will pay my vows to the LORD in the presence of all his people.",
+      "15": "Precious in the sight of the LORD is the death of his saints.",
+      "16":
+        "O LORD, I am your servant; I am your servant, the son of your maidservant. You have loosed my bonds.",
+      "17":
+        "I will offer to you the sacrifice of thanksgiving and call on the name of the LORD.",
+      "18": "I will pay my vows to the LORD in the presence of all his people,",
+      "19":
+        "in the courts of the house of the LORD, in your midst, O Jerusalem. Praise the LORD!",
     },
     "118": {
       "24":
@@ -1982,6 +2664,8 @@ export default {
         "I will run in the way of your commandments when you enlarge my heart! He",
       "36": "Incline my heart to your testimonies, and not to selfish gain!",
       "59": "When I think on my ways, I turn my feet to your testimonies;",
+      "63":
+        "I am a companion of all who fear you, of those who keep your precepts.",
       "68": "You are good and do good; teach me your statutes.",
       "71":
         "It is good for me that I was afflicted, that I might learn your statutes.",
@@ -1998,9 +2682,20 @@ export default {
         "The unfolding of your words gives light; it imparts understanding to the simple.",
     },
     "122": {
+      "1":
+        'I was glad when they said to me, "Let us go to the house of the LORD!"',
       "6": 'Pray for the peace of Jerusalem! "May they be secure who love you!',
+      "7": 'Peace be within your walls and security within your towers!"',
+      "8":
+        'For my brothers and companions\' sake I will say, "Peace be within you!"',
       "9":
         "For the sake of the house of the LORD our God, I will seek your good.",
+    },
+    "127": {
+      "1":
+        "Unless the LORD builds the house, those who build it labor in vain. Unless the LORD watches over the city, the watchman stays awake in vain.",
+      "2":
+        "It is in vain that you rise up early and go late to rest, eating the bread of anxious toil; for he gives to his beloved sleep.",
     },
     "130": {
       "3": "If you, O LORD, should mark iniquities, O Lord, who could stand?",
@@ -2012,6 +2707,8 @@ export default {
       "4": "I will not give sleep to my eyes or slumber to my eyelids,",
       "5":
         'until I find a place for the LORD, a dwelling place for the Mighty One of Jacob."',
+      "11":
+        'The LORD swore to David a sure oath from which he will not turn back: "One of the sons of your body I will set on your throne.',
     },
     "135": {
       "6":
@@ -2078,16 +2775,47 @@ export default {
     "143": {
       "2":
         "Enter not into judgment with your servant, for no one living is righteous before you.",
+      "10":
+        "Teach me to do your will, for you are my God! Let your good Spirit lead me on level ground!",
     },
     "145": {
+      "1":
+        "I will extol you, my God and King, and bless your name forever and ever.",
+      "2": "Every day I will bless you and praise your name forever and ever.",
       "3":
         "Great is the LORD, and greatly to be praised, and his greatness is unsearchable.",
+      "4":
+        "One generation shall commend your works to another, and shall declare your mighty acts.",
+      "5":
+        "On the glorious splendor of your majesty, and on your wondrous works, I will meditate.",
+      "6":
+        "They shall speak of the might of your awesome deeds, and I will declare your greatness.",
       "7":
         "They shall pour forth the fame of your abundant goodness and shall sing aloud of your righteousness.",
+      "8":
+        "The LORD is gracious and merciful, slow to anger and abounding in steadfast love.",
+      "9":
+        "The LORD is good to all, and his mercy is over all that he has made.",
+      "10":
+        "All your works shall give thanks to you, O LORD, and all your saints shall bless you!",
+      "11":
+        "They shall speak of the glory of your kingdom and tell of your power,",
+      "12":
+        "to make known to the children of man your mighty deeds, and the glorious splendor of your kingdom.",
+      "13":
+        "Your kingdom is an everlasting kingdom, and your dominion endures throughout all generations.[The LORD is faithful in all his words and kind in all his works.]",
+      "14":
+        "The LORD upholds all who are falling and raises up all who are bowed down.",
       "15":
         "The eyes of all look to you, and you give them their food in due season.",
       "16": "You open your hand; you satisfy the desire of every living thing.",
       "17": "The LORD is righteous in all his ways and kind in all his works.",
+      "18":
+        "The LORD is near to all who call on him, to all who call on him in truth.",
+      "19":
+        "He fulfills the desire of those who fear him; he also hears their cry and saves them.",
+      "20":
+        "The LORD preserves all who love him, but all the wicked he will destroy.",
       "21":
         "My mouth will speak the praise of the LORD, and let all flesh bless his holy name forever and ever.",
     },
@@ -2110,10 +2838,36 @@ export default {
         "but in these last days he has spoken to us by his Son, whom he appointed the heir of all things, through whom also he created the world.",
       "3":
         "He is the radiance of the glory of God and the exact imprint of his nature, and he upholds the universe by the word of his power. After making purification for sins, he sat down at the right hand of the Majesty on high,",
+      "4":
+        "having become as much superior to angels as the name he has inherited is more excellent than theirs.",
+      "5":
+        'For to which of the angels did God ever say, "You are my Son, today I have begotten you"?Or again, "I will be to him a father, and he shall be to me a son"?',
+      "6":
+        'And again, when he brings the firstborn into the world, he says, "Let all God\'s angels worship him."',
+      "7":
+        'Of the angels he says, "He makes his angels winds, and his ministers a flame of fire."',
+      "8":
+        'But of the Son he says, "Your throne, O God, is forever and ever, the scepter of uprightness is the scepter of your kingdom.',
+      "9":
+        'You have loved righteousness and hated wickedness; therefore God, your God, has anointed you with the oil of gladness beyond your companions."',
+      "10":
+        'And, "You, Lord, laid the foundation of the earth in the beginning, and the heavens are the work of your hands;',
+      "11":
+        "they will perish, but you remain; they will all wear out like a garment,",
+      "12":
+        'like a robe you will roll them up, like a garment they will be changed. But you are the same, and your years will have no end."',
+      "13":
+        'And to which of the angels has he ever said, "Sit at my right hand until I make your enemies a footstool for your feet"?',
       "14":
         "Are they not all ministering spirits sent out to serve for the sake of those who are to inherit salvation?",
     },
     "2": {
+      "9":
+        "But we see him who for a little while was made lower than the angels, namely Jesus, crowned with glory and honor because of the suffering of death, so that by the grace of God he might taste death for everyone.",
+      "11":
+        "For he who sanctifies and those who are sanctified all have one origin. That is why he is not ashamed to call them brothers,",
+      "12":
+        'saying, "I will tell of your name to my brothers; in the midst of the congregation I will sing your praise."',
       "13":
         'And again, "I will put my trust in him."And again, "Behold, I and the children God has given me."',
       "14":
@@ -2124,6 +2878,8 @@ export default {
         "For surely it is not angels that he helps, but he helps the offspring of Abraham.",
       "17":
         "Therefore he had to be made like his brothers in every respect, so that he might become a merciful and faithful high priest in the service of God, to make propitiation for the sins of the people.",
+      "18":
+        "For because he himself has suffered when tempted, he is able to help those who are being tempted.",
     },
     "3": {
       "12":
@@ -2134,6 +2890,11 @@ export default {
     "4": {
       "2":
         "For good news came to us just as to them, but the message they heard did not benefit them, because they were not united by faith with those who listened.",
+      "9": "So then, there remains a Sabbath rest for the people of God,",
+      "10":
+        "for whoever has entered God's rest has also rested from his works as God did from his.",
+      "11":
+        "Let us therefore strive to enter that rest, so that no one may fall by the same sort of disobedience.",
       "12":
         "For the word of God is living and active, sharper than any two-edged sword, piercing to the division of soul and of spirit, of joints and of marrow, and discerning the thoughts and intentions of the heart.",
       "13":
@@ -2188,6 +2949,12 @@ export default {
         "where Jesus has gone as a forerunner on our behalf, having become a high priest forever after the order of Melchizedek.",
     },
     "7": {
+      "15":
+        "This becomes even more evident when another priest arises in the likeness of Melchizedek,",
+      "16":
+        "who has become a priest, not on the basis of a legal requirement concerning bodily descent, but by the power of an indestructible life.",
+      "17":
+        'For it is witnessed of him, "You are a priest forever, after the order of Melchizedek."',
       "22": "This makes Jesus the guarantor of a better covenant.",
       "23":
         "The former priests were many in number, because they were prevented by death from continuing in office,",
@@ -2199,6 +2966,8 @@ export default {
         "For it was indeed fitting that we should have such a high priest, holy, innocent, unstained, separated from sinners, and exalted above the heavens.",
       "27":
         "He has no need, like those high priests, to offer sacrifices daily, first for his own sins and then for those of the people, since he did this once for all when he offered up himself.",
+      "28":
+        "For the law appoints men in their weakness as high priests, but the word of the oath, which came later than the law, appoints a Son who has been made perfect forever.",
     },
     "8": {
       "1":
@@ -2362,6 +3131,9 @@ export default {
         "But we are not of those who shrink back and are destroyed, but of those who have faith and preserve their souls.",
     },
     "11": {
+      "1":
+        "Now faith is the assurance of things hoped for, the conviction of things not seen.",
+      "2": "For by it the people of old received their commendation.",
       "3":
         "By faith we understand that the universe was created by the word of God, so that what is seen was not made out of things that are visible.",
       "4":
@@ -2372,6 +3144,10 @@ export default {
         "These all died in faith, not having received the things promised, but having seen them and greeted them from afar, and having acknowledged that they were strangers and exiles on the earth.",
       "28":
         "By faith he kept the Passover and sprinkled the blood, so that the Destroyer of the firstborn might not touch them.",
+      "39":
+        "And all these, though commended through their faith, did not receive what was promised,",
+      "40":
+        "since God had provided something better for us, that apart from us they should not be made perfect.",
     },
     "12": {
       "2":
@@ -2403,9 +3179,13 @@ export default {
         "Let marriage be held in honor among all, and let the marriage bed be undefiled, for God will judge the sexually immoral and adulterous.",
       "5":
         'Keep your life free from love of money, and be content with what you have, for he has said, "I will never leave you nor forsake you."',
+      "6":
+        'So we can confidently say, "The Lord is my helper; I will not fear; what can man do to me?"',
       "7":
         "Remember your leaders, those who spoke to you the word of God. Consider the outcome of their way of life, and imitate their faith.",
       "8": "Jesus Christ is the same yesterday and today and forever.",
+      "15":
+        "Through him then let us continually offer up a sacrifice of praise to God, that is, the fruit of lips that acknowledge his name.",
       "17":
         "Obey your leaders and submit to them, for they are keeping watch over your souls, as those who will have to give an account. Let them do this with joy and not with groaning, for that would be of no advantage to you.",
       "20":
@@ -2418,6 +3198,8 @@ export default {
   },
   Proverbs: {
     "1": {
+      "8":
+        "Hear, my son, your father's instruction, and forsake not your mother's teaching,",
       "20":
         "Wisdom cries aloud in the street, in the markets she raises her voice;",
       "21":
@@ -2442,6 +3224,8 @@ export default {
         "who forsakes the companion of her youth and forgets the covenant of her God;",
     },
     "4": {
+      "1":
+        "Hear, O sons, a father's instruction, and be attentive, that you may gain insight,",
       "18":
         "But the path of the righteous is like the light of dawn, which shines brighter and brighter until full day.",
     },
@@ -2459,6 +3243,26 @@ export default {
       "16": "by me princes rule, and nobles, all who govern justly.",
       "17":
         "I love those who love me, and those who seek me diligently find me.",
+      "22":
+        '"The LORD possessed me at the beginning of his work, the first of his acts of old.',
+      "23":
+        "Ages ago I was set up, at the first, before the beginning of the earth.",
+      "24":
+        "When there were no depths I was brought forth, when there were no springs abounding with water.",
+      "25":
+        "Before the mountains had been shaped, before the hills, I was brought forth,",
+      "26":
+        "before he had made the earth with its fields, or the first of the dust of the world.",
+      "27":
+        "When he established the heavens, I was there; when he drew a circle on the face of the deep,",
+      "28":
+        "when he made firm the skies above, when he established the fountains of the deep,",
+      "29":
+        "when he assigned to the sea its limit, so that the waters might not transgress his command, when he marked out the foundations of the earth,",
+      "30":
+        "then I was beside him, like a master workman, and I was daily his delight, rejoicing before him always,",
+      "31":
+        "rejoicing in his inhabited world and delighting in the children of man.",
       "33": "Hear instruction and be wise, and do not neglect it.",
       "34":
         "Blessed is the one who listens to me, watching daily at my gates, waiting beside my doors.",
@@ -2466,9 +3270,23 @@ export default {
       "36":
         'but he who fails to find me injures himself; all who hate me love death."',
     },
+    "9": {
+      "10":
+        "The fear of the LORD is the beginning of wisdom, and the knowledge of the Holy One is insight.",
+    },
     "11": {
+      "1":
+        "A false balance is an abomination to the LORD, but a just weight is his delight.",
       "14":
         "Where there is no guidance, a people falls, but in an abundance of counselors there is safety.",
+    },
+    "12": {
+      "22":
+        "Lying lips are an abomination to the LORD, but those who act faithfully are his delight.",
+    },
+    "13": {
+      "5":
+        "The righteous hates falsehood, but the wicked brings shame and disgrace.",
     },
     "14": {
       "5":
@@ -2477,29 +3295,47 @@ export default {
         "A truthful witness saves lives, but one who breathes out lies is deceitful.",
       "26":
         "In the fear of the LORD one has strong confidence, and his children will have a refuge.",
+      "30":
+        "A tranquil heart gives life to the flesh, but envy makes the bones rot.",
     },
     "15": {
       "3":
         "The eyes of the LORD are in every place, keeping watch on the evil and the good.",
     },
     "16": {
+      "1":
+        "The plans of the heart belong to man, but the answer of the tongue is from the LORD.",
       "4":
         "The LORD has made everything for its purpose, even the wicked for the day of trouble.",
+      "9":
+        "The heart of man plans his way, but the LORD establishes his steps.",
       "33":
         "The lot is cast into the lap, but its every decision is from the LORD.",
     },
+    "19": {
+      "5":
+        "A false witness will not go unpunished, and he who breathes out lies will not escape.",
+    },
     "20": {
       "9": 'Who can say, "I have made my heart pure; I am clean from my sin"?',
+      "20":
+        "If one curses his father or his mother, his lamp will be put out in utter darkness.",
     },
     "21": {
+      "1":
+        "The king's heart is a stream of water in the hand of the LORD; he turns it wherever he will.",
       "6":
         "The getting of treasures by a lying tongue is a fleeting vapor and a snare of death.",
       "7":
         "The violence of the wicked will sweep them away, because they refuse to do what is just.",
       "17":
         "Whoever loves pleasure will be a poor man; he who loves wine and oil will not be rich.",
+      "20":
+        "Precious treasure and oil are in a wise man's dwelling, but a foolish man devours it.",
     },
     "22": {
+      "2":
+        "The rich and the poor meet together; the LORD is the maker of them all.",
       "19":
         "That your trust may be in the LORD, I have made them known to you today, even to you.",
       "20":
@@ -2511,6 +3347,14 @@ export default {
       "20": "Be not among drunkards or among gluttonous eaters of meat,",
       "21":
         "for the drunkard and the glutton will come to poverty, and slumber will clothe them with rags.",
+      "22":
+        "Listen to your father who gave you life, and do not despise your mother when she is old.",
+    },
+    "25": {
+      "21":
+        "If your enemy is hungry, give him bread to eat, and if he is thirsty, give him water to drink,",
+      "22":
+        "for you will heap burning coals on his head, and the LORD will reward you.",
     },
     "28": {
       "13":
@@ -2521,6 +3365,8 @@ export default {
     "29": {
       "18":
         "Where there is no prophetic vision the people cast off restraint, but blessed is he who keeps the law.",
+      "24":
+        "The partner of a thief hates his own life; he hears the curse, but discloses nothing.",
     },
     "30": {
       "6":
@@ -2579,6 +3425,8 @@ export default {
         "For it would have been better for them never to have known the way of righteousness than after knowing it to turn back from the holy commandment delivered to them.",
     },
     "3": {
+      "2":
+        "that you should remember the predictions of the holy prophets and the commandment of the Lord and Savior through your apostles,",
       "10":
         "But the day of the Lord will come like a thief, and then the heavens will pass away with a roar, and the heavenly bodies will be burned up and dissolved, and the earth and the works that are done on it will be exposed.",
       "11":
@@ -2597,6 +3445,10 @@ export default {
   },
   "2 Thessalonians": {
     "1": {
+      "3":
+        "We ought always to give thanks to God for you, brothers, as is right, because your faith is growing abundantly, and the love of every one of you for one another is increasing.",
+      "4":
+        "Therefore we ourselves boast about you in the churches of God for your steadfastness and faith in all your persecutions and in the afflictions that you are enduring.",
       "5":
         "This is evidence of the righteous judgment of God, that you may be considered worthy of the kingdom of God, for which you are also suffering--",
       "6":
@@ -2683,6 +3535,12 @@ export default {
         "Beloved, I am writing you no new commandment, but an old commandment that you had from the beginning. The old commandment is the word that you have heard.",
       "8":
         "At the same time, it is a new commandment that I am writing to you, which is true in him and in you, because the darkness is passing away and the true light is already shining.",
+      "9":
+        "Whoever says he is in the light and hates his brother is still in darkness.",
+      "10":
+        "Whoever loves his brother abides in the light, and in him there is no cause for stumbling.",
+      "11":
+        "But whoever hates his brother is in the darkness and walks in the darkness, and does not know where he is going, because the darkness has blinded his eyes.",
       "16":
         "For all that is in the world--the desires of the flesh and the desires of the eyes and pride in possessions--is not from the Father but is from the world.",
       "19":
@@ -2705,8 +3563,18 @@ export default {
         "Everyone who makes a practice of sinning also practices lawlessness; sin is lawlessness.",
       "5":
         "You know that he appeared to take away sins, and in him there is no sin.",
+      "6":
+        "No one who abides in him keeps on sinning; no one who keeps on sinning has either seen him or known him.",
+      "7":
+        "Little children, let no one deceive you. Whoever practices righteousness is righteous, as he is righteous.",
+      "8":
+        "Whoever makes a practice of sinning is of the devil, for the devil has been sinning from the beginning. The reason the Son of God appeared was to destroy the works of the devil.",
       "9":
         "No one born of God makes a practice of sinning, for God's seed abides in him, and he cannot keep on sinning because he has been born of God.",
+      "10":
+        "By this it is evident who are the children of God, and who are the children of the devil: whoever does not practice righteousness is not of God, nor is the one who does not love his brother.",
+      "11":
+        "For this is the message that you have heard from the beginning, that we should love one another.",
       "14":
         "We know that we have passed out of death into life, because we love the brothers. Whoever does not love abides in death.",
       "15":
@@ -2719,6 +3587,8 @@ export default {
         "Little children, let us not love in word or talk but in deed and in truth.",
       "19":
         "By this we shall know that we are of the truth and reassure our heart before him;",
+      "20":
+        "for whenever our heart condemns us, God is greater than our heart, and he knows everything.",
       "21":
         "Beloved, if our heart does not condemn us, we have confidence before God;",
       "24":
@@ -2727,6 +3597,10 @@ export default {
     "4": {
       "1":
         "Beloved, do not believe every spirit, but test the spirits to see whether they are from God, for many false prophets have gone out into the world.",
+      "2":
+        "By this you know the Spirit of God: every spirit that confesses that Jesus Christ has come in the flesh is from God,",
+      "6":
+        "We are from God. Whoever knows God listens to us; whoever is not from God does not listen to us. By this we know the Spirit of truth and the spirit of error.",
       "7":
         "Beloved, let us love one another, for love is from God, and whoever loves has been born of God and knows God.",
       "8": "Anyone who does not love does not know God, because God is love.",
@@ -2745,14 +3619,23 @@ export default {
         "Whoever confesses that Jesus is the Son of God, God abides in him, and he in God.",
       "16":
         "So we have come to know and to believe the love that God has for us. God is love, and whoever abides in love abides in God, and God abides in him.",
+      "17":
+        "By this is love perfected with us, so that we may have confidence for the day of judgment, because as he is so also are we in this world.",
       "18":
         "There is no fear in love, but perfect love casts out fear. For fear has to do with punishment, and whoever fears has not been perfected in love.",
+      "19": "We love because he first loved us.",
       "20":
         'If anyone says, "I love God," and hates his brother, he is a liar; for he who does not love his brother whom he has seen cannot love God whom he has not seen.',
       "21":
         "And this commandment we have from him: whoever loves God must also love his brother.",
     },
     "5": {
+      "1":
+        "Everyone who believes that Jesus is the Christ has been born of God, and everyone who loves the Father loves whoever has been born of him.",
+      "2":
+        "By this we know that we love the children of God, when we love God and obey his commandments.",
+      "3":
+        "For this is the love of God, that we keep his commandments. And his commandments are not burdensome.",
       "4":
         "For everyone who has been born of God overcomes the world. And this is the victory that has overcome the world--our faith.",
       "5":
@@ -2773,12 +3656,15 @@ export default {
         "I write these things to you who believe in the name of the Son of God that you may know that you have eternal life.",
       "14":
         "And this is the confidence that we have toward him, that if we ask anything according to his will he hears us.",
+      "15":
+        "And if we know that he hears us in whatever we ask, we know that we have the requests that we have asked of him.",
       "16":
         "If anyone sees his brother committing a sin not leading to death, he shall ask, and God will give him life--to those who commit sins that do not lead to death. There is sin that leads to death; I do not say that one should pray for that.",
       "19":
         "We know that we are from God, and the whole world lies in the power of the evil one.",
       "20":
         "And we know that the Son of God has come and has given us understanding, so that we may know him who is true; and we are in him who is true, in his Son Jesus Christ. He is the true God and eternal life.",
+      "21": "Little children, keep yourselves from idols.",
     },
   },
   John: {
@@ -2791,6 +3677,8 @@ export default {
       "11": "He came to his own, and his own people did not receive him.",
       "12":
         "But to all who did receive him, who believed in his name, he gave the right to become children of God,",
+      "13":
+        "who were born, not of blood nor of the will of the flesh nor of the will of man, but of God.",
       "14":
         "And the Word became flesh and dwelt among us, and we have seen his glory, glory as of the only Son from the Father, full of grace and truth.",
       "16": "And from his fullness we have all received, grace upon grace.",
@@ -2816,20 +3704,34 @@ export default {
         'Jesus answered, "Truly, truly, I say to you, unless one is born of water and the Spirit, he cannot enter the kingdom of God.',
       "6":
         "That which is born of the flesh is flesh, and that which is born of the Spirit is spirit.",
+      "7": "Do not marvel that I said to you, 'You must be born again.'",
       "8":
         'The wind blows where it wishes, and you hear its sound, but you do not know where it comes from or where it goes. So it is with everyone who is born of the Spirit."',
       "13":
         "No one has ascended into heaven except he who descended from heaven, the Son of Man.",
       "16":
         '"For God so loved the world, that he gave his only Son, that whoever believes in him should not perish but have eternal life.',
+      "17":
+        "For God did not send his Son into the world to condemn the world, but in order that the world might be saved through him.",
+      "18":
+        "Whoever believes in him is not condemned, but whoever does not believe is condemned already, because he has not believed in the name of the only Son of God.",
       "20":
         "For everyone who does wicked things hates the light and does not come to the light, lest his deeds should be exposed.",
       "21":
         'But whoever does what is true comes to the light, so that it may be clearly seen that his deeds have been carried out in God."',
       "23":
         "John also was baptizing at Aenon near Salim, because water was plentiful there, and people were coming and being baptized",
+      "31":
+        "He who comes from above is above all. He who is of the earth belongs to the earth and speaks in an earthly way. He who comes from heaven is above all.",
+      "32":
+        "He bears witness to what he has seen and heard, yet no one receives his testimony.",
+      "33":
+        "Whoever receives his testimony sets his seal to this, that God is true.",
       "34":
         "For he whom God has sent utters the words of God, for he gives the Spirit without measure.",
+      "35": "The Father loves the Son and has given all things into his hand.",
+      "36":
+        "Whoever believes in the Son has eternal life; whoever does not obey the Son shall not see life, but the wrath of God remains on him.",
     },
     "4": {
       "1":
@@ -2853,9 +3755,21 @@ export default {
     "5": {
       "12":
         "They asked him, \"Who is the man who said to you, 'Take up your bed and walk'?\"",
+      "17":
+        'But Jesus answered them, "My Father is working until now, and I am working."',
+      "18":
+        "This was why the Jews were seeking all the more to kill him, because not only was he breaking the Sabbath, but he was even calling God his own Father, making himself equal with God.",
+      "19":
+        'So Jesus said to them, "Truly, truly, I say to you, the Son can do nothing of his own accord, but only what he sees the Father doing. For whatever the Father does, that the Son does likewise.',
+      "20":
+        "For the Father loves the Son and shows him all that he himself is doing. And greater works than these will he show him, so that you may marvel.",
+      "21":
+        "For as the Father raises the dead and gives them life, so also the Son gives life to whom he will.",
       "22": "The Father judges no one, but has given all judgment to the Son,",
       "23":
         "that all may honor the Son, just as they honor the Father. Whoever does not honor the Son does not honor the Father who sent him.",
+      "24":
+        "Truly, truly, I say to you, whoever hears my word and believes him who sent me has eternal life. He does not come into judgment, but has passed from death to life.",
       "25":
         '"Truly, truly, I say to you, an hour is coming, and is now here, when the dead will hear the voice of the Son of God, and those who hear will live.',
       "26":
@@ -2877,14 +3791,40 @@ export default {
         "Other boats from Tiberias came near the place where they had eaten the bread after the Lord had given thanks.",
       "27":
         'Do not labor for the food that perishes, but for the food that endures to eternal life, which the Son of Man will give to you. For on him God the Father has set his seal."',
+      "35":
+        'Jesus said to them, "I am the bread of life; whoever comes to me shall not hunger, and whoever believes in me shall never thirst.',
       "37":
         "All that the Father gives me will come to me, and whoever comes to me I will never cast out.",
       "39":
         "And this is the will of him who sent me, that I should lose nothing of all that he has given me, but raise it up on the last day.",
+      "40":
+        'For this is the will of my Father, that everyone who looks on the Son and believes in him should have eternal life, and I will raise him up on the last day."',
       "44":
         "No one can come to me unless the Father who sent me draws him. And I will raise him up on the last day.",
       "45":
         "It is written in the Prophets, 'And they will all be taught by God.' Everyone who has heard and learned from the Father comes to me--",
+      "47": "Truly, truly, I say to you, whoever believes has eternal life.",
+      "48": "I am the bread of life.",
+      "49": "Your fathers ate the manna in the wilderness, and they died.",
+      "50":
+        "This is the bread that comes down from heaven, so that one may eat of it and not die.",
+      "51":
+        'I am the living bread that came down from heaven. If anyone eats of this bread, he will live forever. And the bread that I will give for the life of the world is my flesh."',
+      "52":
+        'The Jews then disputed among themselves, saying, "How can this man give us his flesh to eat?"',
+      "53":
+        'So Jesus said to them, "Truly, truly, I say to you, unless you eat the flesh of the Son of Man and drink his blood, you have no life in you.',
+      "54":
+        "Whoever feeds on my flesh and drinks my blood has eternal life, and I will raise him up on the last day.",
+      "55": "For my flesh is true food, and my blood is true drink.",
+      "56":
+        "Whoever feeds on my flesh and drinks my blood abides in me, and I in him.",
+      "57":
+        "As the living Father sent me, and I live because of the Father, so whoever feeds on me, he also will live because of me.",
+      "58":
+        'This is the bread that came down from heaven, not as the fathers ate and died. Whoever feeds on this bread will live forever."',
+      "63":
+        "It is the Spirit who gives life; the flesh is of no avail. The words that I have spoken to you are spirit and life.",
       "64":
         'But there are some of you who do not believe." (For Jesus knew from the beginning who those were who did not believe, and who it was who would betray him.)',
       "65":
@@ -2902,27 +3842,42 @@ export default {
         "Whoever believes in me, as the Scripture has said, 'Out of his heart will flow rivers of living water.'\"",
       "39":
         "Now this he said about the Spirit, whom those who believed in him were to receive, for as yet the Spirit had not been given, because Jesus was not yet glorified.",
+      "42":
+        'Has not the Scripture said that the Christ comes from the offspring of David, and comes from Bethlehem, the village where David was?"',
     },
     "8": {
       "24":
         'I told you that you would die in your sins, for unless you believe that I am he you will die in your sins."',
       "34":
         'Jesus answered them, "Truly, truly, I say to you, everyone who commits sin is a slave to sin.',
+      "35":
+        "The slave does not remain in the house forever; the son remains forever.",
       "36": "So if the Son sets you free, you will be free indeed.",
       "41":
         'You are doing what your father did." They said to him, "We were not born of sexual immorality. We have one Father--even God."',
+      "44":
+        "You are of your father the devil, and your will is to do your father's desires. He was a murderer from the beginning, and has nothing to do with the truth, because there is no truth in him. When he lies, he speaks out of his own character, for he is a liar and the father of lies.",
       "47":
         'Whoever is of God hears the words of God. The reason why you do not hear them is that you are not of God."',
       "56":
         'Your father Abraham rejoiced that he would see my day. He saw it and was glad."',
+      "58":
+        'Jesus said to them, "Truly, truly, I say to you, before Abraham was, I am."',
     },
     "9": {
+      "3":
+        'Jesus answered, "It was not that this man sinned, or his parents, but that the works of God might be displayed in him.',
       "31":
         "We know that God does not listen to sinners, but if anyone is a worshiper of God and does his will, God listens to him.",
     },
     "10": {
+      "9":
+        "I am the door. If anyone enters by me, he will be saved and will go in and out and find pasture.",
+      "10":
+        "The thief comes only to steal and kill and destroy. I came that they may have life and have it abundantly.",
       "11":
         "I am the good shepherd. The good shepherd lays down his life for the sheep.",
+      "14": "I am the good shepherd. I know my own and my own know me,",
       "15":
         "just as the Father knows me and I know the Father; and I lay down my life for the sheep.",
       "16":
@@ -2936,6 +3891,21 @@ export default {
       "29":
         "My Father, who has given them to me, is greater than all, and no one is able to snatch them out of the Father's hand.",
       "30": 'I and the Father are one."',
+      "31": "The Jews picked up stones again to stone him.",
+      "32":
+        'Jesus answered them, "I have shown you many good works from the Father; for which of them are you going to stone me?"',
+      "33":
+        'The Jews answered him, "It is not for a good work that we are going to stone you but for blasphemy, because you, being a man, make yourself God."',
+      "34":
+        "Jesus answered them, \"Is it not written in your Law, 'I said, you are gods'?",
+      "35":
+        "If he called them gods to whom the word of God came--and Scripture cannot be broken--",
+      "36":
+        "do you say of him whom the Father consecrated and sent into the world, 'You are blaspheming,' because I said, 'I am the Son of God'?",
+    },
+    "11": {
+      "42":
+        'I knew that you always hear me, but I said this on account of the people standing around, that they may believe that you sent me."',
     },
     "12": {
       "32":
@@ -2946,17 +3916,33 @@ export default {
         "I am not speaking of all of you; I know whom I have chosen. But the Scripture will be fulfilled, 'He who ate my bread has lifted his heel against me.'",
     },
     "14": {
+      "1":
+        '"Let not your hearts be troubled. Believe in God; believe also in me.',
+      "2":
+        "In my Father's house are many rooms. If it were not so, would I have told you that I go to prepare a place for you?",
+      "3":
+        "And if I go and prepare a place for you, I will come again and will take you to myself, that where I am you may be also.",
+      "4": 'And you know the way to where I am going."',
+      "5":
+        'Thomas said to him, "Lord, we do not know where you are going. How can we know the way?"',
       "6":
         'Jesus said to him, "I am the way, and the truth, and the life. No one comes to the Father except through me.',
+      "7":
+        'If you had known me, you would have known my Father also. From now on you do know him and have seen him."',
+      "8":
+        'Philip said to him, "Lord, show us the Father, and it is enough for us."',
       "9":
         "Jesus said to him, \"Have I been with you so long, and you still do not know me, Philip? Whoever has seen me has seen the Father. How can you say, 'Show us the Father'?",
       "10":
         "Do you not believe that I am in the Father and the Father is in me? The words that I say to you I do not speak on my own authority, but the Father who dwells in me does his works.",
       "11":
         "Believe me that I am in the Father and the Father is in me, or else believe on account of the works themselves.",
+      "12":
+        '"Truly, truly, I say to you, whoever believes in me will also do the works that I do; and greater works than these will he do, because I am going to the Father.',
       "13":
         "Whatever you ask in my name, this I will do, that the Father may be glorified in the Son.",
       "14": "If you ask me anything in my name, I will do it.",
+      "15": '"If you love me, you will keep my commandments.',
       "16":
         "And I will ask the Father, and he will give you another Helper, to be with you forever,",
       "17":
@@ -2968,18 +3954,28 @@ export default {
         "In that day you will know that I am in my Father, and you in me, and I in you.",
       "21":
         'Whoever has my commandments and keeps them, he it is who loves me. And he who loves me will be loved by my Father, and I will love him and manifest myself to him."',
+      "22":
+        'Judas (not Iscariot) said to him, "Lord, how is it that you will manifest yourself to us, and not to the world?"',
       "23":
         'Jesus answered him, "If anyone loves me, he will keep my word, and my Father will love him, and we will come to him and make our home with him.',
       "24":
         "Whoever does not love me does not keep my words. And the word that you hear is not mine but the Father's who sent me.",
+      "25": '"These things I have spoken to you while I am still with you.',
       "26":
         "But the Helper, the Holy Spirit, whom the Father will send in my name, he will teach you all things and bring to your remembrance all that I have said to you.",
     },
     "15": {
+      "1": '"I am the true vine, and my Father is the vinedresser.',
+      "2":
+        "Every branch of mine that does not bear fruit he takes away, and every branch that does bear fruit he prunes, that it may bear more fruit.",
+      "3":
+        "Already you are clean because of the word that I have spoken to you.",
       "4":
         "Abide in me, and I in you. As the branch cannot bear fruit by itself, unless it abides in the vine, neither can you, unless you abide in me.",
       "5":
         "I am the vine; you are the branches. Whoever abides in me and I in him, he it is that bears much fruit, for apart from me you can do nothing.",
+      "6":
+        "If anyone does not abide in me he is thrown away like a branch and withers; and the branches are gathered, thrown into the fire, and burned.",
       "8":
         "By this my Father is glorified, that you bear much fruit and so prove to be my disciples.",
       "9": "As the Father has loved me, so have I loved you. Abide in my love.",
@@ -2990,6 +3986,16 @@ export default {
       "14": "You are my friends if you do what I command you.",
       "15":
         "No longer do I call you servants, for the servant does not know what his master is doing; but I have called you friends, for all that I have heard from my Father I have made known to you.",
+      "16":
+        "You did not choose me, but I chose you and appointed you that you should go and bear fruit and that your fruit should abide, so that whatever you ask the Father in my name, he may give it to you.",
+      "18":
+        '"If the world hates you, know that it has hated me before it hated you.',
+      "19":
+        "If you were of the world, the world would love you as its own; but because you are not of the world, but I chose you out of the world, therefore the world hates you.",
+      "20":
+        "Remember the word that I said to you: 'A servant is not greater than his master.' If they persecuted me, they will also persecute you. If they kept my word, they will also keep yours.",
+      "21":
+        "But all these things they will do to you on account of my name, because they do not know him who sent me.",
       "26":
         '"But when the Helper comes, whom I will send to you from the Father, the Spirit of truth, who proceeds from the Father, he will bear witness about me.',
     },
@@ -3014,6 +4020,8 @@ export default {
         "since you have given him authority over all flesh, to give eternal life to all whom you have given him.",
       "3":
         "And this is eternal life, that they know you the only true God, and Jesus Christ whom you have sent.",
+      "5":
+        "And now, Father, glorify me in your own presence with the glory that I had with you before the world existed.",
       "6":
         '"I have manifested your name to the people whom you gave me out of the world. Yours they were, and you gave them to me, and they have kept your word.',
       "9":
@@ -3039,14 +4047,30 @@ export default {
         'I made known to them your name, and I will continue to make it known, that the love with which you have loved me may be in them, and I in them."',
     },
     "18": {
+      "9":
+        'This was to fulfill the word that he had spoken: "Of those whom you gave me I have lost not one."',
       "36":
         'Jesus answered, "My kingdom is not of this world. If my kingdom were of this world, my servants would have been fighting, that I might not be delivered over to the Jews. But my kingdom is not from the world."',
       "37":
         'Then Pilate said to him, "So you are a king?" Jesus answered, "You say that I am a king. For this purpose I was born and for this purpose I have come into the world--to bear witness to the truth. Everyone who is of the truth listens to my voice."',
+      "38":
+        'Pilate said to him, "What is truth?"After he had said this, he went back outside to the Jews and told them, "I find no guilt in him.',
     },
     "19": {
+      "4":
+        'Pilate went out again and said to them, "See, I am bringing him out to you that you may know that I find no guilt in him."',
       "11":
         'Jesus answered him, "You would have no authority over me at all unless it had been given you from above. Therefore he who delivered me over to you has the greater sin."',
+      "12":
+        'From then on Pilate sought to release him, but the Jews cried out, "If you release this man, you are not Caesar\'s friend. Everyone who makes himself a king opposes Caesar."',
+      "13":
+        "So when Pilate heard these words, he brought Jesus out and sat down on the judgment seat at a place called The Stone Pavement, and in Aramaic Gabbatha.",
+      "14":
+        'Now it was the day of Preparation of the Passover. It was about the sixth hour. He said to the Jews, "Behold your King!"',
+      "15":
+        'They cried out, "Away with him, away with him, crucify him!" Pilate said to them, "Shall I crucify your King?" The chief priests answered,.We have no king but Caesar."',
+      "16":
+        "So he delivered him over to them to be crucified.So they took Jesus,",
       "17":
         "and he went out, bearing his own cross, to the place called the place of a skull, which in Aramaic is called Golgotha.",
       "18":
@@ -3088,10 +4112,22 @@ export default {
         'For these things took place that the Scripture might be fulfilled: "Not one of his bones will be broken."',
       "37":
         'And again another Scripture says, "They will look on him whom they have pierced."',
+      "38":
+        "After these things Joseph of Arimathea, who was a disciple of Jesus, but secretly for fear of the Jews, asked Pilate that he might take away the body of Jesus, and Pilate gave him permission. So he came and took away his body.",
+      "39":
+        "Nicodemus also, who earlier had come to Jesus by night, came bringing a mixture of myrrh and aloes, about seventy-five pounds in weight.",
+      "40":
+        "So they took the body of Jesus and bound it in linen cloths with the spices, as is the burial custom of the Jews.",
+      "41":
+        "Now in the place where he was crucified there was a garden, and in the garden a new tomb in which no one had yet been laid.",
+      "42":
+        "So because of the Jewish day of Preparation, since the tomb was close at hand, they laid Jesus there.",
     },
     "20": {
       "1":
         "Now on the first day of the week Mary Magdalene came to the tomb early, while it was still dark, and saw that the stone had been taken away from the tomb.",
+      "17":
+        "Jesus said to her, \"Do not cling to me, for I have not yet ascended to the Father; but go to my brothers and say to them, 'I am ascending to my Father and your Father, to my God and your God.'\"",
       "19":
         'On the evening of that day, the first day of the week, the doors being locked where the disciples were for fear of the Jews, Jesus came and stood among them and said to them, "Peace be with you."',
       "20":
@@ -3108,6 +4144,9 @@ export default {
         'Eight days later, his disciples were inside again, and Thomas was with them. Although the doors were locked, Jesus came and stood among them and said, "Peace be with you."',
       "27":
         'Then he said to Thomas, "Put your finger here, and see my hands; and put out your hand, and place it in my side. Do not disbelieve, but believe."',
+      "28": 'Thomas answered him, "My Lord and my God!"',
+      "30":
+        "Now Jesus did many other signs in the presence of the disciples, which are not written in this book;",
       "31":
         "but these are written so that you may believe that Jesus is the Christ, the Son of God, and that by believing you may have life in his name.",
     },
@@ -3116,12 +4155,31 @@ export default {
     "1": {
       "2":
         "To the church of God that is in Corinth, to those sanctified in Christ Jesus, called to be saints together with all those who in every place call upon the name of our Lord Jesus Christ, both their Lord and ours:",
+      "4":
+        "I give thanks to my God always for you because of the grace of God that was given you in Christ Jesus,",
+      "5":
+        "that in every way you were enriched in him in all speech and all knowledge--",
+      "6": "even as the testimony about Christ was confirmed among you--",
+      "7":
+        "so that you are not lacking in any spiritual gift, as you wait for the revealing of our Lord Jesus Christ,",
       "8":
         "who will sustain you to the end, guiltless in the day of our Lord Jesus Christ.",
       "9":
         "God is faithful, by whom you were called into the fellowship of his Son, Jesus Christ our Lord.",
+      "12":
+        'What I mean is that each one of you says, "I follow Paul," or "I follow Apollos," or "I follow Cephas," or "I follow Christ."',
+      "13":
+        "Is Christ divided? Was Paul crucified for you? Or were you baptized in the name of Paul?",
+      "18":
+        "For the word of the cross is folly to those who are perishing, but to us who are being saved it is the power of God.",
+      "19":
+        'For it is written, "I will destroy the wisdom of the wise, and the discernment of the discerning I will thwart."',
+      "20":
+        "Where is the one who is wise? Where is the scribe? Where is the debater of this age? Has not God made foolish the wisdom of the world?",
       "21":
         "For since, in the wisdom of God, the world did not know God through wisdom, it pleased God through the folly of what we preach to save those who believe.",
+      "24":
+        "but to those who are called, both Jews and Greeks, Christ the power of God and the wisdom of God.",
       "26":
         "For consider your calling, brothers: not many of you were wise according to worldly standards, not many were powerful, not many were of noble birth.",
       "30":
@@ -3155,6 +4213,12 @@ export default {
       "6": "I planted, Apollos watered, but God gave the growth.",
       "7":
         "So neither he who plants nor he who waters is anything, but only God who gives the growth.",
+      "11":
+        "For no one can lay a foundation other than that which is laid, which is Jesus Christ.",
+      "14":
+        "If the work that anyone has built on the foundation survives, he will receive a reward.",
+      "16":
+        "Do you not know that you are God's temple and that God's Spirit dwells in you?",
       "21": "So let no one boast in men. For all things are yours,",
       "22":
         "whether Paul or Apollos or Cephas or the world or life or death or the present or the future--all are yours,",
@@ -3165,6 +4229,14 @@ export default {
         "This is how one should regard us, as servants of Christ and stewards of the mysteries of God.",
       "2":
         "Moreover, it is required of stewards that they be found trustworthy.",
+      "4":
+        "I am not aware of anything against myself, but I am not thereby acquitted. It is the Lord who judges me.",
+      "6":
+        "I have applied all these things to myself and Apollos for your benefit, brothers, that you may learn by us not to go beyond what is written, that none of you may be puffed up in favor of one against another.",
+      "7":
+        "For who sees anything different in you? What do you have that you did not receive? If then you received it, why do you boast as if you did not receive it?",
+      "8":
+        "Already you have all you want! Already you have become rich! Without us you have become kings! And would that you did reign, so that we might share the rule with you!",
       "10":
         "We are fools for Christ's sake, but you are wise in Christ. We are weak, but you are strong. You are held in honor, but we in disrepute.",
       "16": "I urge you, then, be imitators of me.",
@@ -3199,25 +4271,59 @@ export default {
     "6": {
       "3":
         "Do you not know that we are to judge angels? How much more, then, matters pertaining to this life!",
+      "9":
+        "Do you not know that the unrighteous will not inherit the kingdom of God? Do not be deceived: neither the sexually immoral, nor idolaters, nor adulterers, nor men who practice homosexuality,",
+      "10":
+        "nor thieves, nor the greedy, nor drunkards, nor revilers, nor swindlers will inherit the kingdom of God.",
       "11":
         "And such were some of you. But you were washed, you were sanctified, you were justified in the name of the Lord Jesus Christ and by the Spirit of our God.",
+      "15":
+        "Do you not know that your bodies are members of Christ? Shall I then take the members of Christ and make them members of a prostitute? Never!",
+      "16":
+        'Or do you not know that he who is joined to a prostitute becomes one body with her? For, as it is written, "The two will become one flesh."',
+      "17": "But he who is joined to the Lord becomes one spirit with him.",
+      "18":
+        "Flee from sexual immorality. Every other sin a person commits is outside the body, but the sexually immoral person sins against his own body.",
+      "19":
+        "Or do you not know that your body is a temple of the Holy Spirit within you, whom you have from God? You are not your own,",
+      "20": "for you were bought with a price. So glorify God in your body.",
     },
     "7": {
+      "1":
+        'Now concerning the matters about which you wrote: "It is good for a man not to have sexual relations with a woman."',
       "2":
         "But because of the temptation to sexual immorality, each man should have his own wife and each woman her own husband.",
       "3":
         "The husband should give to his wife her conjugal rights, and likewise the wife to her husband.",
+      "4":
+        "For the wife does not have authority over her own body, but the husband does. Likewise the husband does not have authority over his own body, but the wife does.",
       "5":
         "Do not deprive one another, except perhaps by agreement for a limited time, that you may devote yourselves to prayer; but then come together again, so that Satan may not tempt you because of your lack of self-control.",
+      "6": "Now as a concession, not a command, I say this.",
+      "7":
+        "I wish that all were as I myself am. But each has his own gift from God, one of one kind and one of another.",
+      "8":
+        "To the unmarried and the widows I say that it is good for them to remain single as I am.",
       "9":
         "But if they cannot exercise self-control, they should marry. For it is better to marry than to be aflame with passion.",
       "14":
         "For the unbelieving husband is made holy because of his wife, and the unbelieving wife is made holy because of her husband. Otherwise your children would be unclean, but as it is, they are holy.",
       "15":
         "But if the unbelieving partner separates, let it be so. In such cases the brother or sister is not enslaved. God has called you to peace.",
+      "17":
+        "Only let each person lead the life that the Lord has assigned to him, and to which God has called him. This is my rule in all the churches.",
+      "18":
+        "Was anyone at the time of his call already circumcised? Let him not seek to remove the marks of circumcision. Was anyone at the time of his call uncircumcised? Let him not seek circumcision.",
       "19":
         "For neither circumcision counts for anything nor uncircumcision, but keeping the commandments of God.",
+      "20": "Each one should remain in the condition in which he was called.",
+      "21":
+        "Were you a slave when called? Do not be concerned about it. But if you can gain your freedom, avail yourself of the opportunity.",
+      "22":
+        "For he who was called in the Lord as a slave is a freedman of the Lord. Likewise he who was free when called is a slave of Christ.",
       "23": "You were bought with a price; do not become slaves of men.",
+      "24":
+        "So, brothers, in whatever condition each was called, there let him remain with God.",
       "34":
         "and his interests are divided. And the unmarried or betrothed woman is anxious about the things of the Lord, how to be holy in body and spirit. But the married woman is anxious about worldly things, how to please her husband.",
       "36":
@@ -3232,6 +4338,8 @@ export default {
     "8": {
       "4":
         'Therefore, as to the eating of food offered to idols, we know that "an idol has no real existence," and that "there is no God but one."',
+      "5":
+        'For although there may be so-called gods in heaven or on earth--as indeed there are many "gods" and many "lords"--',
       "6":
         "yet for us there is one God, the Father, from whom are all things and for whom we exist, and one Lord, Jesus Christ, through whom are all things and through whom we exist.",
       "7":
@@ -3256,6 +4364,8 @@ export default {
         "Do you not know that those who are employed in the temple service get their food from the temple, and those who serve at the altar share in the sacrificial offerings?",
       "14":
         "In the same way, the Lord commanded that those who proclaim the gospel should get their living by the gospel.",
+      "24":
+        "Do you not know that in a race all the runners compete, but only one receives the prize? So run that you may obtain it.",
     },
     "10": {
       "1":
@@ -3264,14 +4374,36 @@ export default {
       "3": "and all ate the same spiritual food,",
       "4":
         "and all drank the same spiritual drink. For they drank from the spiritual Rock that followed them, and the Rock was Christ.",
+      "5":
+        "Nevertheless, with most of them God was not pleased, for they were overthrown in the wilderness.",
+      "6":
+        "Now these things took place as examples for us, that we might not desire evil as they did.",
+      "7":
+        'Do not be idolaters as some of them were; as it is written, "The people sat down to eat and drink and rose up to play."',
+      "8":
+        "We must not indulge in sexual immorality as some of them did, and twenty-three thousand fell in a single day.",
+      "9":
+        "We must not put Christ to the test, as some of them did and were destroyed by serpents,",
       "10":
         "nor grumble, as some of them did and were destroyed by the Destroyer.",
+      "11":
+        "Now these things happened to them as an example, but they were written down for our instruction, on whom the end of the ages has come.",
+      "12":
+        "Therefore let anyone who thinks that he stands take heed lest he fall.",
+      "13":
+        "No temptation has overtaken you that is not common to man. God is faithful, and he will not let you be tempted beyond your ability, but with the temptation he will also provide the way of escape, that you may be able to endure it.",
+      "14": "Therefore, my beloved, flee from idolatry.",
       "16":
         "The cup of blessing that we bless, is it not a participation in the blood of Christ? The bread that we break, is it not a participation in the body of Christ?",
       "17":
         "Because there is one bread, we who are many are one body, for we all partake of the one bread.",
+      "19":
+        "What do I imply then? That food offered to idols is anything, or that an idol is anything?",
+      "20":
+        "No, I imply that what pagans sacrifice they offer to demons and not to God. I do not want you to be participants with demons.",
       "21":
         "You cannot drink the cup of the Lord and the cup of demons. You cannot partake of the table of the Lord and the table of demons.",
+      "22": "Shall we provoke the Lord to jealousy? Are we stronger than he?",
       "31":
         "So, whether you eat or drink, or whatever you do, do all to the glory of God.",
     },
@@ -3280,9 +4412,17 @@ export default {
         "Judge for yourselves: is it proper for a wife to pray to God with her head uncovered?",
       "14":
         "Does not nature itself teach you that if a man wears long hair it is a disgrace for him,",
+      "17":
+        "But in the following instructions I do not commend you, because when you come together it is not for the better but for the worse.",
       "18":
         "For, in the first place, when you come together as a church, I hear that there are divisions among you. And I believe it in part,",
+      "19":
+        "for there must be factions among you in order that those who are genuine among you may be recognized.",
       "20": "When you come together, it is not the Lord's supper that you eat.",
+      "21":
+        "For in eating, each one goes ahead with his own meal. One goes hungry, another gets drunk.",
+      "22":
+        "What! Do you not have houses to eat and drink in? Or do you despise the church of God and humiliate those who have nothing? What shall I say to you? Shall I commend you in this? No, I will not.",
       "23":
         "For I received from the Lord what I also delivered to you, that the Lord Jesus on the night when he was betrayed took bread,",
       "24":
@@ -3365,6 +4505,8 @@ export default {
     "13": {
       "1":
         "If I speak in the tongues of men and of angels, but have not love, I am a noisy gong or a clanging cymbal.",
+      "2":
+        "And if I have prophetic powers, and understand all mysteries and all knowledge, and if I have all faith, so as to remove mountains, but have not love, I am nothing.",
       "3":
         "If I give away all I have, and if I deliver up my body to be burned, but have not love, I gain nothing.",
       "4":
@@ -3374,6 +4516,7 @@ export default {
       "6": "it does not rejoice at wrongdoing, but rejoices with the truth.",
       "7":
         "Love bears all things, believes all things, hopes all things, endures all things.",
+      "9": "For we know in part and we prophesy in part,",
       "12":
         "For now we see in a mirror dimly, but then face to face. Now I know in part; then I shall know fully, even as I have been fully known.",
     },
@@ -3402,20 +4545,48 @@ export default {
         "If any speak in a tongue, let there be only two or at most three, and each in turn, and let someone interpret.",
       "28":
         "But if there is no one to interpret, let each of them keep silent in church and speak to himself and to God.",
+      "31":
+        "For you can all prophesy one by one, so that all may learn and all be encouraged,",
+      "32": "and the spirits of prophets are subject to prophets.",
+      "33":
+        "For God is not a God of confusion but of peace.As in all the churches of the saints,",
       "40": "But all things should be done decently and in order.",
     },
     "15": {
+      "2":
+        "and by which you are being saved, if you hold fast to the word I preached to you--unless you believed in vain.",
       "3":
         "For I delivered to you as of first importance what I also received: that Christ died for our sins in accordance with the Scriptures,",
       "4":
         "that he was buried, that he was raised on the third day in accordance with the Scriptures,",
+      "12":
+        "Now if Christ is proclaimed as raised from the dead, how can some of you say that there is no resurrection of the dead?",
+      "13":
+        "But if there is no resurrection of the dead, then not even Christ has been raised.",
+      "14":
+        "And if Christ has not been raised, then our preaching is in vain and your faith is in vain.",
+      "15":
+        "We are even found to be misrepresenting God, because we testified about God that he raised Christ, whom he did not raise if it is true that the dead are not raised.",
+      "16": "For if the dead are not raised, not even Christ has been raised.",
+      "17":
+        "And if Christ has not been raised, your faith is futile and you are still in your sins.",
+      "18": "Then those also who have fallen asleep in Christ have perished.",
+      "19":
+        "If in this life only we have hoped in Christ, we are of all people most to be pitied.",
+      "20":
+        "But in fact Christ has been raised from the dead, the firstfruits of those who have fallen asleep.",
       "21":
         "For as by a man came death, by a man has come also the resurrection of the dead.",
       "22":
         "For as in Adam all die, so also in Christ shall all be made alive.",
+      "23":
+        "But each in his own order: Christ the firstfruits, then at his coming those who belong to Christ.",
       "25":
         "For he must reign until he has put all his enemies under his feet.",
       "26": "The last enemy to be destroyed is death.",
+      "28":
+        "When all things are subjected to him, then the Son himself will also be subjected to him who put all things in subjection under him, that God may be all in all.",
+      "33": 'Do not be deceived: "Bad company ruins good morals."',
       "42":
         "So is it with the resurrection of the dead. What is sown is perishable; what is raised is imperishable.",
       "43":
@@ -3424,6 +4595,8 @@ export default {
         "It is sown a natural body; it is raised a spiritual body. If there is a natural body, there is also a spiritual body.",
       "45":
         'Thus it is written, "The first man Adam became a living being"; the last Adam became a life-giving spirit.',
+      "46":
+        "But it is not the spiritual that is first but the natural, and then the spiritual.",
       "49":
         "Just as we have borne the image of the man of dust, we shall also bear the image of the man of heaven.",
       "51":
@@ -3436,6 +4609,8 @@ export default {
       "56": "The sting of death is sin, and the power of sin is the law.",
       "57":
         "But thanks be to God, who gives us the victory through our Lord Jesus Christ.",
+      "58":
+        "Therefore, my beloved brothers, be steadfast, immovable, always abounding in the work of the Lord, knowing that in the Lord your labor is not in vain.",
     },
     "16": {
       "1":
@@ -3470,6 +4645,8 @@ export default {
         "yet we know that a person is not justified by works of the law but through faith in Jesus Christ, so we also have believed in Christ Jesus, in order to be justified by faith in Christ and not by works of the law, because by works of the law no one will be justified.",
       "20":
         "I have been crucified with Christ. It is no longer I who live, but Christ who lives in me. And the life I now live in the flesh I live by faith in the Son of God, who loved me and gave himself for me.",
+      "21":
+        "I do not nullify the grace of God, for if justification were through the law, then Christ died for no purpose.",
     },
     "3": {
       "7": "Know then that it is those of faith who are the sons of Abraham.",
@@ -3562,6 +4739,8 @@ export default {
     "5": {
       "1":
         "For freedom Christ has set us free; stand firm therefore, and do not submit again to a yoke of slavery.",
+      "4":
+        "You are severed from Christ, you who would be justified by the law; you have fallen away from grace.",
       "6":
         "For in Christ Jesus neither circumcision nor uncircumcision counts for anything, but only faith working through love.",
       "13":
@@ -3588,10 +4767,15 @@ export default {
         "Let us not become conceited, provoking one another, envying one another.",
     },
     "6": {
+      "1":
+        "Brothers, if anyone is caught in any transgression, you who are spiritual should restore him in a spirit of gentleness. Keep watch on yourself, lest you too be tempted.",
+      "2": "Bear one another's burdens, and so fulfill the law of Christ.",
       "6":
         "One who is taught the word must share all good things with the one who teaches.",
       "7":
         "Do not be deceived: God is not mocked, for whatever one sows, that will he also reap.",
+      "9":
+        "And let us not grow weary of doing good, for in due season we will reap, if we do not give up.",
       "10":
         "So then, as we have opportunity, let us do good to everyone, and especially to those who are of the household of faith.",
     },
@@ -3608,6 +4792,10 @@ export default {
         'and said, "Men of Galilee, why do you stand looking into heaven? This Jesus, who was taken up from you into heaven, will come in the same way as you saw him go into heaven."',
       "16":
         '"Brothers, the Scripture had to be fulfilled, which the Holy Spirit spoke beforehand by the mouth of David concerning Judas, who became a guide to those who arrested Jesus.',
+      "23":
+        "And they put forward two, Joseph called Barsabbas, who was also called Justus, and Matthias.",
+      "24":
+        'And they prayed and said, "You, Lord, who know the hearts of all, show which one of these two you have chosen',
       "25":
         'to take the place in this ministry and apostleship from which Judas turned aside to go to his own place."',
     },
@@ -3616,6 +4804,10 @@ export default {
         "When the day of Pentecost arrived, they were all together in one place.",
       "2":
         "And suddenly there came from heaven a sound like a mighty rushing wind, and it filled the entire house where they were sitting.",
+      "17":
+        "\"'And in the last days it shall be, God declares, that I will pour out my Spirit on all flesh, and your sons and your daughters shall prophesy, and your young men shall see visions, and your old men shall dream dreams;",
+      "21":
+        "And it shall come to pass that everyone who calls upon the name of the Lord shall be saved.'",
       "23":
         "this Jesus, delivered up according to the definite plan and foreknowledge of God, you crucified and killed by the hands of lawless men.",
       "24":
@@ -3628,6 +4820,9 @@ export default {
         "For you will not abandon my soul to Hades, or let your Holy One see corruption.",
       "31":
         "he foresaw and spoke about the resurrection of the Christ, that he was not abandoned to Hades, nor did his flesh see corruption.",
+      "32": "This Jesus God raised up, and of that we all are witnesses.",
+      "33":
+        "Being therefore exalted at the right hand of God, and having received from the Father the promise of the Holy Spirit, he has poured out this that you yourselves are seeing and hearing.",
       "36":
         'Let all the house of Israel therefore know for certain that God has made him both Lord and Christ, this Jesus whom you crucified."',
       "37":
@@ -3642,6 +4837,8 @@ export default {
         "So those who received his word were baptized, and there were added that day about three thousand souls.",
       "42":
         "And they devoted themselves to the apostles' teaching and fellowship, to the breaking of bread and the prayers.",
+      "43":
+        "And awe came upon every soul, and many wonders and signs were being done through the apostles.",
       "44": "And all who believed were together and had all things in common.",
       "45":
         "And they were selling their possessions and belongings and distributing the proceeds to all, as any had need.",
@@ -3653,24 +4850,39 @@ export default {
     "3": {
       "19":
         "Repent therefore, and turn again, that your sins may be blotted out,",
+      "20":
+        "that times of refreshing may come from the presence of the Lord, and that he may send the Christ appointed for you, Jesus,",
       "21":
         "whom heaven must receive until the time for restoring all the things about which God spoke by the mouth of his holy prophets long ago.",
       "22":
         "Moses said, 'The Lord God will raise up for you a prophet like me from your brothers. You shall listen to him in whatever he tells you.",
     },
     "4": {
+      "11":
+        "This Jesus is the stone that was rejected by you, the builders, which has become the cornerstone.",
       "12":
         'And there is salvation in no one else, for there is no other name under heaven given among men by which we must be saved."',
+      "17":
+        'But in order that it may spread no further among the people, let us warn them to speak no more to anyone in this name."',
+      "18":
+        "So they called them and charged them not to speak or teach at all in the name of Jesus.",
       "19":
         'But Peter and John answered them, "Whether it is right in the sight of God to listen to you rather than to God, you must judge,',
+      "20": 'for we cannot but speak of what we have seen and heard."',
+      "24":
+        'And when they heard it, they lifted their voices together to God and said, "Sovereign Lord, who made the heaven and the earth and the sea and everything in them,',
       "27":
         "for truly in this city there were gathered together against your holy servant Jesus, whom you anointed, both Herod and Pontius Pilate, along with the Gentiles and the peoples of Israel,",
       "28":
         "to do whatever your hand and your plan had predestined to take place.",
       "29":
         "And now, Lord, look upon their threats and grant to your servants to continue to speak your word with all boldness,",
+      "32":
+        "Now the full number of those who believed were of one heart and soul, and no one said that any of the things that belonged to him was his own, but they had everything in common.",
     },
     "5": {
+      "3":
+        'But Peter said, "Ananias, why has Satan filled your heart to lie to the Holy Spirit and to keep back for yourself part of the proceeds of the land?',
       "4":
         'While it remained unsold, did it not remain your own? And after it was sold, was it not at your disposal? Why is it that you have contrived this deed in your heart? You have not lied to men but to God."',
       "13":
@@ -3681,6 +4893,10 @@ export default {
         'But Peter and the apostles answered, "We must obey God rather than men.',
     },
     "6": {
+      "1":
+        "Now in these days when the disciples were increasing in number, a complaint by the Hellenists arose against the Hebrews because their widows were being neglected in the daily distribution.",
+      "2":
+        'And the twelve summoned the full number of the disciples and said, "It is not right that we should give up preaching the word of God to serve tables.',
       "3":
         "Therefore, brothers, pick out from among you seven men of good repute, full of the Spirit and of wisdom, whom we will appoint to this duty.",
       "4":
@@ -3693,12 +4909,22 @@ export default {
     "7": {
       "2":
         'And Stephen said:"Brothers and fathers, hear me. The God of glory appeared to our father Abraham when he was in Mesopotamia, before he lived in Haran,',
+      "48":
+        "Yet the Most High does not dwell in houses made by hands, as the prophet says,",
+      "49":
+        "\"'Heaven is my throne, and the earth is my footstool. What kind of house will you build for me, says the Lord, or what is the place of my rest?",
+      "55":
+        "But he, full of the Holy Spirit, gazed into heaven and saw the glory of God, and Jesus standing at the right hand of God.",
+      "56":
+        'And he said, "Behold, I see the heavens opened, and the Son of Man standing at the right hand of God."',
     },
     "8": {
       "12":
         "But when they believed Philip as he preached good news about the kingdom of God and the name of Jesus Christ, they were baptized, both men and women.",
       "13":
         "Even Simon himself believed, and after being baptized he continued with Philip. And seeing signs and great miracles performed, he was amazed.",
+      "21":
+        "You have neither part nor lot in this matter, for your heart is not right before God.",
       "23":
         'For I see that you are in the gall of bitterness and in the bond of iniquity."',
       "30":
@@ -3714,6 +4940,8 @@ export default {
     "9": {
       "26":
         "And when he had come to Jerusalem, he attempted to join the disciples. And they were all afraid of him, for they did not believe that he was a disciple.",
+      "31":
+        "So the church throughout all Judea and Galilee and Samaria had peace and was being built up. And walking in the fear of the Lord and in the comfort of the Holy Spirit, it multiplied.",
     },
     "10": {
       "1":
@@ -3724,6 +4952,7 @@ export default {
         'And he stared at him in terror and said, "What is it, Lord?" And he said to him, "Your prayers and your alms have ascended as a memorial before God.',
       "22":
         'And they said, "Cornelius, a centurion, an upright and God-fearing man, who is well spoken of by the whole Jewish nation, was directed by a holy angel to send for you to come to his house and to hear what you have to say."',
+      "26": 'But Peter lifted him up, saying, "Stand up; I too am a man."',
       "31":
         "and said, 'Cornelius, your prayer has been heard and your alms have been remembered before God.",
       "33":
@@ -3764,6 +4993,16 @@ export default {
         "So Peter was kept in prison, but earnest prayer for him was made to God by the church.",
     },
     "13": {
+      "2":
+        'While they were worshiping the Lord and fasting, the Holy Spirit said, "Set apart for me Barnabas and Saul for the work to which I have called them."',
+      "23":
+        "Of this man's offspring God has brought to Israel a Savior, Jesus, as he promised.",
+      "29":
+        "And when they had carried out all that was written of him, they took him down from the tree and laid him in a tomb.",
+      "32":
+        "And we bring you the good news that what God promised to the fathers,",
+      "33":
+        "this he has fulfilled to us their children by raising Jesus, as also it is written in the second Psalm, \"'You are my Son, today I have begotten you.'",
       "36":
         "For David, after he had served the purpose of God in his own generation, fell asleep and was laid with his fathers and saw corruption,",
       "37": "but he whom God raised up did not see corruption.",
@@ -3772,6 +5011,8 @@ export default {
       "39": "from which you could not be freed by the law of Moses.",
       "42":
         "As they went out, the people begged that these things might be told them the next Sabbath.",
+      "48":
+        "And when the Gentiles heard this, they began rejoicing and glorifying the word of the Lord, and as many as were appointed to eternal life believed.",
     },
     "14": {
       "11":
@@ -3780,6 +5021,8 @@ export default {
         '"Men, why are you doing these things? We also are men, of like nature with you, and we bring you good news, that you should turn from these vain things to a living God, who made the heaven and the earth and the sea and all that is in them.',
       "16":
         "In past generations he allowed all the nations to walk in their own ways.",
+      "17":
+        'Yet he did not leave himself without witness, for he did good by giving you rains from heaven and fruitful seasons, satisfying your hearts with food and gladness."',
       "23":
         "And when they had appointed elders for them in every church, with prayer and fasting they committed them to the Lord in whom they had believed.",
     },
@@ -3829,6 +5072,8 @@ export default {
         "As they went on their way through the cities, they delivered to them for observance the decisions that had been reached by the apostles and elders who were in Jerusalem.",
       "7":
         "And when they had come up to Mysia, they attempted to go into Bithynia, but the Spirit of Jesus did not allow them.",
+      "14":
+        "One who heard us was a woman named Lydia, from the city of Thyatira, a seller of purple goods, who was a worshiper of God. The Lord opened her heart to pay attention to what was said by Paul.",
       "28":
         'But Paul cried with a loud voice, "Do not harm yourself, for we are all here."',
       "30":
@@ -3865,8 +5110,12 @@ export default {
     "18": {
       "8":
         "Crispus, the ruler of the synagogue, believed in the Lord, together with his entire household. And many of the Corinthians hearing Paul believed and were baptized.",
+      "28":
+        "for he powerfully refuted the Jews in public, showing by the Scriptures that the Christ was Jesus.",
     },
     "19": {
+      "3":
+        'And he said, "Into what then were you baptized?" They said, "Into John\'s baptism."',
       "4":
         'And Paul said, "John baptized with the baptism of repentance, telling the people to believe in the one who was to come after him, that is, Jesus."',
       "5": "On hearing this, they were baptized in the name of the Lord Jesus.",
@@ -3880,6 +5129,8 @@ export default {
         "Now from Miletus he sent to Ephesus and called the elders of the church to come to him.",
       "21":
         "testifying both to Jews and to Greeks of repentance toward God and of faith in our Lord Jesus Christ.",
+      "27":
+        "for I did not shrink from declaring to you the whole counsel of God.",
       "28":
         "Pay careful attention to yourselves and to all the flock, in which the Holy Spirit has made you overseers, to care for the church of God, which he obtained with his own blood.",
       "32":
@@ -3890,6 +5141,8 @@ export default {
         "And now why do you wait? Rise and be baptized and wash away your sins, calling on his name.'",
     },
     "23": {
+      "8":
+        "For the Sadducees say that there is no resurrection, nor angel, nor spirit, but the Pharisees acknowledge them all.",
       "12":
         "When it was day, the Jews made a plot and bound themselves by an oath neither to eat nor drink till they had killed Paul.",
       "14":
@@ -3918,6 +5171,8 @@ export default {
         "to open their eyes, so that they may turn from darkness to light and from the power of Satan to God, that they may receive forgiveness of sins and a place among those who are sanctified by faith in me.'",
       "20":
         "but declared first to those in Damascus, then in Jerusalem and throughout all the region of Judea, and also to the Gentiles, that they should repent and turn to God, performing deeds in keeping with their repentance.",
+      "22":
+        "To this day I have had the help that comes from God, and so I stand here testifying both to small and great, saying nothing but what the prophets and Moses said would come to pass:",
       "28":
         'And Agrippa said to Paul, "In a short time would you persuade me to be a Christian?"',
     },
@@ -3942,8 +5197,12 @@ export default {
         "May you be strengthened with all power, according to his glorious might, for all endurance and patience with joy,",
       "13":
         "He has delivered us from the domain of darkness and transferred us to the kingdom of his beloved Son,",
+      "14": "in whom we have redemption, the forgiveness of sins.",
+      "15":
+        "He is the image of the invisible God, the firstborn of all creation.",
       "16":
         "For by him all things were created, in heaven and on earth, visible and invisible, whether thrones or dominions or rulers or authorities--all things were created through him and for him.",
+      "17": "And he is before all things, and in him all things hold together.",
       "18":
         "And he is the head of the body, the church. He is the beginning, the firstborn from the dead, that in everything he might be preeminent.",
       "19": "For in him all the fullness of God was pleased to dwell,",
@@ -3953,12 +5212,18 @@ export default {
         "And you, who once were alienated and hostile in mind, doing evil deeds,",
       "22":
         "he has now reconciled in his body of flesh by his death, in order to present you holy and blameless and above reproach before him,",
+      "23":
+        "if indeed you continue in the faith, stable and steadfast, not shifting from the hope of the gospel that you heard, which has been proclaimed in all creation under heaven, and of which I, Paul, became a minister.",
     },
     "2": {
       "2":
         "that their hearts may be encouraged, being knit together in love, to reach all the riches of full assurance of understanding and the knowledge of God's mystery, which is Christ,",
       "3": "in whom are hidden all the treasures of wisdom and knowledge.",
+      "8":
+        "See to it that no one takes you captive by philosophy and empty deceit, according to human tradition, according to the elemental spirits of the world, and not according to Christ.",
       "9": "For in him the whole fullness of deity dwells bodily,",
+      "10":
+        "and you have been filled in him, who is the head of all rule and authority.",
       "11":
         "In him also you were circumcised with a circumcision made without hands, by putting off the body of the flesh, by the circumcision of Christ,",
       "12":
@@ -3987,6 +5252,11 @@ export default {
     "3": {
       "1":
         "If then you have been raised with Christ, seek the things that are above, where Christ is, seated at the right hand of God.",
+      "2":
+        "Set your minds on things that are above, not on things that are on earth.",
+      "3": "For you have died, and your life is hidden with Christ in God.",
+      "4":
+        "When Christ who is your life appears, then you also will appear with him in glory.",
       "5":
         "Put to death therefore what is earthly in you: sexual immorality, impurity, passion, evil desire, and covetousness, which is idolatry.",
       "6": "On account of these the wrath of God is coming.",
@@ -4001,12 +5271,18 @@ export default {
         "Here there is not Greek and Jew, circumcised and uncircumcised, barbarian, Scythian, slave, free; but Christ is all, and in all.",
       "12":
         "Put on then, as God's chosen ones, holy and beloved, compassion, kindness, humility, meekness, and patience,",
+      "15":
+        "And let the peace of Christ rule in your hearts, to which indeed you were called in one body. And be thankful.",
       "16":
         "Let the word of Christ dwell in you richly, teaching and admonishing one another in all wisdom, singing psalms and hymns and spiritual songs, with thankfulness in your hearts to God.",
       "17":
         "And whatever you do, in word or deed, do everything in the name of the Lord Jesus, giving thanks to God the Father through him.",
+      "18": "Wives, submit to your husbands, as is fitting in the Lord.",
+      "19": "Husbands, love your wives, and do not be harsh with them.",
       "20":
         "Children, obey your parents in everything, for this pleases the Lord.",
+      "21":
+        "Fathers, do not provoke your children, lest they become discouraged.",
     },
     "4": {
       "2":
@@ -4017,6 +5293,8 @@ export default {
   },
   Matthew: {
     "1": {
+      "1":
+        "The book of the genealogy of Jesus Christ, the son of David, the son of Abraham.",
       "18":
         "Now the birth of Jesus Christ took place in this way. When his mother Mary had been betrothed to Joseph, before they came together she was found to be with child from the Holy Spirit.",
       "19":
@@ -4057,8 +5335,30 @@ export default {
         'And he said to him, "All these I will give you, if you will fall down and worship me."',
       "10":
         'Then Jesus said to him, "Be gone, Satan! For it is written, "\'You shall worship the Lord your God and him only shall you serve.\'"',
+      "11":
+        "Then the devil left him, and behold, angels came and were ministering to him.",
     },
     "5": {
+      "3":
+        '"Blessed are the poor in spirit, for theirs is the kingdom of heaven.',
+      "4": '"Blessed are those who mourn, for they shall be comforted.',
+      "5": '"Blessed are the meek, for they shall inherit the earth.',
+      "6":
+        '"Blessed are those who hunger and thirst for righteousness, for they shall be satisfied.',
+      "7": '"Blessed are the merciful, for they shall receive mercy.',
+      "8": '"Blessed are the pure in heart, for they shall see God.',
+      "9":
+        '"Blessed are the peacemakers, for they shall be called sons of God.',
+      "10":
+        "\"Blessed are those who are persecuted for righteousness' sake, for theirs is the kingdom of heaven.",
+      "11":
+        '"Blessed are you when others revile you and persecute you and utter all kinds of evil against you falsely on my account.',
+      "12":
+        "Rejoice and be glad, for your reward is great in heaven, for so they persecuted the prophets who were before you.",
+      "14":
+        '"You are the light of the world. A city set on a hill cannot be hidden.',
+      "15":
+        "Nor do people light a lamp and put it under a basket, but on a stand, and it gives light to all in the house.",
       "16":
         "In the same way, let your light shine before others, so that they may see your good works and give glory to your Father who is in heaven.",
       "17":
@@ -4079,14 +5379,26 @@ export default {
         "\"You have heard that it was said, 'You shall not commit adultery.'",
       "28":
         "But I say to you that everyone who looks at a woman with lustful intent has already committed adultery with her in his heart.",
+      "29":
+        "If your right eye causes you to sin, tear it out and throw it away. For it is better that you lose one of your members than that your whole body be thrown into hell.",
+      "30":
+        "And if your right hand causes you to sin, cut it off and throw it away. For it is better that you lose one of your members than that your whole body go into hell.",
       "31":
         "\"It was also said, 'Whoever divorces his wife, let him give her a certificate of divorce.'",
       "32":
         "But I say to you that everyone who divorces his wife, except on the ground of sexual immorality, makes her commit adultery. And whoever marries a divorced woman commits adultery.",
       "34":
         "But I say to you, Do not take an oath at all, either by heaven, for it is the throne of God,",
+      "35":
+        "or by the earth, for it is his footstool, or by Jerusalem, for it is the city of the great King.",
+      "36":
+        "And do not take an oath by your head, for you cannot make one hair white or black.",
       "37":
         "Let what you say be simply 'Yes' or 'No'; anything more than this comes from evil.",
+      "44":
+        "But I say to you, Love your enemies and pray for those who persecute you,",
+      "45":
+        "so that you may be sons of your Father who is in heaven. For he makes his sun rise on the evil and on the good, and sends rain on the just and on the unjust.",
     },
     "6": {
       "2":
@@ -4111,14 +5423,53 @@ export default {
         "but if you do not forgive others their trespasses, neither will your Father forgive your trespasses.",
       "16":
         '"And when you fast, do not look gloomy like the hypocrites, for they disfigure their faces that their fasting may be seen by others. Truly, I say to you, they have received their reward.',
+      "20":
+        "but lay up for yourselves treasures in heaven, where neither moth nor rust destroys and where thieves do not break in and steal.",
+      "21": "For where your treasure is, there your heart will be also.",
+      "25":
+        '"Therefore I tell you, do not be anxious about your life, what you will eat or what you will drink, nor about your body, what you will put on. Is not life more than food, and the body more than clothing?',
+      "26":
+        "Look at the birds of the air: they neither sow nor reap nor gather into barns, and yet your heavenly Father feeds them. Are you not of more value than they?",
+      "27":
+        "And which of you by being anxious can add a single hour to his span of life?",
+      "28":
+        "And why are you anxious about clothing? Consider the lilies of the field, how they grow: they neither toil nor spin,",
+      "29":
+        "yet I tell you, even Solomon in all his glory was not arrayed like one of these.",
       "30":
         "But if God so clothes the grass of the field, which today is alive and tomorrow is thrown into the oven, will he not much more clothe you, O you of little faith?",
+      "31":
+        "Therefore do not be anxious, saying, 'What shall we eat?' or 'What shall we drink?' or 'What shall we wear?'",
       "32":
         "For the Gentiles seek after all these things, and your heavenly Father knows that you need them all.",
+      "33":
+        "But seek first the kingdom of God and his righteousness, and all these things will be added to you.",
+      "34":
+        '"Therefore do not be anxious about tomorrow, for tomorrow will be anxious for itself. Sufficient for the day is its own trouble.',
     },
     "7": {
+      "1": '"Judge not, that you be not judged.',
       "6":
         '"Do not give dogs what is holy, and do not throw your pearls before pigs, lest they trample them underfoot and turn to attack you.',
+      "7":
+        '"Ask, and it will be given to you; seek, and you will find; knock, and it will be opened to you.',
+      "8":
+        "For everyone who asks receives, and the one who seeks finds, and to the one who knocks it will be opened.",
+      "9":
+        "Or which one of you, if his son asks him for bread, will give him a stone?",
+      "10": "Or if he asks for a fish, will give him a serpent?",
+      "11":
+        "If you then, who are evil, know how to give good gifts to your children, how much more will your Father who is in heaven give good things to those who ask him!",
+      "12":
+        '"So whatever you wish that others would do to you, do also to them, for this is the Law and the Prophets.',
+      "14":
+        "For the gate is narrow and the way is hard that leads to life, and those who find it are few.",
+      "17":
+        "So, every healthy tree bears good fruit, but the diseased tree bears bad fruit.",
+      "18":
+        "A healthy tree cannot bear bad fruit, nor can a diseased tree bear good fruit.",
+      "21":
+        "\"Not everyone who says to me, 'Lord, Lord,' will enter the kingdom of heaven, but the one who does the will of my Father who is in heaven.",
       "22":
         "On that day many will say to me, 'Lord, Lord, did we not prophesy in your name, and cast out demons in your name, and do many mighty works in your name?'",
       "23":
@@ -4129,12 +5480,18 @@ export default {
         "For I too am a man under authority, with soldiers under me. And I say to one, 'Go,' and he goes, and to another, 'Come,' and he comes, and to my servant, 'Do this,' and he does it.\"",
       "10":
         'When Jesus heard this, he marveled and said to those who followed him, "Truly, I tell you, with no one in Israel have I found such faith.',
+      "29":
+        'And behold, they cried out, "What have you to do with us, O Son of God? Have you come here to torment us before the time?"',
     },
     "9": {
       "15":
         'And Jesus said to them, "Can the wedding guests mourn as long as the bridegroom is with them? The days will come when the bridegroom is taken away from them, and then they will fast.',
     },
     "10": {
+      "19":
+        "When they deliver you over, do not be anxious how you are to speak or what you are to say, for what you are to say will be given to you in that hour.",
+      "20":
+        "For it is not you who speak, but the Spirit of your Father speaking through you.",
       "28":
         "And do not fear those who kill the body but cannot kill the soul. Rather fear him who can destroy both soul and body in hell.",
       "29":
@@ -4143,10 +5500,20 @@ export default {
       "31": "Fear not, therefore; you are of more value than many sparrows.",
       "32":
         "So everyone who acknowledges me before men, I also will acknowledge before my Father who is in heaven,",
+      "33":
+        "but whoever denies me before men, I also will deny before my Father who is in heaven.",
+      "37":
+        "Whoever loves father or mother more than me is not worthy of me, and whoever loves son or daughter more than me is not worthy of me.",
+      "38":
+        "And whoever does not take his cross and follow me is not worthy of me.",
+      "39":
+        "Whoever finds his life will lose it, and whoever loses his life for my sake will find it.",
     },
     "11": {
       "21":
         '"Woe to you, Chorazin! Woe to you, Bethsaida! For if the mighty works done in you had been done in Tyre and Sidon, they would have repented long ago in sackcloth and ashes.',
+      "22":
+        "But I tell you, it will be more bearable on the day of judgment for Tyre and Sidon than for you.",
       "23":
         "And you, Capernaum, will you be exalted to heaven? You will be brought down to Hades. For if the mighty works done in you had been done in Sodom, it would have remained until this day.",
       "25":
@@ -4154,6 +5521,11 @@ export default {
       "26": "yes, Father, for such was your gracious will.",
       "27":
         "All things have been handed over to me by my Father, and no one knows the Son except the Father, and no one knows the Father except the Son and anyone to whom the Son chooses to reveal him.",
+      "28":
+        "Come to me, all who labor and are heavy laden, and I will give you rest.",
+      "29":
+        "Take my yoke upon you, and learn from me, for I am gentle and lowly in heart, and you will find rest for your souls.",
+      "30": 'For my yoke is easy, and my burden is light."',
     },
     "12": {
       "1":
@@ -4248,6 +5620,8 @@ export default {
         "The Son of Man will send his angels, and they will gather out of his kingdom all causes of sin and all law-breakers,",
       "42":
         "and throw them into the fiery furnace. In that place there will be weeping and gnashing of teeth.",
+      "43":
+        "Then the righteous will shine like the sun in the kingdom of their Father. He who has ears, let him hear.",
       "47":
         '"Again, the kingdom of heaven is like a net that was thrown into the sea and gathered fish of every kind.',
       "57":
@@ -4262,6 +5636,9 @@ export default {
         "But you say, 'If anyone tells his father or his mother, What you would have gained from me is given to God,",
       "6":
         "he need not honor his father.' So for the sake of your tradition you have made void the word of God.",
+      "7": "You hypocrites! Well did Isaiah prophesy of you, when he said:",
+      "8":
+        "\"'This people honors me with their lips, but their heart is far from me;",
       "9":
         "in vain do they worship me, teaching as doctrines the commandments of men.'\"",
       "18":
@@ -4272,14 +5649,29 @@ export default {
         'These are what defile a person. But to eat with unwashed hands does not defile anyone."',
     },
     "16": {
+      "15": 'He said to them, "But who do you say that I am?"',
+      "16":
+        'Simon Peter replied, "You are the Christ, the Son of the living God."',
+      "17":
+        'And Jesus answered him, "Blessed are you, Simon Bar-Jonah! For flesh and blood has not revealed this to you, but my Father who is in heaven.',
       "18":
         "And I tell you, you are Peter, and on this rock I will build my church, and the gates of hell shall not prevail against it.",
       "19":
         'I will give you the keys of the kingdom of heaven, and whatever you bind on earth shall be bound in heaven, and whatever you loose on earth shall be loosed in heaven."',
+      "24":
+        'Then Jesus told his disciples, "If anyone would come after me, let him deny himself and take up his cross and follow me.',
+      "25":
+        "For whoever would save his life will lose it, but whoever loses his life for my sake will find it.",
+      "26":
+        "For what will it profit a man if he gains the whole world and forfeits his life? Or what shall a man give in return for his life?",
     },
     "17": {
+      "5":
+        'He was still speaking when, behold, a bright cloud overshadowed them, and a voice from the cloud said, "This is my beloved Son, with whom I am well pleased; listen to him."',
       "12":
         'But I tell you that Elijah has already come, and they did not recognize him, but did to him whatever they pleased. So also the Son of Man will certainly suffer at their hands."',
+      "27":
+        'However, not to give offense to them, go to the sea and cast a hook and take the first fish that comes up, and when you open its mouth you will find a shekel. Take that and give it to them for me and for yourself."',
     },
     "18": {
       "15":
@@ -4340,8 +5732,16 @@ export default {
         'But he said to them, "Not everyone can receive this saying, but only those to whom it is given.',
       "12":
         'For there are eunuchs who have been so from birth, and there are eunuchs who have been made eunuchs by men, and there are eunuchs who have made themselves eunuchs for the sake of the kingdom of heaven. Let the one who is able to receive this receive it."',
+      "14":
+        'but Jesus said, "Let the little children come to me and do not hinder them, for to such belongs the kingdom of heaven."',
       "17":
         'And he said to him, "Why do you ask me about what is good? There is only one who is good. If you would enter life, keep the commandments."',
+      "26":
+        'But Jesus looked at them and said, "With man this is impossible, but with God all things are possible."',
+    },
+    "20": {
+      "28":
+        'even as the Son of Man came not to be served but to serve, and to give his life as a ransom for many."',
     },
     "21": {
       "5":
@@ -4351,6 +5751,8 @@ export default {
     },
     "22": {
       "14": 'For many are called, but few are chosen."',
+      "21":
+        'They said, "Caesar\'s." Then he said to them, "Therefore render to Caesar the things that are Caesar\'s, and to God the things that are God\'s."',
       "29":
         'But Jesus answered them, "You are wrong, because you know neither the Scriptures nor the power of God.',
       "31":
@@ -4373,12 +5775,28 @@ export default {
         "And call no man your father on earth, for you have one Father, who is in heaven.",
       "10":
         "Neither be called instructors, for you have one instructor, the Christ.",
+      "16":
+        "\"Woe to you, blind guides, who say, 'If anyone swears by the temple, it is nothing, but if anyone swears by the gold of the temple, he is bound by his oath.'",
+      "17":
+        "You blind fools! For which is greater, the gold or the temple that has made the gold sacred?",
+      "18":
+        "And you say, 'If anyone swears by the altar, it is nothing, but if anyone swears by the gift that is on the altar, he is bound by his oath.'",
+      "19":
+        "You blind men! For which is greater, the gift or the altar that makes the gift sacred?",
       "20":
         "So whoever swears by the altar swears by it and by everything on it.",
+      "21":
+        "And whoever swears by the temple swears by it and by him who dwells in it.",
+      "22":
+        "And whoever swears by heaven swears by the throne of God and by him who sits upon it.",
       "23":
         '"Woe to you, scribes and Pharisees, hypocrites! For you tithe mint and dill and cumin, and have neglected the weightier matters of the law: justice and mercy and faithfulness. These you ought to have done, without neglecting the others.',
+      "33":
+        "You serpents, you brood of vipers, how are you to escape being sentenced to hell?",
     },
     "24": {
+      "30":
+        "Then will appear in heaven the sign of the Son of Man, and then all the tribes of the earth will mourn, and they will see the Son of Man coming on the clouds of heaven with power and great glory.",
       "36":
         '"But concerning that day and hour no one knows, not even the angels of heaven, nor the Son, but the Father only.',
       "42":
@@ -4389,6 +5807,7 @@ export default {
         "Therefore you also must be ready, for the Son of Man is coming at an hour you do not expect.",
     },
     "25": {
+      "13": "Watch therefore, for you know neither the day nor the hour.",
       "21":
         "His master said to him, 'Well done, good and faithful servant. You have been faithful over a little; I will set you over much. Enter into the joy of your master.'",
       "23":
@@ -4711,11 +6130,21 @@ export default {
     },
   },
   Deuteronomy: {
+    "1": {
+      "16":
+        "And I charged your judges at that time, 'Hear the cases between your brothers, and judge righteously between a man and his brother or the alien who is with him.",
+    },
     "2": {
       "30":
         "But Sihon the king of Heshbon would not let us pass by him, for the LORD your God hardened his spirit and made his heart obstinate, that he might give him into your hand, as he is this day.",
     },
     "4": {
+      "2":
+        "You shall not add to the word that I command you, nor take from it, that you may keep the commandments of the LORD your God that I command you.",
+      "5":
+        "See, I have taught you statutes and rules, as the LORD my God commanded me, that you should do them in the land that you are entering to take possession of it.",
+      "6":
+        "Keep them and do them, for that will be your wisdom and your understanding in the sight of the peoples, who, when they hear all these statutes, will say, 'Surely this great nation is a wise and understanding people.'",
       "15":
         '"Therefore watch yourselves very carefully. Since you saw no form on the day that the LORD spoke to you at Horeb out of the midst of the fire,',
       "16":
@@ -4799,12 +6228,36 @@ export default {
         "You shall not go after other gods, the gods of the peoples who are around you,",
       "15":
         "for the LORD your God in your midst is a jealous God, lest the anger of the LORD your God be kindled against you, and he destroy you from off the face of the earth.",
+      "20":
+        "\"When your son asks you in time to come, 'What is the meaning of the testimonies and the statutes and the rules that the LORD our God has commanded you?'",
+      "21":
+        "then you shall say to your son, 'We were Pharaoh's slaves in Egypt. And the LORD brought us out of Egypt with a mighty hand.",
+      "22":
+        "And the LORD showed signs and wonders, great and grievous, against Egypt and against Pharaoh and all his household, before our eyes.",
+      "23":
+        "And he brought us out from there, that he might bring us in and give us the land that he swore to give to our fathers.",
+      "24":
+        "And the LORD commanded us to do all these statutes, to fear the LORD our God, for our good always, that he might preserve us alive, as we are this day.",
+      "25":
+        "And it will be righteousness for us, if we are careful to do all this commandment before the LORD our God, as he has commanded us.'",
     },
     "7": {
       "3":
         "You shall not intermarry with them, giving your daughters to their sons or taking their daughters for your sons,",
       "4":
         "for they would turn away your sons from following me, to serve other gods. Then the anger of the LORD would be kindled against you, and he would destroy you quickly.",
+      "9":
+        "Know therefore that the LORD your God is God, the faithful God who keeps covenant and steadfast love with those who love him and keep his commandments, to a thousand generations,",
+      "10":
+        "and repays to their face those who hate him, by destroying them. He will not be slack with one who hates him. He will repay him to his face.",
+      "11":
+        "You shall therefore be careful to do the commandment and the statutes and the rules that I command you today.",
+    },
+    "8": {
+      "3":
+        "And he humbled you and let you hunger and fed you with manna, which you did not know, nor did your fathers know, that he might make you know that man does not live by bread alone, but man lives by every word that comes from the mouth of the LORD.",
+      "10":
+        "And you shall eat and be full, and you shall bless the LORD your God for the good land he has given you.",
     },
     "10": {
       "4":
@@ -4823,6 +6276,22 @@ export default {
         '"You shall therefore love the LORD your God and keep his charge, his statutes, his rules, and his commandments always.',
     },
     "12": {
+      "5":
+        "But you shall seek the place that the LORD your God will choose out of all your tribes to put his name and make his habitation there. There you shall go,",
+      "6":
+        "and there you shall bring your burnt offerings and your sacrifices, your tithes and the contribution that you present, your vow offerings, your freewill offerings, and the firstborn of your herd and of your flock.",
+      "7":
+        "And there you shall eat before the LORD your God, and you shall rejoice, you and your households, in all that you undertake, in which the LORD your God has blessed you.",
+      "8":
+        '"You shall not do according to all that we are doing here today, everyone doing whatever is right in his own eyes,',
+      "9":
+        "for you have not as yet come to the rest and to the inheritance that the LORD your God is giving you.",
+      "10":
+        "But when you go over the Jordan and live in the land that the LORD your God is giving you to inherit, and when he gives you rest from all your enemies around, so that you live in safety,",
+      "11":
+        "then to the place that the LORD your God will choose, to make his name dwell there, there you shall bring all that I command you: your burnt offerings and your sacrifices, your tithes and the contribution that you present, and all your finest vow offerings that you vow to the LORD.",
+      "12":
+        "And you shall rejoice before the LORD your God, you and your sons and your daughters, your male servants and your female servants, and the Levite that is within your towns, since he has no portion or inheritance with you.",
       "31":
         "You shall not worship the LORD your God in that way, for every abominable thing that the LORD hates they have done for their gods, for they even burn their sons and their daughters in the fire to their gods.",
       "32":
@@ -4846,11 +6315,30 @@ export default {
       "12":
         '"If you hear in one of your cities, which the LORD your God is giving you to dwell there,',
     },
+    "16": {
+      "19":
+        "You shall not pervert justice. You shall not show partiality, and you shall not accept a bribe, for a bribe blinds the eyes of the wise and subverts the cause of the righteous.",
+    },
     "18": {
+      "9":
+        '"When you come into the land that the LORD your God is giving you, you shall not learn to follow the abominable practices of those nations.',
+      "10":
+        "There shall not be found among you anyone who burns his son or his daughter as an offering, anyone who practices divination or tells fortunes or interprets omens, or a sorcerer",
+      "11": "or a charmer or a medium or a wizard or a necromancer,",
+      "12":
+        "for whoever does these things is an abomination to the LORD. And because of these abominations the LORD your God is driving them out before you.",
       "15":
         '"The LORD your God will raise up for you a prophet like me from among you, from your brothers--it is to him you shall listen--',
       "18":
         "I will raise up for them a prophet like you from among their brothers. And I will put my words in his mouth, and he shall speak to them all that I command him.",
+      "21":
+        "And if you say in your heart, 'How may we know the word that the LORD has not spoken?'--",
+      "22":
+        "when a prophet speaks in the name of the LORD, if the word does not come to pass or come true, that is a word that the LORD has not spoken; the prophet has spoken it presumptuously. You need not be afraid of him.",
+    },
+    "21": {
+      "23":
+        "his body shall not remain all night on the tree, but you shall bury him the same day, for a hanged man is cursed by God. You shall not defile your land that the LORD your God is giving you for an inheritance.",
     },
     "22": {
       "1":
@@ -4879,6 +6367,16 @@ export default {
         "and the latter man hates her and writes her a certificate of divorce and puts it in her hand and sends her out of his house, or if the latter man dies, who took her to be his wife,",
       "4":
         "then her former husband, who sent her away, may not take her again to be his wife, after she has been defiled, for that is an abomination before the LORD. And you shall not bring sin upon the land that the LORD your God is giving you for an inheritance.",
+    },
+    "25": {
+      "13":
+        '"You shall not have in your bag two kinds of weights, a large and a small.',
+      "14":
+        "You shall not have in your house two kinds of measures, a large and a small.",
+      "15":
+        "A full and fair weight you shall have, a full and fair measure you shall have, that your days may be long in the land that the LORD your God is giving you.",
+      "16":
+        "For all who do such things, all who act dishonestly, are an abomination to the LORD your God.",
     },
     "26": {
       "17":
@@ -4919,12 +6417,16 @@ export default {
         '"Return, O faithless sons; I will heal your faithlessness.Behold, we come to you, for you are the LORD our God.',
     },
     "4": {
+      "1":
+        '"If you return, O Israel, declares the LORD, to me you should return. If you remove your detestable things from my presence, and do not waver,',
       "2":
         "and if you swear, 'As the LORD lives,' in truth, in justice, and in righteousness, then nations shall bless themselves in him, and in him shall they glory.\"",
     },
     "5": {
       "7":
         '"How can I pardon you? Your children have forsaken me and have sworn by those who are no gods. When I fed them to the full, they committed adultery and trooped to the houses of whores.',
+      "24":
+        "They do not say in their hearts, 'Let us fear the LORD our God, who gives the rain in its season, the autumn rain and the spring rain, and keeps for us the weeks appointed for the harvest.'",
     },
     "8": {
       "9":
@@ -4939,6 +6441,8 @@ export default {
     "10": {
       "7":
         "Who would not fear you, O King of the nations? For this is your due; for among all the wise ones of the nations and in all their kingdoms there is none like you.",
+      "8":
+        "They are both stupid and foolish; the instruction of idols is but wood!",
       "10":
         "But the LORD is the true God; he is the living God and the everlasting King. At his wrath the earth quakes, and the nations cannot endure his indignation.",
       "12":
@@ -4951,6 +6455,14 @@ export default {
         'Why should you be like a man confused, like a mighty warrior who cannot save? Yet you, O LORD, are in the midst of us, and we are called by your name; do not leave us."',
     },
     "17": {
+      "5":
+        'Thus says the LORD: "Cursed is the man who trusts in man and makes flesh his strength, whose heart turns away from the LORD.',
+      "6":
+        "He is like a shrub in the desert, and shall not see any good come. He shall dwell in the parched places of the wilderness, in an uninhabited salt land.",
+      "7":
+        '"Blessed is the man who trusts in the LORD, whose trust is the LORD.',
+      "8":
+        'He is like a tree planted by water, that sends out its roots by the stream, and does not fear when heat comes, for its leaves remain green, and is not anxious in the year of drought, for it does not cease to bear fruit."',
       "9":
         "The heart is deceitful above all things, and desperately sick; who can understand it?",
       "24":
@@ -4962,7 +6474,17 @@ export default {
       "27":
         "But if you do not listen to me, to keep the Sabbath day holy, and not to bear a burden and enter by the gates of Jerusalem on the Sabbath day, then I will kindle a fire in its gates, and it shall devour the palaces of Jerusalem and shall not be quenched.'\"",
     },
+    "21": {
+      "12":
+        "O house of David! Thus says the LORD: \"'Execute justice in the morning, and deliver from the hand of the oppressor him who has been robbed, lest my wrath go forth like fire, and burn with none to quench it, because of your evil deeds.'\"",
+    },
+    "22": {
+      "3":
+        "Thus says the LORD: Do justice and righteousness, and deliver from the hand of the oppressor him who has been robbed. And do no wrong or violence to the resident alien, the fatherless, and the widow, nor shed innocent blood in this place.",
+    },
     "23": {
+      "5":
+        '"Behold, the days are coming, declares the LORD, when I will raise up for David a righteous Branch, and he shall reign as king and deal wisely, and shall execute justice and righteousness in the land.',
       "6":
         "In his days Judah will be saved, and Israel will dwell securely. And this is the name by which he will be called: 'The LORD is our righteousness.'",
       "10":
@@ -4970,6 +6492,10 @@ export default {
       "23": '"Am I a God at hand, declares the LORD, and not a God afar off?',
       "24":
         "Can a man hide himself in secret places so that I cannot see him? declares the LORD. Do I not fill heaven and earth? declares the LORD.",
+    },
+    "28": {
+      "9":
+        'As for the prophet who prophesies peace, when the word of that prophet comes to pass, then it will be known that the LORD has truly sent the prophet."',
     },
     "31": {
       "3":
@@ -4990,8 +6516,16 @@ export default {
         "Thus says the LORD, who gives the sun for light by day and the fixed order of the moon and the stars for light by night, who stirs up the sea so that its waves roar--the LORD of hosts is his name:",
     },
     "32": {
+      "16":
+        '"After I had given the deed of purchase to Baruch the son of Neriah, I prayed to the LORD, saying:',
       "17":
         "'Ah, Lord GOD! It is you who has made the heavens and the earth by your great power and by your outstretched arm! Nothing is too hard for you.",
+      "18":
+        "You show steadfast love to thousands, but you repay the guilt of fathers to their children after them, O great and mighty God, whose name is the LORD of hosts,",
+      "19":
+        "great in counsel and mighty in deed, whose eyes are open to all the ways of the children of man, rewarding each one according to his ways and according to the fruit of his deeds.",
+      "20":
+        "You have shown signs and wonders in the land of Egypt, and to this day in Israel and among all mankind, and have made a name for yourself, as at this day.",
       "40":
         "I will make with them an everlasting covenant, that I will not turn away from doing good to them. And I will put the fear of me in their hearts, that they may not turn from me.",
     },
@@ -5171,6 +6705,10 @@ export default {
         'See! The LORD has given you the Sabbath; therefore on the sixth day he gives you bread for two days. Remain each of you in his place; let no one go out of his place on the seventh day."',
       "30": "So the people rested on the seventh day.",
     },
+    "18": {
+      "20":
+        "and you shall warn them about the statutes and the laws, and make them know the way in which they must walk and what they must do.",
+    },
     "20": {
       "1": "And God spoke all these words, saying,",
       "2":
@@ -5327,6 +6865,8 @@ export default {
         "\"If you meet your enemy's ox or his donkey going astray, you shall bring it back to him.",
       "5":
         "If you see the donkey of one who hates you lying down under its burden, you shall refrain from leaving him with it; you shall rescue it with him.",
+      "7":
+        "Keep far from a false charge, and do not kill the innocent and righteous, for I will not acquit the wicked.",
       "12":
         '"Six days you shall do your work, but on the seventh day you shall rest; that your ox and your donkey may have rest, and the son of your servant woman, and the alien, may be refreshed.',
       "13":
@@ -5357,6 +6897,8 @@ export default {
         "Therefore the people of Israel shall keep the Sabbath, observing the Sabbath throughout their generations, as a covenant forever.",
       "17":
         "It is a sign forever between me and the people of Israel that in six days the LORD made heaven and earth, and on the seventh day he rested and was refreshed.'\"",
+      "18":
+        "And he gave to Moses, when he had finished speaking with him on Mount Sinai, the two tablets of the testimony, tablets of stone, written with the finger of God.",
     },
     "32": {
       "5":
@@ -5374,20 +6916,28 @@ export default {
     "34": {
       "1":
         'The LORD said to Moses, "Cut for yourself two tablets of stone like the first, and I will write on the tablets the words that were on the first tablets, which you broke.',
+      "5":
+        "The LORD descended in the cloud and stood with him there, and proclaimed the name of the LORD.",
       "6":
         'The LORD passed before him and proclaimed, "The LORD, the LORD, a God merciful and gracious, slow to anger, and abounding in steadfast love and faithfulness,',
       "7":
         "keeping steadfast love for thousands, forgiving iniquity and transgression and sin, but who will by no means clear the guilty, visiting the iniquity of the fathers on the children and the children's children, to the third and the fourth generation.\"",
+      "8": "And Moses quickly bowed his head toward the earth and worshiped.",
       "13":
         "You shall tear down their altars and break their pillars and cut down their Asherim",
       "14":
         "(for you shall worship no other god, for the LORD, whose name is Jealous, is a jealous God),",
       "16":
         "and you take of their daughters for your sons, and their daughters whore after their gods and make your sons whore after their gods.",
+      "17": '"You shall not make for yourself any gods of cast metal.',
+      "27":
+        'And the LORD said to Moses, "Write these words, for in accordance with these words I have made a covenant with you and with Israel."',
     },
   },
   "1 Timothy": {
     "1": {
+      "3":
+        "As I urged you when I was going to Macedonia, remain at Ephesus that you may charge certain persons not to teach any different doctrine,",
       "5":
         "The aim of our charge is love that issues from a pure heart and a good conscience and a sincere faith.",
       "8": "Now we know that the law is good, if one uses it lawfully,",
@@ -5403,6 +6953,8 @@ export default {
         "The saying is trustworthy and deserving of full acceptance, that Christ Jesus came into the world to save sinners, of whom I am the foremost.",
       "17":
         "To the King of ages, immortal, invisible, the only God, be honor and glory forever and ever. Amen.",
+      "18":
+        "This charge I entrust to you, Timothy, my child, in accordance with the prophecies previously made about you, that by them you may wage the good warfare,",
       "19":
         "holding faith and a good conscience. By rejecting this, some have made shipwreck of their faith,",
       "20":
@@ -5413,6 +6965,9 @@ export default {
         "First of all, then, I urge that supplications, prayers, intercessions, and thanksgivings be made for all people,",
       "2":
         "for kings and all who are in high positions, that we may lead a peaceful and quiet life, godly and dignified in every way.",
+      "3": "This is good, and it is pleasing in the sight of God our Savior,",
+      "4":
+        "who desires all people to be saved and to come to the knowledge of the truth.",
       "5":
         "For there is one God, and there is one mediator between God and men, the man Christ Jesus,",
       "6":
@@ -5424,8 +6979,33 @@ export default {
         "and Adam was not deceived, but the woman was deceived and became a transgressor.",
     },
     "3": {
+      "1":
+        "The saying is trustworthy: If anyone aspires to the office of overseer, he desires a noble task.",
       "2":
         "Therefore an overseer must be above reproach, the husband of one wife, sober-minded, self-controlled, respectable, hospitable, able to teach,",
+      "3":
+        "not a drunkard, not violent but gentle, not quarrelsome, not a lover of money.",
+      "4":
+        "He must manage his own household well, with all dignity keeping his children submissive,",
+      "5":
+        "for if someone does not know how to manage his own household, how will he care for God's church?",
+      "6":
+        "He must not be a recent convert, or he may become puffed up with conceit and fall into the condemnation of the devil.",
+      "7":
+        "Moreover, he must be well thought of by outsiders, so that he may not fall into disgrace, into a snare of the devil.",
+      "8":
+        "Deacons likewise must be dignified, not double-tongued, not addicted to much wine, not greedy for dishonest gain.",
+      "9": "They must hold the mystery of the faith with a clear conscience.",
+      "10":
+        "And let them also be tested first; then let them serve as deacons if they prove themselves blameless.",
+      "11":
+        "Their wives likewise must be dignified, not slanderers, but sober-minded, faithful in all things.",
+      "12":
+        "Let deacons each be the husband of one wife, managing their children and their own households well.",
+      "13":
+        "For those who serve well as deacons gain a good standing for themselves and also great confidence in the faith that is in Christ Jesus.",
+      "14":
+        "I hope to come to you soon, but I am writing these things to you so that,",
       "15":
         "if I delay, you may know how one ought to behave in the household of God, which is the church of the living God, a pillar and buttress of truth.",
       "16":
@@ -5457,6 +7037,8 @@ export default {
         "As for those who persist in sin, rebuke them in the presence of all, so that the rest may stand in fear.",
       "21":
         "In the presence of God and of Christ Jesus and of the elect angels I charge you to keep these rules without prejudging, doing nothing from partiality.",
+      "22":
+        "Do not be hasty in the laying on of hands, nor take part in the sins of others; keep yourself pure.",
     },
     "6": {
       "1":
@@ -5475,10 +7057,16 @@ export default {
         "which he will display at the proper time--he who is the blessed and only Sovereign, the King of kings and Lord of lords,",
       "16":
         "who alone has immortality, who dwells in unapproachable light, whom no one has ever seen or can see. To him be honor and eternal dominion. Amen.",
+      "20":
+        'O Timothy, guard the deposit entrusted to you. Avoid the irreverent babble and contradictions of what is falsely called "knowledge,"',
     },
   },
   Malachi: {
     "1": {
+      "2":
+        '"I have loved you," says the LORD. But you say, "How have you loved us?Is not Esau Jacob\'s brother?" declares the LORD. "Yet I have loved Jacob',
+      "3":
+        'but Esau I have hated. I have laid waste his hill country and left his heritage to jackals of the desert."',
       "6":
         "\"A son honors his father, and a servant his master. If then I am a father, where is my honor? And if I am a master, where is my fear? says the LORD of hosts to you, O priests, who despise my name. But you say, 'How have we despised your name?'",
       "7":
@@ -5518,6 +7106,12 @@ export default {
     },
   },
   "1 Kings": {
+    "1": {
+      "29":
+        'And the king swore, saying, "As the LORD lives, who has redeemed my soul out of every adversity,',
+      "30":
+        "as I swore to you by the LORD, the God of Israel, saying, 'Solomon your son shall reign after me, and he shall sit on my throne in my place,' even so will I do this day.\"",
+    },
     "2": {
       "35":
         "The king put Benaiah the son of Jehoiada over the army in place of Joab, and the king put Zadok the priest in the place of Abiathar.",
@@ -5547,6 +7141,12 @@ export default {
         '"Have you seen how Ahab has humbled himself before me? Because he has humbled himself before me, I will not bring the disaster in his days; but in his son\'s days I will bring the disaster upon his house."',
     },
     "22": {
+      "19":
+        'And Micaiah said, "Therefore hear the word of the LORD: I saw the LORD sitting on his throne, and all the host of heaven standing beside him on his right hand and on his left;',
+      "20":
+        "and the LORD said, 'Who will entice Ahab, that he may go up and fall at Ramoth-gilead?' And one said one thing, and another said another.",
+      "21":
+        "Then a spirit came forward and stood before the LORD, saying, 'I will entice him.'",
       "22":
         "And the LORD said to him, 'By what means?' And he said, 'I will go out, and will be a lying spirit in the mouth of all his prophets.' And he said, 'You are to entice him, and you shall succeed; go out and do so.'",
       "23":
@@ -5618,12 +7218,36 @@ export default {
         "And God saw everything that he had made, and behold, it was very good. And there was evening and there was morning, the sixth day.",
     },
     "2": {
+      "1":
+        "Thus the heavens and the earth were finished, and all the host of them.",
       "2":
         "And on the seventh day God finished his work that he had done, and he rested on the seventh day from all his work that he had done.",
       "3":
         "So God blessed the seventh day and made it holy, because on it God rested from all his work that he had done in creation.",
+      "4":
+        "These are the generations of the heavens and the earth when they were created, in the day that the LORD God made the earth and the heavens.",
+      "5":
+        "When no bush of the field was yet in the land and no small plant of the field had yet sprung up--for the LORD God had not caused it to rain on the land, and there was no man to work the ground,",
+      "6":
+        "and a mist was going up from the land and was watering the whole face of the ground--",
       "7":
         "then the LORD God formed the man of dust from the ground and breathed into his nostrils the breath of life, and the man became a living creature.",
+      "8":
+        "And the LORD God planted a garden in Eden, in the east, and there he put the man whom he had formed.",
+      "9":
+        "And out of the ground the LORD God made to spring up every tree that is pleasant to the sight and good for food. The tree of life was in the midst of the garden, and the tree of the knowledge of good and evil.",
+      "10":
+        "A river flowed out of Eden to water the garden, and there it divided and became four rivers.",
+      "11":
+        "The name of the first is the Pishon. It is the one that flowed around the whole land of Havilah, where there is gold.",
+      "12":
+        "And the gold of that land is good; bdellium and onyx stone are there.",
+      "13":
+        "The name of the second river is the Gihon. It is the one that flowed around the whole land of Cush.",
+      "14":
+        "And the name of the third river is the Tigris, which flows east of Assyria. And the fourth river is the Euphrates.",
+      "15":
+        "The LORD God took the man and put him in the garden of Eden to work it and keep it.",
       "16":
         'And the LORD God commanded the man, saying, "You may surely eat of every tree of the garden,',
       "17":
@@ -5770,6 +7394,10 @@ export default {
       "9":
         '"Behold, I establish my covenant with you and your offspring after you,',
     },
+    "15": {
+      "6":
+        "And he believed the LORD, and he counted it to him as righteousness.",
+    },
     "17": {
       "1":
         'When Abram was ninety-nine years old the LORD appeared to Abram and said to him, "I am God Almighty; walk before me, and be blameless,',
@@ -5790,13 +7418,28 @@ export default {
         'And God said to Abraham, "As for you, you shall keep my covenant, you and your offspring after you throughout their generations.',
       "10":
         "This is my covenant, which you shall keep, between me and you and your offspring after you: Every male among you shall be circumcised.",
+      "11":
+        "You shall be circumcised in the flesh of your foreskins, and it shall be a sign of the covenant between me and you.",
+      "12":
+        "He who is eight days old among you shall be circumcised. Every male throughout your generations, whether born in your house or bought with your money from any foreigner who is not of your offspring,",
+      "13":
+        "both he who is born in your house and he who is bought with your money, shall surely be circumcised. So shall my covenant be in your flesh an everlasting covenant.",
+      "14":
+        'Any uncircumcised male who is not circumcised in the flesh of his foreskin shall be cut off from his people; he has broken my covenant."',
       "22": "When he had finished talking with him, God went up from Abraham.",
     },
     "18": {
+      "14":
+        'Is anything too hard for the LORD? At the appointed time I will return to you about this time next year, and Sarah shall have a son."',
       "27":
         'Abraham answered and said, "Behold, I have undertaken to speak to the Lord, I who am but dust and ashes.',
       "33":
         "And the LORD went his way, when he had finished speaking to Abraham, and Abraham returned to his place.",
+    },
+    "21": { "24": 'And Abraham said, "I will swear."' },
+    "22": {
+      "18":
+        'and in your offspring shall all the nations of the earth be blessed, because you have obeyed my voice."',
     },
     "24": {
       "2":
@@ -5814,6 +7457,12 @@ export default {
       "57": 'They said, "Let us call the young woman and ask her."',
       "58":
         'And they called Rebekah and said to her, "Will you go with this man?" She said, "I will go."',
+    },
+    "26": {
+      "3":
+        "Sojourn in this land, and I will be with you and will bless you, for to you and to your offspring I will give all these lands, and I will establish the oath that I swore to Abraham your father.",
+      "4":
+        "I will multiply your offspring as the stars of heaven and will give to your offspring all these lands. And in your offspring all the nations of the earth shall be blessed,",
     },
     "28": {
       "20":
@@ -5834,6 +7483,8 @@ export default {
     "45": {
       "7":
         "And God sent me before you to preserve for you a remnant on earth, and to keep alive for you many survivors.",
+      "8":
+        "So it was not you who sent me here, but God. He has made me a father to Pharaoh, and lord of all his house and ruler over all the land of Egypt.",
     },
     "47": {
       "14":
@@ -5926,8 +7577,15 @@ export default {
     "1": {
       "5":
         'And when the days of the feast had run their course, Job would send and consecrate them, and he would rise early in the morning and offer burnt offerings according to the number of them all. For Job said, "It may be that my children have sinned, and cursed God in their hearts." Thus Job did continually.',
+      "12":
+        'And the LORD said to Satan, "Behold, all that he has is in your hand. Only against him do not stretch out your hand." So Satan went out from the presence of the LORD.',
       "21":
         'And he said, "Naked I came from my mother\'s womb, and naked shall I return. The LORD gave, and the LORD has taken away; blessed be the name of the LORD."',
+      "22": "In all this Job did not sin or charge God with wrong.",
+    },
+    "2": {
+      "6":
+        'And the LORD said to Satan, "Behold, he is in your hand; only spare his life."',
     },
     "8": {
       "13":
@@ -6255,6 +7913,10 @@ export default {
     },
   },
   Daniel: {
+    "2": {
+      "21":
+        "He changes times and seasons; he removes kings and sets up kings; he gives wisdom to the wise and knowledge to those who have understanding;",
+    },
     "3": {
       "27":
         "And the satraps, the prefects, the governors, and the king's counselors gathered together and saw that the fire had not had any power over the bodies of those men. The hair of their heads was not singed, their cloaks were not harmed, and no smell of fire had come upon them.",
@@ -6298,6 +7960,8 @@ export default {
     "12": {
       "2":
         "And many of those who sleep in the dust of the earth shall awake, some to everlasting life, and some to shame and everlasting contempt.",
+      "3":
+        "And those who are wise shall shine like the brightness of the sky above; and those who turn many to righteousness, like the stars forever and ever.",
     },
   },
   Ezekiel: {
@@ -6358,10 +8022,20 @@ export default {
         "Therefore thus says the Lord GOD: As I live, surely it is my oath that he despised, and my covenant that he broke. I will return it upon his head.",
     },
     "18": {
+      "4":
+        "Behold, all souls are mine; the soul of the father as well as the soul of the son is mine: the soul who sins shall die.",
+      "20":
+        "The soul who sins shall die. The son shall not suffer for the iniquity of the father, nor the father suffer for the iniquity of the son. The righteousness of the righteous shall be upon himself, and the wickedness of the wicked shall be upon himself.",
       "30":
         '"Therefore I will judge you, O house of Israel, every one according to his ways, declares the Lord GOD. Repent and turn from all your transgressions, lest iniquity be your ruin.',
       "31":
         "Cast away from you all the transgressions that you have committed, and make yourselves a new heart and a new spirit! Why will you die, O house of Israel?",
+    },
+    "20": {
+      "18":
+        '"And I said to their children in the wilderness, Do not walk in the statutes of your fathers, nor keep their rules, nor defile yourselves with their idols.',
+      "19":
+        "I am the LORD your God; walk in my statutes, and be careful to obey my rules,",
     },
     "22": {
       "26":
@@ -6370,6 +8044,10 @@ export default {
     "23": {
       "38":
         "Moreover, this they have done to me: they have defiled my sanctuary on the same day and profaned my Sabbaths.",
+    },
+    "33": {
+      "33":
+        'When this comes--and come it will!--then they will know that a prophet has been among them."',
     },
     "34": {
       "2":
@@ -6399,6 +8077,15 @@ export default {
       "32":
         "It is not for your sake that I will act, declares the Lord GOD; let that be known to you. Be ashamed and confounded for your ways, O house of Israel.",
     },
+    "45": {
+      "9":
+        '"Thus says the Lord GOD: Enough, O princes of Israel! Put away violence and oppression, and execute justice and righteousness. Cease your evictions of my people, declares the Lord GOD.',
+      "10": '"You shall have just balances, a just ephah, and a just bath.',
+      "11":
+        "The ephah and the bath shall be of the same measure, the bath containing one tenth of a homer, and the ephah one tenth of a homer; the homer shall be the standard measure.",
+      "12":
+        "The shekel shall be twenty gerahs; twenty shekels plus twenty-five shekels plus fifteen shekels shall be your mina.",
+    },
   },
   Revelation: {
     "1": {
@@ -6408,8 +8095,16 @@ export default {
         "John to the seven churches that are in Asia:Grace to you and peace from him who is and who was and who is to come, and from the seven spirits who are before his throne,",
       "5":
         "and from Jesus Christ the faithful witness, the firstborn of the dead, and the ruler of kings on earth.To him who loves us and has freed us from our sins by his blood",
+      "7":
+        "Behold, he is coming with the clouds, and every eye will see him, even those who pierced him, and all tribes of the earth will wail on account of him. Even so. Amen.",
+      "8":
+        '"I am the Alpha and the Omega," says the Lord God, "who is and who was and who is to come, the Almighty."',
       "10":
         "I was in the Spirit on the Lord's day, and I heard behind me a loud voice like a trumpet",
+      "11":
+        'saying, "Write what you see in a book and send it to the seven churches, to Ephesus and to Smyrna and to Pergamum and to Thyatira and to Sardis and to Philadelphia and to Laodicea."',
+      "19":
+        "Write therefore the things that you have seen, those that are and those that are to take place after this.",
     },
     "2": {
       "1":
@@ -6515,12 +8210,32 @@ export default {
         "He who has an ear, let him hear what the Spirit says to the churches.'\"",
     },
     "4": {
+      "1":
+        'After this I looked, and behold, a door standing open in heaven! And the first voice, which I had heard speaking to me like a trumpet, said, "Come up here, and I will show you what must take place after this."',
+      "2":
+        "At once I was in the Spirit, and behold, a throne stood in heaven, with one seated on the throne.",
+      "3":
+        "And he who sat there had the appearance of jasper and carnelian, and around the throne was a rainbow that had the appearance of an emerald.",
+      "4":
+        "Around the throne were twenty-four thrones, and seated on the thrones were twenty-four elders, clothed in white garments, with golden crowns on their heads.",
+      "5":
+        "From the throne came flashes of lightning, and rumblings and peals of thunder, and before the throne were burning seven torches of fire, which are the seven spirits of God,",
+      "6":
+        "and before the throne there was as it were a sea of glass, like crystal.And around the throne, on each side of the throne, are four living creatures, full of eyes in front and behind:",
+      "7":
+        "the first living creature like a lion, the second living creature like an ox, the third living creature with the face of a man, and the fourth living creature like an eagle in flight.",
       "8":
         'And the four living creatures, each of them with six wings, are full of eyes all around and within, and day and night they never cease to say, "Holy, holy, holy, is the Lord God Almighty, who was and is and is to come!"',
+      "9":
+        "And whenever the living creatures give glory and honor and thanks to him who is seated on the throne, who lives forever and ever,",
+      "10":
+        "the twenty-four elders fall down before him who is seated on the throne and worship him who lives forever and ever. They cast their crowns before the throne, saying,",
       "11":
         '"Worthy are you, our Lord and God, to receive glory and honor and power, for you created all things, and by your will they existed and were created."',
     },
     "5": {
+      "9":
+        'And they sang a new song, saying, "Worthy are you to take the scroll and to open its seals, for you were slain, and by your blood you ransomed people for God from every tribe and language and people and nation,',
       "12":
         'saying with a loud voice, "Worthy is the Lamb who was slain, to receive power and wealth and wisdom and might and honor and glory and blessing!"',
       "13":
@@ -6528,12 +8243,31 @@ export default {
       "14":
         'And the four living creatures said, "Amen!" and the elders fell down and worshiped.',
     },
+    "6": {
+      "11":
+        "Then they were each given a white robe and told to rest a little longer, until the number of their fellow servants and their brothers should be complete, who were to be killed as they themselves had been.",
+    },
     "7": {
       "9":
         "After this I looked, and behold, a great multitude that no one could number, from every nation, from all tribes and peoples and languages, standing before the throne and before the Lamb, clothed in white robes, with palm branches in their hands,",
+      "10":
+        'and crying out with a loud voice, "Salvation belongs to our God who sits on the throne, and to the Lamb!"',
+      "11":
+        "And all the angels were standing around the throne and around the elders and the four living creatures, and they fell on their faces before the throne and worshiped God,",
+      "12":
+        'saying, "Amen! Blessing and glory and wisdom and thanksgiving and honor and power and might be to our God forever and ever! Amen."',
+      "14":
+        'I said to him, "Sir, you know." And he said to me, "These are the ones coming out of the great tribulation. They have washed their robes and made them white in the blood of the Lamb.',
+      "17":
+        'For the Lamb in the midst of the throne will be their shepherd, and he will guide them to springs of living water, and God will wipe away every tear from their eyes."',
     },
-    "11": {},
+    "11": {
+      "7":
+        "And when they have finished their testimony, the beast that rises from the bottomless pit will make war on them and conquer them and kill them,",
+    },
     "12": {
+      "4":
+        "His tail swept down a third of the stars of heaven and cast them to the earth. And the dragon stood before the woman who was about to give birth, so that when she bore her child he might devour it.",
       "6":
         "and the woman fled into the wilderness, where she has a place prepared by God, in which she is to be nourished for 1,260 days.",
       "9":
@@ -6542,8 +8276,14 @@ export default {
         'And I heard a loud voice in heaven, saying, "Now the salvation and the power and the kingdom of our God and the authority of his Christ have come, for the accuser of our brothers has been thrown down, who accuses them day and night before our God.',
       "11":
         "And they have conquered him by the blood of the Lamb and by the word of their testimony, for they loved not their lives even unto death.",
+      "13":
+        "And when the dragon saw that he had been thrown down to the earth, he pursued the woman who had given birth to the male child.",
       "14":
         "But the woman was given the two wings of the great eagle so that she might fly from the serpent into the wilderness, to the place where she is to be nourished for a time, and times, and half a time.",
+      "15":
+        "The serpent poured water like a river out of his mouth after the woman, to sweep her away with a flood.",
+      "16":
+        "But the earth came to the help of the woman, and the earth opened its mouth and swallowed the river that the dragon had poured from his mouth.",
       "17":
         "Then the dragon became furious with the woman and went off to make war on the rest of her offspring, on those who keep the commandments of God and hold to the testimony of Jesus. And he stood on the sand of the sea.",
     },
@@ -6562,6 +8302,8 @@ export default {
         "so that no one can buy or sell unless he has the mark, that is, the name of the beast or the number of its name.",
     },
     "14": {
+      "7":
+        'And he said with a loud voice, "Fear God and give him glory, because the hour of his judgment has come, and worship him who made heaven and earth, the sea and the springs of water."',
       "13":
         'And I heard a voice from heaven saying, "Write this: Blessed are the dead who die in the Lord from now on.Blessed indeed," says the Spirit, "that they may rest from their labors, for their deeds follow them!"',
     },
@@ -6570,6 +8312,12 @@ export default {
         'And they sing the song of Moses, the servant of God, and the song of the Lamb, saying, "Great and amazing are your deeds, O Lord God the Almighty! Just and true are your ways, O King of the nations!',
       "4":
         'Who will not fear, O Lord, and glorify your name? For you alone are holy. All nations will come and worship you, for your righteous acts have been revealed."',
+    },
+    "16": {
+      "5":
+        'And I heard the angel in charge of the waters say, "Just are you, O Holy One, who is and who was, for you brought these judgments.',
+      "7":
+        'And I heard the altar saying, "Yes, Lord God the Almighty, true and just are your judgments!"',
     },
     "17": {
       "12":
@@ -6584,12 +8332,36 @@ export default {
     "18": {
       "2":
         'And he called out with a mighty voice, "Fallen, fallen is Babylon the great! She has become a dwelling place for demons, a haunt for every unclean spirit, a haunt for every unclean bird, a haunt for every unclean and detestable beast.',
+      "4":
+        'Then I heard another voice from heaven saying, "Come out of her, my people, lest you take part in her sins, lest you share in her plagues;',
+      "20":
+        'Rejoice over her, O heaven, and you saints and apostles and prophets, for God has given judgment for you against her!"',
     },
     "19": {
       "10":
         'Then I fell down at his feet to worship him, but he said to me, "You must not do that! I am a fellow servant with you and your brothers who hold to the testimony of Jesus. Worship God." For the testimony of Jesus is the spirit of prophecy.',
+      "11":
+        "Then I saw heaven opened, and behold, a white horse! The one sitting on it is called Faithful and True, and in righteousness he judges and makes war.",
+      "12":
+        "His eyes are like a flame of fire, and on his head are many diadems, and he has a name written that no one knows but himself.",
+      "13":
+        "He is clothed in a robe dipped in blood, and the name by which he is called is The Word of God.",
+      "14":
+        "And the armies of heaven, arrayed in fine linen, white and pure, were following him on white horses.",
+      "15":
+        "From his mouth comes a sharp sword with which to strike down the nations, and he will rule them with a rod of iron. He will tread the winepress of the fury of the wrath of God the Almighty.",
+      "16":
+        "On his robe and on his thigh he has a name written, King of kings and Lord of lords.",
     },
     "20": {
+      "7":
+        "And when the thousand years are ended, Satan will be released from his prison",
+      "8":
+        "and will come out to deceive the nations that are at the four corners of the earth, Gog and Magog, to gather them for battle; their number is like the sand of the sea.",
+      "9":
+        "And they marched up over the broad plain of the earth and surrounded the camp of the saints and the beloved city, but fire came down from heaven and consumed them,",
+      "10":
+        "and the devil who had deceived them was thrown into the lake of fire and sulfur where the beast and the false prophet were, and they will be tormented day and night forever and ever.",
       "12":
         "And I saw the dead, great and small, standing before the throne, and books were opened. Then another book was opened, which is the book of life. And the dead were judged by what was written in the books, according to what they had done.",
       "13":
@@ -6608,6 +8380,8 @@ export default {
         'And I heard a loud voice from the throne saying, "Behold, the dwelling place of God is with man. He will dwell with them, and they will be his people, and God himself will be with them as their God.',
       "4":
         'He will wipe away every tear from their eyes, and death shall be no more, neither shall there be mourning nor crying nor pain anymore, for the former things have passed away."',
+      "8":
+        'But as for the cowardly, the faithless, the detestable, as for murderers, the sexually immoral, sorcerers, idolaters, and all liars, their portion will be in the lake that burns with fire and sulfur, which is the second death."',
     },
     "22": {
       "8":
@@ -6616,6 +8390,10 @@ export default {
         'but he said to me, "You must not do that! I am a fellow servant with you and your brothers the prophets, and with those who keep the words of this book. Worship God."',
       "10":
         'And he said to me, "Do not seal up the words of the prophecy of this book, for the time is near.',
+      "12":
+        '"Behold, I am coming soon, bringing my recompense with me, to repay everyone for what he has done.',
+      "17":
+        'The Spirit and the Bride say, "Come." And let the one who hears say, "Come." And let the one who is thirsty come; let the one who desires take the water of life without price.',
       "18":
         "I warn everyone who hears the words of the prophecy of this book: if anyone adds to them, God will add to him the plagues described in this book,",
       "19":
@@ -6629,6 +8407,8 @@ export default {
     "1": {
       "12":
         "For our boast is this: the testimony of our conscience that we behaved in the world with simplicity and godly sincerity, not by earthly wisdom but by the grace of God, and supremely so toward you.",
+      "20":
+        "For all the promises of God find their Yes in him. That is why it is through him that we utter our Amen to God for his glory.",
       "21":
         "And it is God who establishes us with you in Christ, and has anointed us,",
       "22":
@@ -6643,6 +8423,12 @@ export default {
       "7":
         "so you should rather turn to forgive and comfort him, or he may be overwhelmed by excessive sorrow.",
       "8": "So I beg you to reaffirm your love for him.",
+      "9":
+        "For this is why I wrote, that I might test you and know whether you are obedient in everything.",
+      "10":
+        "Anyone whom you forgive, I also forgive. What I have forgiven, if I have forgiven anything, has been for your sake in the presence of Christ,",
+      "11":
+        "so that we would not be outwitted by Satan; for we are not ignorant of his designs.",
       "15":
         "For we are the aroma of Christ to God among those who are being saved and among those who are perishing,",
       "16":
@@ -6691,12 +8477,29 @@ export default {
         "He who has prepared us for this very thing is God, who has given us the Spirit as a guarantee.",
       "6":
         "So we are always of good courage. We know that while we are at home in the body we are away from the Lord,",
+      "7": "for we walk by faith, not by sight.",
       "8":
         "Yes, we are of good courage, and we would rather be away from the body and at home with the Lord.",
+      "9":
+        "So whether we are at home or away, we make it our aim to please him.",
       "10":
         "For we must all appear before the judgment seat of Christ, so that each one may receive what is due for what he has done in the body, whether good or evil.",
       "11":
         "Therefore, knowing the fear of the Lord, we persuade others. But what we are is known to God, and I hope it is known also to your conscience.",
+      "12":
+        "We are not commending ourselves to you again but giving you cause to boast about us, so that you may be able to answer those who boast about outward appearance and not about what is in the heart.",
+      "13":
+        "For if we are beside ourselves, it is for God; if we are in our right mind, it is for you.",
+      "14":
+        "For the love of Christ controls us, because we have concluded this: that one has died for all, therefore all have died;",
+      "15":
+        "and he died for all, that those who live might no longer live for themselves but for him who for their sake died and was raised.",
+      "16":
+        "From now on, therefore, we regard no one according to the flesh. Even though we once regarded Christ according to the flesh, we regard him thus no longer.",
+      "17":
+        "Therefore, if anyone is in Christ, he is a new creation. The old has passed away; behold, the new has come.",
+      "18":
+        "All this is from God, who through Christ reconciled us to himself and gave us the ministry of reconciliation;",
       "19":
         "that is, in Christ God was reconciling the world to himself, not counting their trespasses against them, and entrusting to us the message of reconciliation.",
       "20":
@@ -6810,6 +8613,8 @@ export default {
     "11": {
       "3":
         "But I am afraid that as the serpent deceived Eve by his cunning, your thoughts will be led astray from a sincere and pure devotion to Christ.",
+      "14":
+        "And no wonder, for even Satan disguises himself as an angel of light.",
     },
     "12": {
       "7":
@@ -6830,6 +8635,10 @@ export default {
   },
   James: {
     "1": {
+      "3":
+        "for you know that the testing of your faith produces steadfastness.",
+      "5":
+        "If any of you lacks wisdom, let him ask God, who gives generously to all without reproach, and it will be given him.",
       "6":
         "But let him ask in faith, with no doubting, for the one who doubts is like a wave of the sea that is driven and tossed by the wind.",
       "7":
@@ -6867,6 +8676,8 @@ export default {
       "17": "So also faith by itself, if it does not have works, is dead.",
       "18":
         'But someone will say, "You have faith and I have works." Show me your faith apart from your works, and I will show you my faith by my works.',
+      "19":
+        "You believe that God is one; you do well. Even the demons believe--and shudder!",
       "22":
         "You see that faith was active along with his works, and faith was completed by his works;",
       "26":
@@ -6913,8 +8724,25 @@ export default {
         "Do not speak evil against one another, brothers. The one who speaks against a brother or judges his brother, speaks evil against the law and judges the law. But if you judge the law, you are not a doer of the law but a judge.",
       "12":
         "There is only one lawgiver and judge, he who is able to save and to destroy. But who are you to judge your neighbor?",
+      "13":
+        'Come now, you who say, "Today or tomorrow we will go into such and such a town and spend a year there and trade and make a profit"--',
+      "14":
+        "yet you do not know what tomorrow will bring. What is your life? For you are a mist that appears for a little time and then vanishes.",
+      "15":
+        'Instead you ought to say, "If the Lord wills, we will live and do this or that."',
     },
     "5": {
+      "1":
+        "Come now, you rich, weep and howl for the miseries that are coming upon you.",
+      "2": "Your riches have rotted and your garments are moth-eaten.",
+      "3":
+        "Your gold and silver have corroded, and their corrosion will be evidence against you and will eat your flesh like fire. You have laid up treasure in the last days.",
+      "4":
+        "Behold, the wages of the laborers who mowed your fields, which you kept back by fraud, are crying out against you, and the cries of the harvesters have reached the ears of the Lord of hosts.",
+      "5":
+        "You have lived on the earth in luxury and in self-indulgence. You have fattened your hearts in a day of slaughter.",
+      "6":
+        "You have condemned; you have murdered the righteous person. He does not resist you.",
       "12":
         'But above all, my brothers, do not swear, either by heaven or by earth or by any other oath, but let your "yes" be yes and your "no" be no, so that you may not fall under condemnation.',
       "13":
@@ -6929,6 +8757,15 @@ export default {
         "Then the priest shall make her take an oath, saying, 'If no man has lain with you, and if you have not turned aside to uncleanness while you were under your husband's authority, be free from this water of bitterness that brings the curse.",
       "21":
         "then' (let the priest make the woman take the oath of the curse, and say to the woman) 'the LORD make you a curse and an oath among your people, when the LORD makes your thigh fall away and your body swell.",
+    },
+    "16": {
+      "23": "And the LORD spoke to Moses, saying,",
+      "24":
+        '"Say to the congregation, Get away from the dwelling of Korah, Dathan, and Abiram."',
+      "25":
+        "Then Moses rose and went to Dathan and Abiram, and the elders of Israel followed him.",
+      "26":
+        'And he spoke to the congregation, saying, "Depart, please, from the tents of these wicked men, and touch nothing of theirs, lest you be swept away with all their sins."',
     },
     "23": {
       "19":
@@ -6963,10 +8800,13 @@ export default {
         "But these people blaspheme all that they do not understand, and they are destroyed by all that they, like unreasoning animals, understand instinctively.",
       "11":
         "Woe to them! For they walked in the way of Cain and abandoned themselves for the sake of gain to Balaam's error and perished in Korah's rebellion.",
+      "15":
+        'to execute judgment on all and to convict all the ungodly of all their deeds of ungodliness that they have committed in such an ungodly way, and of all the harsh things that ungodly sinners have spoken against him."',
       "20":
         "But you, beloved, build yourselves up in your most holy faith; pray in the Holy Spirit;",
       "21":
         "keep yourselves in the love of God, waiting for the mercy of our Lord Jesus Christ that leads to eternal life.",
+      "22": "And have mercy on those who doubt;",
       "23":
         "save others by snatching them out of the fire; to others show mercy with fear, hating even the garment stained by the flesh.",
       "24":
@@ -6990,6 +8830,10 @@ export default {
     "2": {
       "13":
         "And we also thank God constantly for this, that when you received the word of God, which you heard from us, you accepted it not as the word of men but as what it really is, the word of God, which is at work in you believers.",
+    },
+    "3": {
+      "13":
+        "so that he may establish your hearts blameless in holiness before our God and Father, at the coming of our Lord Jesus with all his saints.",
     },
     "4": {
       "1":
@@ -7026,6 +8870,10 @@ export default {
       "18": "Therefore encourage one another with these words.",
     },
     "5": {
+      "1":
+        "Now concerning the times and the seasons, brothers, you have no need to have anything written to you.",
+      "2":
+        "For you yourselves are fully aware that the day of the Lord will come like a thief in the night.",
       "9":
         "For God has not destined us for wrath, but to obtain salvation through our Lord Jesus Christ,",
       "10":
@@ -7034,8 +8882,14 @@ export default {
         "Therefore encourage one another and build one another up, just as you are doing.",
       "12":
         "We ask you, brothers, to respect those who labor among you and are over you in the Lord and admonish you,",
+      "13":
+        "and to esteem them very highly in love because of their work. Be at peace among yourselves.",
       "14":
         "And we urge you, brothers, admonish the idle, encourage the fainthearted, help the weak, be patient with them all.",
+      "16": "Rejoice always,",
+      "17": "pray without ceasing,",
+      "18":
+        "give thanks in all circumstances; for this is the will of God in Christ Jesus for you.",
       "21": "but test everything; hold fast what is good.",
       "22": "Abstain from every form of evil.",
       "23":
@@ -7081,6 +8935,10 @@ export default {
         "Having purified your souls by your obedience to the truth for a sincere brotherly love, love one another earnestly from a pure heart,",
       "23":
         "since you have been born again, not of perishable seed but of imperishable, through the living and abiding word of God;",
+      "24":
+        'for "All flesh is like grass and all its glory like the flower of grass. The grass withers, and the flower falls,',
+      "25":
+        'but the word of the Lord remains forever."And this word is the good news that was preached to you.',
     },
     "2": {
       "1":
@@ -7089,12 +8947,16 @@ export default {
         "Like newborn infants, long for the pure spiritual milk, that by it you may grow up to salvation--",
       "5":
         "you yourselves like living stones are being built up as a spiritual house, to be a holy priesthood, to offer spiritual sacrifices acceptable to God through Jesus Christ.",
+      "6":
+        'For it stands in Scripture: "Behold, I am laying in Zion a stone, a cornerstone chosen and precious, and whoever believes in him will not be put to shame."',
       "7":
         'So the honor is for you who believe, but for those who do not believe, "The stone that the builders rejected has become the cornerstone,"',
       "8":
         'and "A stone of stumbling, and a rock of offense."They stumble because they disobey the word, as they were destined to do.',
       "9":
         "But you are a chosen race, a royal priesthood, a holy nation, a people for his own possession, that you may proclaim the excellencies of him who called you out of darkness into his marvelous light.",
+      "10":
+        "Once you were not a people, but now you are God's people; once you had not received mercy, but now you have received mercy.",
       "11":
         "Beloved, I urge you as sojourners and exiles to abstain from the passions of the flesh, which wage war against your soul.",
       "12":
@@ -7109,11 +8971,17 @@ export default {
         "Live as people who are free, not using your freedom as a cover-up for evil, but living as servants of God.",
       "17":
         "Honor everyone. Love the brotherhood. Fear God. Honor the emperor.",
+      "18":
+        "Servants, be subject to your masters with all respect, not only to the good and gentle but also to the unjust.",
       "21":
         "For to this you have been called, because Christ also suffered for you, leaving you an example, so that you might follow in his steps.",
       "22": "He committed no sin, neither was deceit found in his mouth.",
+      "24":
+        "He himself bore our sins in his body on the tree, that we might die to sin and live to righteousness. By his wounds you have been healed.",
     },
     "3": {
+      "1":
+        "Likewise, wives, be subject to your own husbands, so that even if some do not obey the word, they may be won without a word by the conduct of their wives--",
       "2": "when they see your respectful and pure conduct.",
       "7":
         "Likewise, husbands, live with your wives in an understanding way, showing honor to the woman as the weaker vessel, since they are heirs with you of the grace of life, so that your prayers may not be hindered.",
@@ -7131,19 +8999,41 @@ export default {
       "18":
         "For Christ also suffered once for sins, the righteous for the unrighteous, that he might bring us to God, being put to death in the flesh but made alive in the spirit,",
       "19": "in which he went and proclaimed to the spirits in prison,",
+      "20":
+        "because they formerly did not obey, when God's patience waited in the days of Noah, while the ark was being prepared, in which a few, that is, eight persons, were brought safely through water.",
       "21":
         "Baptism, which corresponds to this, now saves you, not as a removal of dirt from the body but as an appeal to God for a good conscience, through the resurrection of Jesus Christ,",
     },
     "4": {
       "2":
         "so as to live for the rest of the time in the flesh no longer for human passions but for the will of God.",
+      "5":
+        "but they will give account to him who is ready to judge the living and the dead.",
+      "8":
+        "Above all, keep loving one another earnestly, since love covers a multitude of sins.",
       "10":
         "As each has received a gift, use it to serve one another, as good stewards of God's varied grace:",
       "11":
         "whoever speaks, as one who speaks oracles of God; whoever serves, as one who serves by the strength that God supplies--in order that in everything God may be glorified through Jesus Christ. To him belong glory and dominion forever and ever. Amen.",
+      "14":
+        "If you are insulted for the name of Christ, you are blessed, because the Spirit of glory and of God rests upon you.",
     },
     "5": {
+      "1":
+        "So I exhort the elders among you, as a fellow elder and a witness of the sufferings of Christ, as well as a partaker in the glory that is going to be revealed:",
+      "2":
+        "shepherd the flock of God that is among you, exercising oversight, not under compulsion, but willingly, as God would have you; not for shameful gain, but eagerly;",
+      "3":
+        "not domineering over those in your charge, but being examples to the flock.",
+      "4":
+        "And when the chief Shepherd appears, you will receive the unfading crown of glory.",
+      "5":
+        'Likewise, you who are younger, be subject to the elders. Clothe yourselves, all of you, with humility toward one another, for "God opposes the proud but gives grace to the humble."',
+      "6":
+        "Humble yourselves, therefore, under the mighty hand of God so that at the proper time he may exalt you,",
       "7": "casting all your anxieties on him, because he cares for you.",
+      "8":
+        "Be sober-minded; be watchful. Your adversary the devil prowls around like a roaring lion, seeking someone to devour.",
     },
     "19": {},
     "20": {},
@@ -7222,6 +9112,16 @@ export default {
         'And David returned to bless his household. But Michal the daughter of Saul came out to meet David and said, "How the king of Israel honored himself today, uncovering himself today before the eyes of his servants\' female servants, as one of the vulgar fellows shamelessly uncovers himself!"',
     },
     "7": {
+      "12":
+        "When your days are fulfilled and you lie down with your fathers, I will raise up your offspring after you, who shall come from your body, and I will establish his kingdom.",
+      "13":
+        "He shall build a house for my name, and I will establish the throne of his kingdom forever.",
+      "14":
+        "I will be to him a father, and he shall be to me a son. When he commits iniquity, I will discipline him with the rod of men, with the stripes of the sons of men,",
+      "15":
+        "but my steadfast love will not depart from him, as I took it from Saul, whom I put away from before you.",
+      "16":
+        "And your house and your kingdom shall be made sure forever before me. Your throne shall be established forever.'\"",
       "29":
         'Now therefore may it please you to bless the house of your servant, so that it may continue forever before you. For you, O Lord GOD, have spoken, and with your blessing shall the house of your servant be blessed forever."',
     },
@@ -7289,6 +9189,10 @@ export default {
       "9":
         "And when they came to the threshing floor of Chidon, Uzzah put out his hand to take hold of the ark, for the oxen stumbled.",
     },
+    "16": {
+      "26":
+        "For all the gods of the peoples are idols, but the LORD made the heavens.",
+    },
     "21": {
       "1":
         "Then Satan stood against Israel and incited David to number Israel.",
@@ -7335,6 +9239,12 @@ export default {
         'And the LORD said to Jehu, "Because you have done well in carrying out what is right in my eyes, and have done to the house of Ahab according to all that was in my heart, your sons of the fourth generation shall sit on the throne of Israel."',
       "31":
         "But Jehu was not careful to walk in the law of the LORD the God of Israel with all his heart. He did not turn from the sins of Jeroboam, which he made Israel to sin.",
+    },
+    "18": {
+      "4":
+        "He removed the high places and broke the pillars and cut down the Asherah. And he broke in pieces the bronze serpent that Moses had made, for until those days the people of Israel had made offerings to it (it was called Nehushtan).",
+      "5":
+        "He trusted in the LORD the God of Israel, so that there was none like him among all the kings of Judah after him, nor among those who were before him.",
     },
     "19": {
       "28":
@@ -7401,6 +9311,10 @@ export default {
         '"If a man sins against his neighbor and is made to take an oath and comes and swears his oath before your altar in this house,',
       "23":
         "then hear from heaven and act and judge your servants, repaying the guilty by bringing his conduct on his own head, and vindicating the righteous by rewarding him according to his righteousness.",
+    },
+    "7": {
+      "14":
+        "if my people who are called by my name humble themselves, and pray and seek my face and turn from their wicked ways, then I will hear from heaven and will forgive their sin and heal their land.",
     },
     "15": {
       "12":
@@ -7573,6 +9487,10 @@ export default {
       "7":
         "those who trample the head of the poor into the dust of the earth and turn aside the way of the afflicted; a man and his father go in to the same girl, so that my holy name is profaned;",
     },
+    "3": {
+      "6":
+        "Is a trumpet blown in a city, and the people are not afraid? Does disaster come to a city, unless the LORD has done it?",
+    },
     "5": {
       "15":
         "Hate evil, and love good, and establish justice in the gate; it may be that the LORD, the God of hosts, will be gracious to the remnant of Joseph.",
@@ -7596,8 +9514,18 @@ export default {
   },
   Titus: {
     "1": {
+      "1":
+        "Paul, a servant of God and an apostle of Jesus Christ, for the sake of the faith of God's elect and their knowledge of the truth, which accords with godliness,",
       "2":
         "in hope of eternal life, which God, who never lies, promised before the ages began",
+      "5":
+        "This is why I left you in Crete, so that you might put what remained into order, and appoint elders in every town as I directed you--",
+      "7":
+        "For an overseer, as God's steward, must be above reproach. He must not be arrogant or quick-tempered or a drunkard or violent or greedy for gain,",
+      "8":
+        "but hospitable, a lover of good, self-controlled, upright, holy, and disciplined.",
+      "9":
+        "He must hold firm to the trustworthy word as taught, so that he may be able to give instruction in sound doctrine and also to rebuke those who contradict it.",
       "10":
         "For there are many who are insubordinate, empty talkers and deceivers, especially those of the circumcision party.",
       "11":
@@ -7618,6 +9546,8 @@ export default {
         "For the grace of God has appeared, bringing salvation for all people,",
       "12":
         "training us to renounce ungodliness and worldly passions, and to live self-controlled, upright, and godly lives in the present age,",
+      "13":
+        "waiting for our blessed hope, the appearing of the glory of our great God and Savior Jesus Christ,",
       "14":
         "who gave himself for us to redeem us from all lawlessness and to purify for himself a people for his own possession who are zealous for good works.",
     },
@@ -7662,6 +9592,12 @@ export default {
     "7": {
       "4":
         "and when they come from the marketplace, they do not eat unless they wash. And there are many other traditions that they observe, such as the washing of cups and pots and copper vessels and dining couches. )",
+      "7":
+        "in vain do they worship me, teaching as doctrines the commandments of men.'",
+      "8":
+        'You leave the commandment of God and hold to the tradition of men."',
+      "9":
+        'And he said to them, "You have a fine way of rejecting the commandment of God in order to establish your tradition!',
     },
     "8": {
       "34":
@@ -7714,6 +9650,8 @@ export default {
         "And to love him with all the heart and with all the understanding and with all the strength, and to love one's neighbor as oneself, is much more than all whole burnt offerings and sacrifices.\"",
     },
     "13": {
+      "33":
+        "Be on guard, keep awake. For you do not know when the time will come.",
       "35":
         "Therefore stay awake--for you do not know when the master of the house will come, in the evening, or at midnight, or when the cock crows, or in the morning--",
       "36": "lest he come suddenly and find you asleep.",
@@ -7798,10 +9736,16 @@ export default {
         "The latter do it out of love, knowing that I am put here for the defense of the gospel.",
       "18":
         "What then? Only that in every way, whether in pretense or in truth, Christ is proclaimed, and in that I rejoice. Yes, and I will rejoice,",
+      "21": "For to me to live is Christ, and to die is gain.",
+      "22":
+        "If I am to live in the flesh, that means fruitful labor for me. Yet which I shall choose I cannot tell.",
       "23":
         "I am hard pressed between the two. My desire is to depart and be with Christ, for that is far better.",
     },
     "2": {
+      "4":
+        "Let each of you look not only to his own interests, but also to the interests of others.",
+      "5": "Have this mind among yourselves, which is yours in Christ Jesus,",
       "6":
         "who, though he was in the form of God, did not count equality with God a thing to be grasped,",
       "7":
@@ -7814,12 +9758,21 @@ export default {
         "for it is God who works in you, both to will and to work for his good pleasure.",
     },
     "3": {
+      "4":
+        "though I myself have reason for confidence in the flesh also. If anyone else thinks he has reason for confidence in the flesh, I have more:",
+      "5":
+        "circumcised on the eighth day, of the people of Israel, of the tribe of Benjamin, a Hebrew of Hebrews; as to the law, a Pharisee;",
+      "6":
+        "as to zeal, a persecutor of the church; as to righteousness, under the law blameless.",
+      "7": "But whatever gain I had, I counted as loss for the sake of Christ.",
       "8":
         "Indeed, I count everything as loss because of the surpassing worth of knowing Christ Jesus my Lord. For his sake I have suffered the loss of all things and count them as rubbish, in order that I may gain Christ",
       "9":
         "and be found in him, not having a righteousness of my own that comes from the law, but that which comes through faith in Christ, the righteousness from God that depends on faith--",
       "10":
         "that I may know him and the power of his resurrection, and may share his sufferings, becoming like him in his death,",
+      "11":
+        "that by any means possible I may attain the resurrection from the dead.",
       "12":
         "Not that I have already obtained this or am already perfect, but I press on to make it my own, because Christ Jesus has made me his own.",
       "13":
@@ -7828,8 +9781,11 @@ export default {
         "I press on toward the goal for the prize of the upward call of God in Christ Jesus.",
       "15":
         "Let those of us who are mature think this way, and if in anything you think otherwise, God will reveal that also to you.",
+      "16": "Only let us hold true to what we have attained.",
       "19":
         "Their end is destruction, their god is their belly, and they glory in their shame, with minds set on earthly things.",
+      "20":
+        "But our citizenship is in heaven, and from it we await a Savior, the Lord Jesus Christ,",
       "21":
         "who will transform our lowly body to be like his glorious body, by the power that enables him even to subject all things to himself.",
     },
@@ -7894,6 +9850,10 @@ export default {
       "16":
         "These are the things that you shall do: Speak the truth to one another; render in your gates judgments that are true and make for peace;",
     },
+    "9": {
+      "9":
+        "Rejoice greatly, O daughter of Zion! Shout aloud, O daughter of Jerusalem! behold, your king is coming to you; righteous and having salvation is he, humble and mounted on a donkey, on a colt, the foal of a donkey.",
+    },
     "12": {
       "1":
         "The burden of the word of the LORD concerning Israel: Thus declares the LORD, who stretched out the heavens and founded the earth and formed the spirit of man within him:",
@@ -7901,6 +9861,8 @@ export default {
         '"And I will pour out on the house of David and the inhabitants of Jerusalem a spirit of grace and pleas for mercy, so that, when they look on me, on him whom they have pierced, they shall mourn for him, as one mourns for an only child, and weep bitterly over him, as one weeps over a firstborn.',
     },
     "13": {
+      "1":
+        '"On that day there shall be a fountain opened for the house of David and the inhabitants of Jerusalem, to cleanse them from sin and uncleanness.',
       "2":
         '"And on that day, declares the LORD of hosts, I will cut off the names of the idols from the land, so that they shall be remembered no more. And also I will remove from the land the prophets and the spirit of uncleanness.',
       "3":
@@ -7912,9 +9874,19 @@ export default {
       "11":
         'Its heads give judgment for a bribe; its priests teach for a price; its prophets practice divination for money; yet they lean on the LORD and say, "Is not the LORD in the midst of us? No disaster shall come upon us."',
     },
+    "5": {
+      "2":
+        "But you, O Bethlehem Ephrathah, who are too little to be among the clans of Judah, from you shall come forth for me one who is to be ruler in Israel, whose origin is from of old, from ancient days.",
+    },
     "6": {
       "8":
         "He has told you, O man, what is good; and what does the LORD require of you but to do justice, and to love kindness, and to walk humbly with your God?",
+      "9":
+        'The voice of the LORD cries to the city--and it is sound wisdom to fear your name: "Hear of the rod and of him who appointed it!',
+      "10":
+        "Can I forget any longer the treasures of wickedness in the house of the wicked, and the scant measure that is accursed?",
+      "11":
+        "Shall I acquit the man with wicked scales and with a bag of deceitful weights?",
     },
     "7": {
       "7":
@@ -7923,6 +9895,12 @@ export default {
         "Rejoice not over me, O my enemy; when I fall, I shall rise; when I sit in darkness, the LORD will be a light to me.",
       "9":
         "I will bear the indignation of the LORD because I have sinned against him, until he pleads my cause and executes judgment for me. He will bring me out to the light; I shall look upon his vindication.",
+      "18":
+        "Who is a God like you, pardoning iniquity and passing over transgression for the remnant of his inheritance? He does not retain his anger forever, because he delights in steadfast love.",
+      "19":
+        "He will again have compassion on us; he will tread our iniquities under foot. You will cast all our sins into the depths of the sea.",
+      "20":
+        "You will show faithfulness to Jacob and steadfast love to Abraham, as you have sworn to our fathers from the days of old.",
     },
   },
   Esther: {
@@ -7945,9 +9923,379 @@ export default {
         '"Yet even now," declares the LORD, "return to me with all your heart, with fasting, with weeping, and with mourning;',
       "13":
         'and rend your hearts and not your garments." Return to the LORD, your God, for he is gracious and merciful, slow to anger, and abounding in steadfast love; and he relents over disaster.',
+      "28":
+        '"And it shall come to pass afterward, that I will pour out my Spirit on all flesh; your sons and your daughters shall prophesy, your old men shall dream dreams, and your young men shall see visions.',
+      "32":
+        "And it shall come to pass that everyone who calls on the name of the LORD shall be saved. For in Mount Zion and in Jerusalem there shall be those who escape, as the LORD has said, and among the survivors shall be those whom the LORD calls.",
     },
   },
   Leviticus: {
+    "1": {
+      "1":
+        "The LORD called Moses and spoke to him from the tent of meeting, saying,",
+      "2":
+        '"Speak to the people of Israel and say to them, When any one of you brings an offering to the LORD, you shall bring your offering of livestock from the herd or from the flock.',
+      "3":
+        '"If his offering is a burnt offering from the herd, he shall offer a male without blemish. He shall bring it to the entrance of the tent of meeting, that he may be accepted before the LORD.',
+      "4":
+        "He shall lay his hand on the head of the burnt offering, and it shall be accepted for him to make atonement for him.",
+      "5":
+        "Then he shall kill the bull before the LORD, and Aaron's sons the priests shall bring the blood and throw the blood against the sides of the altar that is at the entrance of the tent of meeting.",
+      "6": "Then he shall flay the burnt offering and cut it into pieces,",
+      "7":
+        "and the sons of Aaron the priest shall put fire on the altar and arrange wood on the fire.",
+      "8":
+        "And Aaron's sons the priests shall arrange the pieces, the head, and the fat, on the wood that is on the fire on the altar;",
+      "9":
+        "but its entrails and its legs he shall wash with water. And the priest shall burn all of it on the altar, as a burnt offering, a food offering with a pleasing aroma to the LORD.",
+      "10":
+        '"If his gift for a burnt offering is from the flock, from the sheep or goats, he shall bring a male without blemish,',
+      "11":
+        "and he shall kill it on the north side of the altar before the LORD, and Aaron's sons the priests shall throw its blood against the sides of the altar.",
+      "12":
+        "And he shall cut it into pieces, with its head and its fat, and the priest shall arrange them on the wood that is on the fire on the altar,",
+      "13":
+        "but the entrails and the legs he shall wash with water. And the priest shall offer all of it and burn it on the altar; it is a burnt offering, a food offering with a pleasing aroma to the LORD.",
+      "14":
+        '"If his offering to the LORD is a burnt offering of birds, then he shall bring his offering of turtledoves or pigeons.',
+      "15":
+        "And the priest shall bring it to the altar and wring off its head and burn it on the altar. Its blood shall be drained out on the side of the altar.",
+      "16":
+        "He shall remove its crop with its contents and cast it beside the altar on the east side, in the place for ashes.",
+      "17":
+        "He shall tear it open by its wings, but shall not sever it completely. And the priest shall burn it on the altar, on the wood that is on the fire. It is a burnt offering, a food offering with a pleasing aroma to the LORD.",
+    },
+    "2": {
+      "1":
+        '"When anyone brings a grain offering as an offering to the LORD, his offering shall be of fine flour. He shall pour oil on it and put frankincense on it',
+      "2":
+        "and bring it to Aaron's sons the priests. And he shall take from it a handful of the fine flour and oil, with all of its frankincense, and the priest shall burn this as its memorial portion on the altar, a food offering with a pleasing aroma to the LORD.",
+      "3":
+        "But the rest of the grain offering shall be for Aaron and his sons; it is a most holy part of the LORD's food offerings.",
+      "4":
+        '"When you bring a grain offering baked in the oven as an offering, it shall be unleavened loaves of fine flour mixed with oil or unleavened wafers smeared with oil.',
+      "5":
+        "And if your offering is a grain offering baked on a griddle, it shall be of fine flour unleavened, mixed with oil.",
+      "6":
+        "You shall break it in pieces and pour oil on it; it is a grain offering.",
+      "7":
+        "And if your offering is a grain offering cooked in a pan, it shall be made of fine flour with oil.",
+      "8":
+        "And you shall bring the grain offering that is made of these things to the LORD, and when it is presented to the priest, he shall bring it to the altar.",
+      "9":
+        "And the priest shall take from the grain offering its memorial portion and burn this on the altar, a food offering with a pleasing aroma to the LORD.",
+      "10":
+        "But the rest of the grain offering shall be for Aaron and his sons; it is a most holy part of the LORD's food offerings.",
+      "11":
+        '"No grain offering that you bring to the LORD shall be made with leaven, for you shall burn no leaven nor any honey as a food offering to the LORD.',
+      "12":
+        "As an offering of firstfruits you may bring them to the LORD, but they shall not be offered on the altar for a pleasing aroma.",
+      "13":
+        "You shall season all your grain offerings with salt. You shall not let the salt of the covenant with your God be missing from your grain offering; with all your offerings you shall offer salt.",
+      "14":
+        '"If you offer a grain offering of firstfruits to the LORD, you shall offer for the grain offering of your firstfruits fresh ears, roasted with fire, crushed new grain.',
+      "15":
+        "And you shall put oil on it and lay frankincense on it; it is a grain offering.",
+      "16":
+        "And the priest shall burn as its memorial portion some of the crushed grain and some of the oil with all of its frankincense; it is a food offering to the LORD.",
+    },
+    "3": {
+      "1":
+        '"If his offering is a sacrifice of peace offering, if he offers an animal from the herd, male or female, he shall offer it without blemish before the LORD.',
+      "2":
+        "And he shall lay his hand on the head of his offering and kill it at the entrance of the tent of meeting, and Aaron's sons the priests shall throw the blood against the sides of the altar.",
+      "3":
+        "And from the sacrifice of the peace offering, as a food offering to the LORD, he shall offer the fat covering the entrails and all the fat that is on the entrails,",
+      "4":
+        "and the two kidneys with the fat that is on them at the loins, and the long lobe of the liver that he shall remove with the kidneys.",
+      "5":
+        "Then Aaron's sons shall burn it on the altar on top of the burnt offering, which is on the wood on the fire; it is a food offering with a pleasing aroma to the LORD.",
+      "6":
+        '"If his offering for a sacrifice of peace offering to the LORD is an animal from the flock, male or female, he shall offer it without blemish.',
+      "7":
+        "If he offers a lamb for his offering, then he shall offer it before the LORD,",
+      "8":
+        "lay his hand on the head of his offering, and kill it in front of the tent of meeting; and Aaron's sons shall throw its blood against the sides of the altar.",
+      "9":
+        "Then from the sacrifice of the peace offering he shall offer as a food offering to the LORD its fat; he shall remove the whole fat tail, cut off close to the backbone, and the fat that covers the entrails and all the fat that is on the entrails",
+      "10":
+        "and the two kidneys with the fat that is on them at the loins and the long lobe of the liver that he shall remove with the kidneys.",
+      "11":
+        "And the priest shall burn it on the altar as a food offering to the LORD.",
+      "12":
+        '"If his offering is a goat, then he shall offer it before the LORD',
+      "13":
+        "and lay his hand on its head and kill it in front of the tent of meeting, and the sons of Aaron shall throw its blood against the sides of the altar.",
+      "14":
+        "Then he shall offer from it, as his offering for a food offering to the LORD, the fat covering the entrails and all the fat that is on the entrails",
+      "15":
+        "and the two kidneys with the fat that is on them at the loins and the long lobe of the liver that he shall remove with the kidneys.",
+      "16":
+        "And the priest shall burn them on the altar as a food offering with a pleasing aroma. All fat is the LORD's.",
+      "17":
+        'It shall be a statute forever throughout your generations, in all your dwelling places, that you eat neither fat nor blood."',
+    },
+    "4": {
+      "1": "And the LORD spoke to Moses, saying,",
+      "2":
+        "\"Speak to the people of Israel, saying, If anyone sins unintentionally in any of the LORD's commandments about things not to be done, and does any one of them,",
+      "3":
+        "if it is the anointed priest who sins, thus bringing guilt on the people, then he shall offer for the sin that he has committed a bull from the herd without blemish to the LORD for a sin offering.",
+      "4":
+        "He shall bring the bull to the entrance of the tent of meeting before the LORD and lay his hand on the head of the bull and kill the bull before the LORD.",
+      "5":
+        "And the anointed priest shall take some of the blood of the bull and bring it into the tent of meeting,",
+      "6":
+        "and the priest shall dip his finger in the blood and sprinkle part of the blood seven times before the LORD in front of the veil of the sanctuary.",
+      "7":
+        "And the priest shall put some of the blood on the horns of the altar of fragrant incense before the LORD that is in the tent of meeting, and all the rest of the blood of the bull he shall pour out at the base of the altar of burnt offering that is at the entrance of the tent of meeting.",
+      "8":
+        "And all the fat of the bull of the sin offering he shall remove from it, the fat that covers the entrails and all the fat that is on the entrails",
+      "9":
+        "and the two kidneys with the fat that is on them at the loins and the long lobe of the liver that he shall remove with the kidneys",
+      "10":
+        "(just as these are taken from the ox of the sacrifice of the peace offerings); and the priest shall burn them on the altar of burnt offering.",
+      "11":
+        "But the skin of the bull and all its flesh, with its head, its legs, its entrails, and its dung--",
+      "12":
+        "all the rest of the bull--he shall carry outside the camp to a clean place, to the ash heap, and shall burn it up on a fire of wood. On the ash heap it shall be burned up.",
+      "13":
+        "\"If the whole congregation of Israel sins unintentionally and the thing is hidden from the eyes of the assembly, and they do any one of the things that by the LORD's commandments ought not to be done, and they realize their guilt,",
+      "14":
+        "when the sin which they have committed becomes known, the assembly shall offer a bull from the herd for a sin offering and bring it in front of the tent of meeting.",
+      "15":
+        "And the elders of the congregation shall lay their hands on the head of the bull before the LORD, and the bull shall be killed before the LORD.",
+      "16":
+        "Then the anointed priest shall bring some of the blood of the bull into the tent of meeting,",
+      "17":
+        "and the priest shall dip his finger in the blood and sprinkle it seven times before the LORD in front of the veil.",
+      "18":
+        "And he shall put some of the blood on the horns of the altar that is in the tent of meeting before the LORD, and the rest of the blood he shall pour out at the base of the altar of burnt offering that is at the entrance of the tent of meeting.",
+      "19": "And all its fat he shall take from it and burn on the altar.",
+      "20":
+        "Thus shall he do with the bull. As he did with the bull of the sin offering, so shall he do with this. And the priest shall make atonement for them, and they shall be forgiven.",
+      "21":
+        "And he shall carry the bull outside the camp and burn it up as he burned the first bull; it is the sin offering for the assembly.",
+      "22":
+        '"When a leader sins, doing unintentionally any one of all the things that by the commandments of the LORD his God ought not to be done, and realizes his guilt,',
+      "23":
+        "or the sin which he has committed is made known to him, he shall bring as his offering a goat, a male without blemish,",
+      "24":
+        "and shall lay his hand on the head of the goat and kill it in the place where they kill the burnt offering before the LORD; it is a sin offering.",
+      "25":
+        "Then the priest shall take some of the blood of the sin offering with his finger and put it on the horns of the altar of burnt offering and pour out the rest of its blood at the base of the altar of burnt offering.",
+      "26":
+        "And all its fat he shall burn on the altar, like the fat of the sacrifice of peace offerings. So the priest shall make atonement for him for his sin, and he shall be forgiven.",
+      "27":
+        "\"If anyone of the common people sins unintentionally in doing any one of the things that by the LORD's commandments ought not to be done, and realizes his guilt,",
+      "28":
+        "or the sin which he has committed is made known to him, he shall bring for his offering a goat, a female without blemish, for his sin which he has committed.",
+      "29":
+        "And he shall lay his hand on the head of the sin offering and kill the sin offering in the place of burnt offering.",
+      "30":
+        "And the priest shall take some of its blood with his finger and put it on the horns of the altar of burnt offering and pour out all the rest of its blood at the base of the altar.",
+      "31":
+        "And all its fat he shall remove, as the fat is removed from the peace offerings, and the priest shall burn it on the altar for a pleasing aroma to the LORD. And the priest shall make atonement for him, and he shall be forgiven.",
+      "32":
+        '"If he brings a lamb as his offering for a sin offering, he shall bring a female without blemish',
+      "33":
+        "and lay his hand on the head of the sin offering and kill it for a sin offering in the place where they kill the burnt offering.",
+      "34":
+        "Then the priest shall take some of the blood of the sin offering with his finger and put it on the horns of the altar of burnt offering and pour out all the rest of its blood at the base of the altar.",
+      "35":
+        "And all its fat he shall remove as the fat of the lamb is removed from the sacrifice of peace offerings, and the priest shall burn it on the altar, on top of the LORD's food offerings. And the priest shall make atonement for him for the sin which he has committed, and he shall be forgiven.",
+    },
+    "5": {
+      "1":
+        '"If anyone sins in that he hears a public adjuration to testify, and though he is a witness, whether he has seen or come to know the matter, yet does not speak, he shall bear his iniquity;',
+      "2":
+        "or if anyone touches an unclean thing, whether a carcass of an unclean wild animal or a carcass of unclean livestock or a carcass of unclean swarming things, and it is hidden from him and he has become unclean, and he realizes his guilt;",
+      "3":
+        "or if he touches human uncleanness, of whatever sort the uncleanness may be with which one becomes unclean, and it is hidden from him, when he comes to know it, and realizes his guilt;",
+      "4":
+        "or if anyone utters with his lips a rash oath to do evil or to do good, any sort of rash oath that people swear, and it is hidden from him, when he comes to know it, and he realizes his guilt in any of these;",
+      "5":
+        "when he realizes his guilt in any of these and confesses the sin he has committed,",
+      "6":
+        "he shall bring to the LORD as his compensation for the sin that he has committed, a female from the flock, a lamb or a goat, for a sin offering. And the priest shall make atonement for him for his sin.",
+      "7":
+        '"But if he cannot afford a lamb, then he shall bring to the LORD as his compensation for the sin that he has committed two turtledoves or two pigeons, one for a sin offering and the other for a burnt offering.',
+      "8":
+        "He shall bring them to the priest, who shall offer first the one for the sin offering. He shall wring its head from its neck but shall not sever it completely,",
+      "9":
+        "and he shall sprinkle some of the blood of the sin offering on the side of the altar, while the rest of the blood shall be drained out at the base of the altar; it is a sin offering.",
+      "10":
+        "Then he shall offer the second for a burnt offering according to the rule. And the priest shall make atonement for him for the sin that he has committed, and he shall be forgiven.",
+      "11":
+        '"But if he cannot afford two turtledoves or two pigeons, then he shall bring as his offering for the sin that he has committed a tenth of an ephah of fine flour for a sin offering. He shall put no oil on it and shall put no frankincense on it, for it is a sin offering.',
+      "12":
+        "And he shall bring it to the priest, and the priest shall take a handful of it as its memorial portion and burn this on the altar, on the LORD's food offerings; it is a sin offering.",
+      "13":
+        'Thus the priest shall make atonement for him for the sin which he has committed in any one of these things, and he shall be forgiven. And the remainder shall be for the priest, as in the grain offering."',
+      "14": "The LORD spoke to Moses, saying,",
+      "15":
+        '"If anyone commits a breach of faith and sins unintentionally in any of the holy things of the LORD, he shall bring to the LORD as his compensation, a ram without blemish out of the flock, valued in silver shekels, according to the shekel of the sanctuary, for a guilt offering.',
+      "16":
+        "He shall also make restitution for what he has done amiss in the holy thing and shall add a fifth to it and give it to the priest. And the priest shall make atonement for him with the ram of the guilt offering, and he shall be forgiven.",
+      "17":
+        "\"If anyone sins, doing any of the things that by the LORD's commandments ought not to be done, though he did not know it, then realizes his guilt, he shall bear his iniquity.",
+      "18":
+        "He shall bring to the priest a ram without blemish out of the flock, or its equivalent for a guilt offering, and the priest shall make atonement for him for the mistake that he made unintentionally, and he shall be forgiven.",
+      "19":
+        'It is a guilt offering; he has indeed incurred guilt before the LORD."',
+    },
+    "6": {
+      "1": "The LORD spoke to Moses, saying,",
+      "2":
+        '"If anyone sins and commits a breach of faith against the LORD by deceiving his neighbor in a matter of deposit or security, or through robbery, or if he has oppressed his neighbor',
+      "3":
+        "or has found something lost and lied about it, swearing falsely--in any of all the things that people do and sin thereby--",
+      "4":
+        "if he has sinned and has realized his guilt and will restore what he took by robbery or what he got by oppression or the deposit that was committed to him or the lost thing that he found",
+      "5":
+        "or anything about which he has sworn falsely, he shall restore it in full and shall add a fifth to it, and give it to him to whom it belongs on the day he realizes his guilt.",
+      "6":
+        "And he shall bring to the priest as his compensation to the LORD a ram without blemish out of the flock, or its equivalent for a guilt offering.",
+      "7":
+        'And the priest shall make atonement for him before the LORD, and he shall be forgiven for any of the things that one may do and thereby become guilty."',
+      "8": "The LORD spoke to Moses, saying,",
+      "9":
+        '"Command Aaron and his sons, saying, This is the law of the burnt offering. The burnt offering shall be on the hearth on the altar all night until the morning, and the fire of the altar shall be kept burning on it.',
+      "10":
+        "And the priest shall put on his linen garment and put his linen undergarment on his body, and he shall take up the ashes to which the fire has reduced the burnt offering on the altar and put them beside the altar.",
+      "11":
+        "Then he shall take off his garments and put on other garments and carry the ashes outside the camp to a clean place.",
+      "12":
+        "The fire on the altar shall be kept burning on it; it shall not go out. The priest shall burn wood on it every morning, and he shall arrange the burnt offering on it and shall burn on it the fat of the peace offerings.",
+      "13":
+        "Fire shall be kept burning on the altar continually; it shall not go out.",
+      "14":
+        '"And this is the law of the grain offering. The sons of Aaron shall offer it before the LORD in front of the altar.',
+      "15":
+        "And one shall take from it a handful of the fine flour of the grain offering and its oil and all the frankincense that is on the grain offering and burn this as its memorial portion on the altar, a pleasing aroma to the LORD.",
+      "16":
+        "And the rest of it Aaron and his sons shall eat. It shall be eaten unleavened in a holy place. In the court of the tent of meeting they shall eat it.",
+      "17":
+        "It shall not be baked with leaven. I have given it as their portion of my food offerings. It is a thing most holy, like the sin offering and the guilt offering.",
+      "18":
+        "Every male among the children of Aaron may eat of it, as decreed forever throughout your generations, from the LORD's food offerings. Whatever touches them shall become holy.\"",
+      "19": "The LORD spoke to Moses, saying,",
+      "20":
+        '"This is the offering that Aaron and his sons shall offer to the LORD on the day when he is anointed: a tenth of an ephah of fine flour as a regular grain offering, half of it in the morning and half in the evening.',
+      "21":
+        "It shall be made with oil on a griddle. You shall bring it well mixed, in baked pieces like a grain offering, and offer it for a pleasing aroma to the LORD.",
+      "22":
+        "The priest from among Aaron's sons, who is anointed to succeed him, shall offer it to the LORD as decreed forever. The whole of it shall be burned.",
+      "23":
+        'Every grain offering of a priest shall be wholly burned. It shall not be eaten."',
+      "24": "The LORD spoke to Moses, saying,",
+      "25":
+        '"Speak to Aaron and his sons, saying, This is the law of the sin offering. In the place where the burnt offering is killed shall the sin offering be killed before the LORD; it is most holy.',
+      "26":
+        "The priest who offers it for sin shall eat it. In a holy place it shall be eaten, in the court of the tent of meeting.",
+      "27":
+        "Whatever touches its flesh shall be holy, and when any of its blood is splashed on a garment, you shall wash that on which it was splashed in a holy place.",
+      "28":
+        "And the earthenware vessel in which it is boiled shall be broken. But if it is boiled in a bronze vessel, that shall be scoured and rinsed in water.",
+      "29": "Every male among the priests may eat of it; it is most holy.",
+      "30":
+        "But no sin offering shall be eaten from which any blood is brought into the tent of meeting to make atonement in the Holy Place; it shall be burned up with fire.",
+    },
+    "7": {
+      "1": '"This is the law of the guilt offering. It is most holy.',
+      "2":
+        "In the place where they kill the burnt offering they shall kill the guilt offering, and its blood shall be thrown against the sides of the altar.",
+      "3":
+        "And all its fat shall be offered, the fat tail, the fat that covers the entrails,",
+      "4":
+        "the two kidneys with the fat that is on them at the loins, and the long lobe of the liver that he shall remove with the kidneys.",
+      "5":
+        "The priest shall burn them on the altar as a food offering to the LORD; it is a guilt offering.",
+      "6":
+        "Every male among the priests may eat of it. It shall be eaten in a holy place. It is most holy.",
+      "7":
+        "The guilt offering is just like the sin offering; there is one law for them. The priest who makes atonement with it shall have it.",
+      "8":
+        "And the priest who offers any man's burnt offering shall have for himself the skin of the burnt offering that he has offered.",
+      "9":
+        "And every grain offering baked in the oven and all that is prepared on a pan or a griddle shall belong to the priest who offers it.",
+      "10":
+        "And every grain offering, mixed with oil or dry, shall be shared equally among all the sons of Aaron.",
+      "11":
+        '"And this is the law of the sacrifice of peace offerings that one may offer to the LORD.',
+      "12":
+        "If he offers it for a thanksgiving, then he shall offer with the thanksgiving sacrifice unleavened loaves mixed with oil, unleavened wafers smeared with oil, and loaves of fine flour well mixed with oil.",
+      "13":
+        "With the sacrifice of his peace offerings for thanksgiving he shall bring his offering with loaves of leavened bread.",
+      "14":
+        "And from it he shall offer one loaf from each offering, as a gift to the LORD. It shall belong to the priest who throws the blood of the peace offerings.",
+      "15":
+        "And the flesh of the sacrifice of his peace offerings for thanksgiving shall be eaten on the day of his offering. He shall not leave any of it until the morning.",
+      "16":
+        "But if the sacrifice of his offering is a vow offering or a freewill offering, it shall be eaten on the day that he offers his sacrifice, and on the next day what remains of it shall be eaten.",
+      "17":
+        "But what remains of the flesh of the sacrifice on the third day shall be burned up with fire.",
+      "18":
+        "If any of the flesh of the sacrifice of his peace offering is eaten on the third day, he who offers it shall not be accepted, neither shall it be credited to him. It is tainted, and he who eats of it shall bear his iniquity.",
+      "19":
+        '"Flesh that touches any unclean thing shall not be eaten. It shall be burned up with fire. All who are clean may eat flesh,',
+      "20":
+        "but the person who eats of the flesh of the sacrifice of the LORD's peace offerings while an uncleanness is on him, that person shall be cut off from his people.",
+      "21":
+        "And if anyone touches an unclean thing, whether human uncleanness or an unclean beast or any unclean detestable creature, and then eats some flesh from the sacrifice of the LORD's peace offerings, that person shall be cut off from his people.\"",
+      "22": "The LORD spoke to Moses, saying,",
+      "23":
+        '"Speak to the people of Israel, saying, You shall eat no fat, of ox or sheep or goat.',
+      "24":
+        "The fat of an animal that dies of itself and the fat of one that is torn by beasts may be put to any other use, but on no account shall you eat it.",
+      "25":
+        "For every person who eats of the fat of an animal of which a food offering may be made to the LORD shall be cut off from his people.",
+      "26":
+        "Moreover, you shall eat no blood whatever, whether of fowl or of animal, in any of your dwelling places.",
+      "27":
+        'Whoever eats any blood, that person shall be cut off from his people."',
+      "28": "The LORD spoke to Moses, saying,",
+      "29":
+        '"Speak to the people of Israel, saying, Whoever offers the sacrifice of his peace offerings to the LORD shall bring his offering to the LORD from the sacrifice of his peace offerings.',
+      "30":
+        "His own hands shall bring the LORD's food offerings. He shall bring the fat with the breast, that the breast may be waved as a wave offering before the LORD.",
+      "31":
+        "The priest shall burn the fat on the altar, but the breast shall be for Aaron and his sons.",
+      "32":
+        "And the right thigh you shall give to the priest as a contribution from the sacrifice of your peace offerings.",
+      "33":
+        "Whoever among the sons of Aaron offers the blood of the peace offerings and the fat shall have the right thigh for a portion.",
+      "34":
+        "For the breast that is waved and the thigh that is contributed I have taken from the people of Israel, out of the sacrifices of their peace offerings, and have given them to Aaron the priest and to his sons, as a perpetual due from the people of Israel.",
+      "35":
+        "This is the portion of Aaron and of his sons from the LORD's food offerings, from the day they were presented to serve as priests of the LORD.",
+      "36":
+        'The LORD commanded this to be given them by the people of Israel, from the day that he anointed them. It is a perpetual due throughout their generations."',
+      "37":
+        "This is the law of the burnt offering, of the grain offering, of the sin offering, of the guilt offering, of the ordination offering, and of the peace offering,",
+      "38":
+        "which the LORD commanded Moses on Mount Sinai, on the day that he commanded the people of Israel to bring their offerings to the LORD, in the wilderness of Sinai.",
+    },
+    "10": {
+      "1":
+        "Now Nadab and Abihu, the sons of Aaron, each took his censer and put fire in it and laid incense on it and offered unauthorized fire before the LORD, which he had not commanded them.",
+      "2":
+        "And fire came out from before the LORD and consumed them, and they died before the LORD.",
+      "3":
+        "Then Moses said to Aaron, \"This is what the LORD has said, 'Among those who are near me I will be sanctified, and before all the people I will be glorified.'\" And Aaron held his peace.",
+      "4":
+        'And Moses called Mishael and Elzaphan, the sons of Uzziel the uncle of Aaron, and said to them, "Come near; carry your brothers away from the front of the sanctuary and out of the camp."',
+      "5":
+        "So they came near and carried them in their coats out of the camp, as Moses had said.",
+      "6":
+        'And Moses said to Aaron and to Eleazar and Ithamar his sons, "Do not let the hair of your heads hang loose, and do not tear your clothes, lest you die, and wrath come upon all the congregation; but let your brothers, the whole house of Israel, bewail the burning that the LORD has kindled.',
+      "7":
+        'And do not go outside the entrance of the tent of meeting, lest you die, for the anointing oil of the LORD is upon you." And they did according to the word of Moses.',
+    },
+    "12": {
+      "6":
+        "\"'And when the days of her purifying are completed, whether for a son or for a daughter, she shall bring to the priest at the entrance of the tent of meeting a lamb a year old for a burnt offering, and a pigeon or a turtledove for a sin offering,",
+    },
     "18": {
       "1": "And the LORD spoke to Moses, saying,",
       "2":
@@ -8010,12 +10358,20 @@ export default {
         'So keep my charge never to practice any of these abominable customs that were practiced before you, and never to make yourselves unclean by them: I am the LORD your God."',
     },
     "19": {
+      "11":
+        '"You shall not steal; you shall not deal falsely; you shall not lie to one another.',
       "12":
         "You shall not swear by my name falsely, and so profane the name of your God: I am the LORD.",
       "16":
         "You shall not go around as a slanderer among your people, and you shall not stand up against the life of your neighbor: I am the LORD.",
+      "17":
+        '"You shall not hate your brother in your heart, but you shall reason frankly with your neighbor, lest you incur sin because of him.',
+      "18":
+        "You shall not take vengeance or bear a grudge against the sons of your own people, but you shall love your neighbor as yourself: I am the LORD.",
       "20":
         '"If a man lies sexually with a woman who is a slave, assigned to another man and not yet ransomed or given her freedom, a distinction shall be made. They shall not be put to death, because she was not free;',
+      "31":
+        '"Do not turn to mediums or wizards; do not seek them out, and so make yourselves unclean by them: I am the LORD your God.',
     },
     "20": {
       "19":
@@ -8030,8 +10386,20 @@ export default {
         '"Six days shall work be done, but on the seventh day is a Sabbath of solemn rest, a holy convocation. You shall do no work. It is a Sabbath to the LORD in all your dwelling places.',
     },
     "24": {
+      "10":
+        "Now an Israelite woman's son, whose father was an Egyptian, went out among the people of Israel. And the Israelite woman's son and a man of Israel fought in the camp,",
+      "11":
+        "and the Israelite woman's son blasphemed the Name, and cursed. Then they brought him to Moses. His mother's name was Shelomith, the daughter of Dibri, of the tribe of Dan.",
+      "12":
+        "And they put him in custody, till the will of the LORD should be clear to them.",
+      "13": "Then the LORD spoke to Moses, saying,",
+      "14":
+        '"Bring out of the camp the one who cursed, and let all who heard him lay their hands on his head, and let all the congregation stone him.',
+      "15":
+        "And speak to the people of Israel, saying, Whoever curses his God shall bear his sin.",
       "16":
         "Whoever blasphemes the name of the LORD shall surely be put to death. All the congregation shall stone him. The sojourner as well as the native, when he blasphemes the Name, shall be put to death.",
+      "17": '"Whoever takes a human life shall surely be put to death.',
     },
     "25": {
       "35":
@@ -8101,6 +10469,10 @@ export default {
       "13":
         "And I declare to him that I am about to punish his house forever, for the iniquity that he knew, because his sons were blaspheming God, and he did not restrain them.",
     },
+    "12": {
+      "22":
+        "For the LORD will not forsake his people, for his great name's sake, because it has pleased the LORD to make you a people for himself.",
+    },
     "13": {
       "8":
         "He waited seven days, the time appointed by Samuel. But Samuel did not come to Gilgal, and the people were scattering from him.",
@@ -8152,6 +10524,8 @@ export default {
   },
   "2 John": {
     "1": {
+      "8":
+        "Watch yourselves, so that you may not lose what we have worked for, but may win a full reward.",
       "9":
         "Everyone who goes on ahead and does not abide in the teaching of Christ, does not have God. Whoever abides in the teaching has both the Father and the Son.",
       "10":
@@ -8165,6 +10539,8 @@ export default {
         'Then Joshua said to Achan, "My son, give glory to the LORD God of Israel and give praise to him. And tell me now what you have done; do not hide it from me."',
     },
     "9": {
+      "15":
+        "And Joshua made peace with them and made a covenant with them, to let them live, and the leaders of the congregation swore to them.",
       "18":
         "But the people of Israel did not attack them, because the leaders of the congregation had sworn to them by the LORD, the God of Israel. Then all the congregation murmured against the leaders.",
       "19":
@@ -8209,6 +10585,30 @@ export default {
     "4": {
       "12":
         'and may your house be like the house of Perez, whom Tamar bore to Judah, because of the offspring that the LORD will give you by this young woman."',
+    },
+  },
+  Zephaniah: {
+    "3": {
+      "11":
+        '"On that day you shall not be put to shame because of the deeds by which you have rebelled against me; for then I will remove from your midst your proudly exultant ones, and you shall no longer be haughty in my holy mountain.',
+    },
+  },
+  Habakkuk: {
+    "2": {
+      "4":
+        '"Behold, his soul is puffed up; it is not upright within him, but the righteous shall live by his faith.',
+      "18":
+        '"What profit is an idol when its maker has shaped it, a metal image, a teacher of lies? For its maker trusts in his own creation when he makes speechless idols!',
+      "19":
+        "Woe to him who says to a wooden thing, Awake; to a silent stone, Arise! Can this teach? Behold, it is overlaid with gold and silver, and there is no breath at all in it.",
+      "20":
+        'But the LORD is in his holy temple; let all the earth keep silence before him."',
+    },
+  },
+  Judges: {
+    "21": {
+      "25":
+        "In those days there was no king in Israel. Everyone did what was right in his own eyes.",
     },
   },
 };

@@ -14,7 +14,7 @@ import {
 } from "react-native";
 import AppText from "./AppText";
 import ReadingText from "./ReadingText";
-import { defer, isString } from "lodash";
+import { defer, isArray, isString } from "lodash";
 import Icon from "@expo/vector-icons";
 
 import bibleMapping from "../constants/bibleMapping.js";
@@ -34,8 +34,8 @@ class Reading extends React.Component {
     catechismIndex: 0,
     catechismSectionIndex: 0,
     catechismShowAnswers: true,
-    catechismShowScriptures: true,
     catechismShowSingle: false,
+    catechismViewMode: "below",
     confessionChapterIndex: 0,
     document: {
       content: [],
@@ -142,39 +142,39 @@ class Reading extends React.Component {
         {confessionChapterIndex === 0 ? (
           <View />
         ) : (
-          <TouchableOpacity
-            onPress={() =>
-              this.setConfessionChapterIndex(confessionChapterIndex - 1)
-            }
-          >
-            <View style={styles.confessionNavSection}>
-              <Icon.Entypo color="#039be5" name="chevron-thin-left" size={25} />
-              <AppText bold style={styles.confessionNavTitle}>
-                {prevChapter.chapter}. {prevChapter.title}
-              </AppText>
-            </View>
-          </TouchableOpacity>
-        )}
+            <TouchableOpacity
+              onPress={() =>
+                this.setConfessionChapterIndex(confessionChapterIndex - 1)
+              }
+            >
+              <View style={styles.confessionNavSection}>
+                <Icon.Entypo color="#039be5" name="chevron-thin-left" size={25} />
+                <AppText bold style={styles.confessionNavTitle}>
+                  {prevChapter.chapter}. {prevChapter.title}
+                </AppText>
+              </View>
+            </TouchableOpacity>
+          )}
         {confessionChapterIndex === document.content.length - 1 ? (
           <View />
         ) : (
-          <TouchableOpacity
-            onPress={() =>
-              this.setConfessionChapterIndex(confessionChapterIndex + 1)
-            }
-          >
-            <View style={styles.confessionNavSection}>
-              <AppText bold style={styles.confessionNavTitle}>
-                {nextChapter.chapter}. {nextChapter.title}
-              </AppText>
-              <Icon.Entypo
-                color="#039be5"
-                name="chevron-thin-right"
-                size={25}
-              />
-            </View>
-          </TouchableOpacity>
-        )}
+            <TouchableOpacity
+              onPress={() =>
+                this.setConfessionChapterIndex(confessionChapterIndex + 1)
+              }
+            >
+              <View style={styles.confessionNavSection}>
+                <AppText bold style={styles.confessionNavTitle}>
+                  {nextChapter.chapter}. {nextChapter.title}
+                </AppText>
+                <Icon.Entypo
+                  color="#039be5"
+                  name="chevron-thin-right"
+                  size={25}
+                />
+              </View>
+            </TouchableOpacity>
+          )}
       </View>
     );
   }
@@ -185,6 +185,7 @@ class Reading extends React.Component {
     const chapter = document.content[confessionChapterIndex];
 
     let superscript = 0;
+    let hideParagraphNumbers = false;
 
     return (
       <View style={{ position: "relative" }}>
@@ -202,9 +203,32 @@ class Reading extends React.Component {
               );
             }
 
+            if (paragraph[0].title) {
+              hideParagraphNumbers = true;
+
+              return paragraph.map((section, index1) => {
+                return (
+                  <View key={index1} style={styles.paragraph}>
+                    <ReadingText bold>{section.title}</ReadingText>
+                    <ReadingText>{section.text}</ReadingText>
+                  </View>
+                );
+              });
+            }
+
             return (
-              <ReadingText key={index} style={styles.paragraph}>
-                <ReadingText bold>{`${index + 1}. `}</ReadingText>
+              <ReadingText
+                key={index}
+                style={[
+                  styles.paragraph,
+                  paragraph[0].styles &&
+                  paragraph[0].styles.map(style => styles[style]),
+                ]}
+              >
+                {hideParagraphNumbers ? null : (
+                  <ReadingText bold>{`${index + 1}. `}</ReadingText>
+                )}
+
                 {paragraph.map((section, index1) => {
                   if (section.scriptures) {
                     superscript++;
@@ -212,7 +236,15 @@ class Reading extends React.Component {
 
                   return (
                     <ReadingText key={index1}>
-                      <ReadingText>{`${section.text} `}</ReadingText>
+                      {section.number ? (
+                        <ReadingText bold>{`${section.number}. `}</ReadingText>
+                      ) : null}
+                      <ReadingText
+                        italic={
+                          section.styles &&
+                          section.styles.indexOf("italic") !== -1
+                        }
+                      >{`${section.text} `}</ReadingText>
                       {section.scriptures ? (
                         <ReadingText
                           bold
@@ -243,7 +275,7 @@ class Reading extends React.Component {
     );
   }
 
-  renderScriptures() {
+  renderModal() {
     const { modal } = this.state;
 
     if (!modal) {
@@ -288,7 +320,7 @@ class Reading extends React.Component {
 
               const results = [];
 
-              parsed.entities[0].passages.forEach(function(passageData) {
+              parsed.entities[0].passages.forEach(function (passageData) {
                 const start = passageData.start;
                 const end = passageData.end;
                 const book = bibleMapping[start.b];
@@ -341,37 +373,37 @@ class Reading extends React.Component {
                       })}
                     </ReadingText>
                   ) : (
-                    results.map((chapter, index2) => {
-                      const chapterRendered = chapters[chapter.chapter];
+                      results.map((chapter, index2) => {
+                        const chapterRendered = chapters[chapter.chapter];
 
-                      chapters[chapter.chapter] = true;
+                        chapters[chapter.chapter] = true;
 
-                      return (
-                        <View key={index2}>
-                          {chapterRendered ? null : (
-                            <ReadingText
-                              italic
-                              style={{ marginTop: index2 === 0 ? 0 : 25 }}
-                            >
-                              Chapter {chapter.chapter}
+                        return (
+                          <View key={index2}>
+                            {chapterRendered ? null : (
+                              <ReadingText
+                                italic
+                                style={{ marginTop: index2 === 0 ? 0 : 25 }}
+                              >
+                                Chapter {chapter.chapter}
+                              </ReadingText>
+                            )}
+                            <ReadingText>
+                              {chapter.verses.map((item, index3) => {
+                                return (
+                                  <ReadingText key={index3}>
+                                    <ReadingText bold>{`${
+                                      item.verse
+                                      } `}</ReadingText>
+                                    <ReadingText>{`${item.text} `}</ReadingText>
+                                  </ReadingText>
+                                );
+                              })}
                             </ReadingText>
-                          )}
-                          <ReadingText>
-                            {chapter.verses.map((item, index3) => {
-                              return (
-                                <ReadingText key={index3}>
-                                  <ReadingText bold>{`${
-                                    item.verse
-                                  } `}</ReadingText>
-                                  <ReadingText>{`${item.text} `}</ReadingText>
-                                </ReadingText>
-                              );
-                            })}
-                          </ReadingText>
-                        </View>
-                      );
-                    })
-                  )}
+                          </View>
+                        );
+                      })
+                    )}
                 </View>
               );
             })}
@@ -381,85 +413,117 @@ class Reading extends React.Component {
     );
   }
 
-  renderBoysGirls() {
-    const { catechismSectionIndex, document } = this.state;
-    const { fontSize } = this.props;
-
-    if (document.slug !== "boys-girls") {
-      return null;
-    }
-
-    const section = document.content[catechismSectionIndex];
+  renderParagraph(paragraph, footnoteCount) {
+    const { catechismViewMode } = this.state
 
     return (
-      <View style={styles.paddingSides}>
-        <ReadingText bold>{section.section}</ReadingText>
-        {section.questions.map(question => {
+      <ReadingText>
+        {paragraph.map((section, index) => {
+          if (section.scriptures) {
+            footnoteCount.count++;
+          }
+
           return (
-            <View key={question.number} style={{ marginTop: 25 }}>
-              <ReadingText bold>
-                {question.number}. {question.question}
-              </ReadingText>
-              <ReadingText>
-                {`${question.answer} `}
-                <Icon.MaterialCommunityIcons
-                  color="#795548"
-                  name="bible"
+            <ReadingText key={index}>
+              <ReadingText>{`${section.text} `}</ReadingText>
+              {section.scriptures && catechismViewMode !== 'noscriptures' ? (
+                <ReadingText
+                  bold
                   onPress={() =>
                     this.setState({
                       modal: {
-                        section: question.question,
-                        scriptures: question.scriptures.split(";"),
+                        section: section.text,
+                        scriptures: section.scriptures.split("; "),
                       },
                     })
                   }
-                  size={fontSize}
-                />
-              </ReadingText>
-            </View>
+                  style={{ color: "#039be5" }}
+                >{`(${
+                  catechismViewMode === 'inline' ? section.scriptures : footnoteCount.count
+                  }) `}</ReadingText>
+              ) : null}
+            </ReadingText>
           );
         })}
-      </View>
+      </ReadingText>
     );
   }
 
-  renderCatechismQuestion(question, index) {
-    const { catechismShowAnswers, catechismShowScriptures } = this.state;
+  renderBelowScriptures(paragraph, footnoteCount) {
+    return paragraph.map((section, index) => {
+      if (!section.scriptures) {
+        return null
+      }
 
-    let footnoteCount = 0;
+      footnoteCount.count++;
+
+      return (
+        <TouchableOpacity key={index} onPress={() => this.setState({
+          modal: {
+            section: section.text,
+            scriptures: section.scriptures.split("; ")
+          }
+        })}>
+          <ReadingText>
+            <ReadingText bold style={{ color: "#039be5" }}>{`(${footnoteCount.count}) `}</ReadingText>
+            <ReadingText style={{ color: "#039be5" }}>{section.scriptures}</ReadingText>
+          </ReadingText>
+        </TouchableOpacity>
+      )
+    })
+  }
+
+  renderCatechismQuestion(question, index) {
+    const { catechismShowAnswers, catechismViewMode } = this.state;
+
+    let footnoteCount = { count: 0 };
+    let belowFootnoteCount = { count: 0 };
 
     return (
       <View key={index} style={{ marginBottom: 25 }}>
         <ReadingText bold>
-          {index + 1}. {question.question}
+          {index + 1}.{" "}
+          {isArray(question.question)
+            ? this.renderParagraph(
+              question.question,
+              footnoteCount,
+            )
+            : question.question}
         </ReadingText>
         {catechismShowAnswers ? (
-          <ReadingText>
-            {question.answer.map((section, index1) => {
-              footnoteCount++;
-
-              return (
-                <ReadingText key={index1}>
-                  <ReadingText>{`${section.text} `}</ReadingText>
-                  <ReadingText
-                    bold
-                    onPress={() =>
-                      this.setState({
-                        modal: {
-                          section: section.text,
-                          scriptures: section.scriptures.split("; "),
-                        },
-                      })
-                    }
-                    style={{ color: "#039be5" }}
-                  >{`(${
-                    catechismShowScriptures ? section.scriptures : footnoteCount
-                  }) `}</ReadingText>
-                </ReadingText>
-              );
-            })}
-          </ReadingText>
+          <View>
+            {isArray(question.answer[0])
+              ? question.answer.map((section, index1) => {
+                return this.renderParagraph(
+                  section,
+                  footnoteCount
+                );
+              })
+              : this.renderParagraph(
+                question.answer,
+                footnoteCount
+              )}
+            {
+              catechismViewMode === 'below' && isArray(question.answer[0])
+                ? (
+                  <View style={{ marginTop: 10 }}>
+                    {question.answer.map((section, index1) => {
+                      return this.renderBelowScriptures(section, belowFootnoteCount)
+                    })}
+                  </View>
+                )
+                : (
+                  <View style={{ marginTop: 15 }}>
+                    {catechismViewMode === 'below'
+                      ? this.renderBelowScriptures(question.answer, belowFootnoteCount)
+                      : null}
+                  </View>
+                )
+            }
+          </View>
         ) : null}
+
+
       </View>
     );
   }
@@ -468,9 +532,10 @@ class Reading extends React.Component {
     const {
       catechismIndex,
       catechismShowAnswers,
-      catechismShowScriptures,
+      catechismViewMode,
       catechismShowSingle,
       document,
+      hideCatechismSettings,
     } = this.state;
 
     if (document.type !== "catechism") {
@@ -482,75 +547,137 @@ class Reading extends React.Component {
     const content = catechismShowSingle
       ? this.renderCatechismQuestion(singleCatechismQuestion, catechismIndex)
       : document.content.map((question, index) => {
-          return this.renderCatechismQuestion(question, index);
-        });
+        return this.renderCatechismQuestion(question, index);
+      });
 
     return (
       <View>
-        <View style={styles.paddingSides}>
-          <View style={styles.switchers}>
-            <View style={styles.switcher}>
-              <Switch
-                value={catechismShowSingle}
-                onValueChange={() =>
-                  this.setState({ catechismShowSingle: !catechismShowSingle })
-                }
-              />
-              <AppText semibold style={{ marginLeft: 10 }}>
-                Single-question view
-              </AppText>
+        <TouchableOpacity onPress={() => this.setState({ hideCatechismSettings: !hideCatechismSettings })}>
+          <AppText
+            style={{
+              color: '#039be5',
+              marginBottom: 10,
+              textAlign: 'center'
+            }}
+          >
+            {hideCatechismSettings ? 'Show settings' : 'Hide settings'}
+          </AppText>
+        </TouchableOpacity>
+        {
+          hideCatechismSettings ? null : (
+            <View style={styles.paddingSides}>
+              <View style={styles.switchers}>
+                <View style={styles.switcher}>
+                  <Switch
+                    value={catechismShowSingle}
+                    onValueChange={() =>
+                      this.setState({ catechismShowSingle: !catechismShowSingle })
+                    }
+                  />
+                  <AppText semibold style={{ marginLeft: 10 }}>
+                    Single-question view
+                  </AppText>
+                </View>
+
+                <AppText bold>View mode</AppText>
+                <TouchableOpacity onPress={() => this.setState({ catechismViewMode: 'noscriptures' })}>
+                  <View style={[styles.viewMode, catechismViewMode === 'noscriptures' ? styles.viewModeActive : null]}>
+                    <ReadingText>
+                      No scriptures
+                  </ReadingText>
+                  </View>
+                </TouchableOpacity>
+
+                <TouchableOpacity onPress={() => this.setState({ catechismViewMode: 'number' })}>
+                  <View style={[styles.viewMode, catechismViewMode === 'number' ? styles.viewModeActive : null]}>
+                    <ReadingText>
+                      <ReadingText>{`Scriptures as number `}</ReadingText>
+                      <ReadingText
+                        bold
+                        style={{ color: "#039be5" }}
+                      >(1)</ReadingText>
+                    </ReadingText>
+                  </View>
+                </TouchableOpacity>
+
+                <TouchableOpacity onPress={() => this.setState({ catechismViewMode: 'inline' })}>
+                  <View style={[styles.viewMode, catechismViewMode === 'inline' ? styles.viewModeActive : null]}>
+                    <ReadingText>
+                      <ReadingText>{`Inline scriptures `}</ReadingText>
+                      <ReadingText
+                        bold
+                        style={{ color: "#039be5" }}
+                      >(2 Cor. 5:21; John 3:16)</ReadingText>
+                    </ReadingText>
+                  </View>
+                </TouchableOpacity>
+
+                <TouchableOpacity onPress={() => this.setState({ catechismViewMode: 'below' })}>
+                  <View style={[styles.viewMode, catechismViewMode === 'below' ? styles.viewModeActive : null]}>
+                    <ReadingText style={{ marginBottom: 10 }}>
+                      <ReadingText>{`Scriptures below `}</ReadingText>
+                      <ReadingText
+                        bold
+                        style={{
+                          color: "#039be5",
+                        }}
+                      >
+                        (1)
+                    </ReadingText>
+                    </ReadingText>
+                    <ReadingText>
+                      <ReadingText bold style={{ color: '#039be5', }}>{`(1) `}</ReadingText>
+                      <ReadingText
+                        style={{
+                          color: "#039be5",
+                        }}
+                      >
+                        2 Cor. 5:21; John 3:16
+                    </ReadingText>
+                    </ReadingText>
+                  </View>
+                </TouchableOpacity>
+
+                <View style={styles.switcher}>
+                  <Switch
+                    value={catechismShowAnswers}
+                    onValueChange={() =>
+                      this.setState({
+                        catechismShowAnswers: !catechismShowAnswers,
+                      })
+                    }
+                  />
+                  <AppText semibold style={{ marginLeft: 10 }}>
+                    {catechismShowSingle ? "Show answer" : "Show answers"}
+                  </AppText>
+                </View>
+              </View>
             </View>
-            <View style={styles.switcher}>
-              <Switch
-                value={catechismShowScriptures}
-                onValueChange={() =>
-                  this.setState({
-                    catechismShowScriptures: !catechismShowScriptures,
-                  })
-                }
-              />
-              <AppText semibold style={{ marginLeft: 10 }}>
-                Show scripture references
-              </AppText>
-            </View>
-            <View style={styles.switcher}>
-              <Switch
-                value={catechismShowAnswers}
-                onValueChange={() =>
-                  this.setState({
-                    catechismShowAnswers: !catechismShowAnswers,
-                  })
-                }
-              />
-              <AppText semibold style={{ marginLeft: 10 }}>
-                {catechismShowSingle ? "Show answer" : "Show answers"}
-              </AppText>
-            </View>
-          </View>
-        </View>
+          )
+        }
 
         {catechismShowSingle ? (
           <View style={[styles.confessionNav, { marginBottom: 20 }]}>
             {catechismIndex === 0 ? (
               <View style={{ width: 45 }} />
             ) : (
-              <TouchableOpacity
-                onPress={() =>
-                  this.setState({ catechismIndex: catechismIndex - 1 })
-                }
-              >
-                <View style={styles.confessionNavSection}>
-                  <Icon.Entypo
-                    color="#039be5"
-                    name="chevron-thin-left"
-                    size={25}
-                  />
-                  <AppText bold style={styles.confessionNavTitle}>
-                    {catechismIndex}
-                  </AppText>
-                </View>
-              </TouchableOpacity>
-            )}
+                <TouchableOpacity
+                  onPress={() =>
+                    this.setState({ catechismIndex: catechismIndex - 1 })
+                  }
+                >
+                  <View style={styles.confessionNavSection}>
+                    <Icon.Entypo
+                      color="#039be5"
+                      name="chevron-thin-left"
+                      size={25}
+                    />
+                    <AppText bold style={styles.confessionNavTitle}>
+                      {catechismIndex}
+                    </AppText>
+                  </View>
+                </TouchableOpacity>
+              )}
             <Slider
               maximumValue={document.content.length - 1}
               minimumValue={0}
@@ -564,23 +691,23 @@ class Reading extends React.Component {
             {catechismIndex === document.content.length - 1 ? (
               <View style={{ width: 45 }} />
             ) : (
-              <TouchableOpacity
-                onPress={() =>
-                  this.setState({ catechismIndex: catechismIndex + 1 })
-                }
-              >
-                <View style={styles.confessionNavSection}>
-                  <AppText bold style={styles.confessionNavTitle}>
-                    {catechismIndex + 2}
-                  </AppText>
-                  <Icon.Entypo
-                    color="#039be5"
-                    name="chevron-thin-right"
-                    size={25}
-                  />
-                </View>
-              </TouchableOpacity>
-            )}
+                <TouchableOpacity
+                  onPress={() =>
+                    this.setState({ catechismIndex: catechismIndex + 1 })
+                  }
+                >
+                  <View style={styles.confessionNavSection}>
+                    <AppText bold style={styles.confessionNavTitle}>
+                      {catechismIndex + 2}
+                    </AppText>
+                    <Icon.Entypo
+                      color="#039be5"
+                      name="chevron-thin-right"
+                      size={25}
+                    />
+                  </View>
+                </TouchableOpacity>
+              )}
           </View>
         ) : null}
 
@@ -623,13 +750,13 @@ class Reading extends React.Component {
               selectedBackground === "White"
                 ? "#fff"
                 : selectedBackground === "Black"
-                ? "#000"
-                : "#F3ECDA",
+                  ? "#000"
+                  : "#F3ECDA",
             top: topAnim,
           },
         ]}
       >
-        {this.renderScriptures()}
+        {this.renderModal()}
         <Sidebar
           catechismSectionIndex={catechismSectionIndex}
           confessionChapterIndex={confessionChapterIndex}
@@ -640,7 +767,7 @@ class Reading extends React.Component {
 
         <View>
           <Animated.View
-            onMoveShouldSetResponder={() => showSidebar || modal}
+            onStartShouldSetResponder={() => showSidebar || modal}
             onResponderMove={evt =>
               showSidebar ? onHandleSidebarDrag(evt.nativeEvent.pageX) : null
             }
@@ -670,8 +797,8 @@ class Reading extends React.Component {
                 {content}
               </TouchableWithoutFeedback>
             ) : (
-              <View style={{ paddingBottom: 25 }}>{content}</View>
-            )}
+                <View style={{ paddingBottom: 25 }}>{content}</View>
+              )}
           </ScrollView>
         </View>
       </Animated.View>
@@ -725,14 +852,25 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     marginBottom: 10,
   },
+  viewMode: {
+    backgroundColor: "#f5f5f5",
+    borderColor: "#bdbdbd",
+    borderRadius: 5,
+    borderWidth: 1,
+    marginBottom: 10,
+    paddingBottom: 5,
+    paddingLeft: 10,
+    paddingRight: 10,
+    paddingTop: 5,
+  },
+  viewModeActive: {
+    borderColor: "#039be5",
+  },
   paragraph: {
     marginBottom: 25,
   },
   indent: {
     marginLeft: 20,
-  },
-  italic: {
-    fontStyle: "italic",
   },
   listItem: {
     marginBottom: 10,

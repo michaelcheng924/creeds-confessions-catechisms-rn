@@ -2,7 +2,8 @@ import React from "react";
 import { createStore } from "redux";
 import { Provider } from "react-redux";
 import { StatusBar, StyleSheet, View } from "react-native";
-import { AppLoading, Font } from "expo";
+import { AppLoading, Font, StoreReview } from "expo";
+import { delay } from 'lodash';
 
 import reducer from "./reducer";
 
@@ -15,14 +16,22 @@ import Settings from "./components/Settings";
 const store = createStore(
   reducer,
   typeof window === "object" &&
-    window.__REDUX_DEVTOOLS_EXTENSION__ &&
-    window.__REDUX_DEVTOOLS_EXTENSION__()
+  window.__REDUX_DEVTOOLS_EXTENSION__ &&
+  window.__REDUX_DEVTOOLS_EXTENSION__()
 );
 
 export default class App extends React.Component {
   state = {
     isLoadingComplete: false
   };
+
+  componentDidMount() {
+    if (StoreReview.isSupported()) {
+      delay(() => {
+        StoreReview.requestReview()
+      }, 86400 * 1000)
+    }
+  }
 
   render() {
     if (!this.state.isLoadingComplete && !this.props.skipLoadingScreen) {

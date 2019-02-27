@@ -97,7 +97,7 @@ class Sidebar extends React.Component {
         {documentData.content.map((section, index) => {
           return (
             <TouchableOpacity
-              key={section.section}
+              key={index}
               onPress={() => setCatechismSectionIndex(index)}
             >
               <View style={styles.row}>

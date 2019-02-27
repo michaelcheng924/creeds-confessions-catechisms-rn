@@ -52,20 +52,18 @@ class Menu extends React.Component {
         ]}
       >
         <View style={styles.menuSection}>
-          <TouchableOpacity>
+          <TouchableOpacity onPress={() => onSetDocument(null)}>
             <Icon.Ionicons
               color="rgba(0, 0, 0, .84)"
-              onPress={() => onSetDocument(null)}
               name="ios-arrow-down"
               size={25}
             />
           </TouchableOpacity>
           {documentData.type === "confession" ? (
-            <TouchableOpacity>
+            <TouchableOpacity onPress={() => onToggleSidebar(true)}>
               <Icon.Ionicons
                 color="rgba(0, 0, 0, .84)"
                 name="ios-menu"
-                onPress={() => onToggleSidebar(true)}
                 size={25}
                 style={{ marginLeft: 15 }}
               />

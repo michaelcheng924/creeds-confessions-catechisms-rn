@@ -8,7 +8,7 @@
       "ios",
       "android"
     ],
-    "version": "1.0.0",
+    "version": "1.0.3",
     "orientation": "portrait",
     "icon": "./assets/app-icon.png",
     "splash": {
@@ -23,7 +23,15 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "bundleIdentifier": "com.reformedccc",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSLocationAlwaysUsageDescription": "This app will not use this data. The data was only included because of the software used to build this app."
+      }
+    },
+    "android": {
+      "package": "com.reformedccc",
+      "versionCode": 2
     }
   }
 }
