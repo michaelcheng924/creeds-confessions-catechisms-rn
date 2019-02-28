@@ -34,7 +34,7 @@ class Menu extends React.Component {
 
   render() {
     const {
-      documentData,
+      documentType,
       onSetDocument,
       onToggleSettings,
       onToggleSidebar,
@@ -63,7 +63,7 @@ class Menu extends React.Component {
               size={25}
             />
           </TouchableOpacity>
-          {documentData.type === "confession" ? (
+          {documentType === "confession" ? (
             <TouchableOpacity onPress={() => onToggleSidebar(true)}>
               <Icon.Ionicons
                 color="rgba(0, 0, 0, .84)"

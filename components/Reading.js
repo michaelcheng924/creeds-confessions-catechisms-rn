@@ -3,6 +3,7 @@ import { connect } from "react-redux";
 import {
   Animated,
   Dimensions,
+  FlatList,
   Platform,
   ScrollView,
   Slider,
@@ -417,11 +418,11 @@ class Reading extends React.Component {
     );
   }
 
-  renderParagraph(paragraph, footnoteCount) {
+  renderParagraph(paragraph, footnoteCount, paragraphIndex) {
     const { catechismViewMode } = this.state
 
     return (
-      <ReadingText>
+      <ReadingText key={paragraphIndex}>
         {paragraph.map((section, index) => {
           if (section.scriptures) {
             footnoteCount.count++;
@@ -477,82 +478,13 @@ class Reading extends React.Component {
     })
   }
 
-  renderCatechismQuestion(question, index) {
-    const { catechismShowAnswers, catechismViewMode } = this.state;
-
-    let footnoteCount = { count: 0 };
-    let belowFootnoteCount = { count: 0 };
-
-    return (
-      <View key={index} style={{ marginBottom: 25 }}>
-        <ReadingText bold>
-          {index + 1}.{" "}
-          {isArray(question.question)
-            ? this.renderParagraph(
-              question.question,
-              footnoteCount,
-            )
-            : question.question}
-        </ReadingText>
-        {catechismShowAnswers ? (
-          <View>
-            {isArray(question.answer[0])
-              ? question.answer.map((section, index1) => {
-                return this.renderParagraph(
-                  section,
-                  footnoteCount
-                );
-              })
-              : this.renderParagraph(
-                question.answer,
-                footnoteCount
-              )}
-            {
-              catechismViewMode === 'below' && isArray(question.answer[0])
-                ? (
-                  <View style={{ marginTop: 10 }}>
-                    {question.answer.map((section, index1) => {
-                      return this.renderBelowScriptures(section, belowFootnoteCount)
-                    })}
-                  </View>
-                )
-                : (
-                  <View style={{ marginTop: 15 }}>
-                    {catechismViewMode === 'below'
-                      ? this.renderBelowScriptures(question.answer, belowFootnoteCount)
-                      : null}
-                  </View>
-                )
-            }
-          </View>
-        ) : null}
-
-
-      </View>
-    );
-  }
-
-  renderCatechism() {
+  renderCatechismSettings() {
     const {
-      catechismIndex,
       catechismShowAnswers,
       catechismViewMode,
       catechismShowSingle,
-      document,
       hideCatechismSettings,
     } = this.state;
-
-    if (document.type !== "catechism") {
-      return null;
-    }
-
-    const singleCatechismQuestion = document.content[catechismIndex];
-
-    const content = catechismShowSingle
-      ? this.renderCatechismQuestion(singleCatechismQuestion, catechismIndex)
-      : document.content.map((question, index) => {
-        return this.renderCatechismQuestion(question, index);
-      });
 
     return (
       <View>
@@ -659,61 +591,195 @@ class Reading extends React.Component {
             </View>
           )
         }
+      </View>
+    )
+  }
 
-        {catechismShowSingle ? (
-          <View style={[styles.confessionNav, { marginBottom: 20 }]}>
-            {catechismIndex === 0 ? (
-              <View style={{ width: 45 }} />
-            ) : (
-                <TouchableOpacity
-                  onPress={() =>
-                    this.setState({ catechismIndex: catechismIndex - 1 })
-                  }
-                >
-                  <View style={styles.confessionNavSection}>
-                    <Icon.Entypo
-                      color="#039be5"
-                      name="chevron-thin-left"
-                      size={25}
-                    />
-                    <AppText bold style={styles.confessionNavTitle}>
-                      {catechismIndex}
-                    </AppText>
-                  </View>
-                </TouchableOpacity>
+  renderCatechismNav() {
+    const {
+      catechismIndex,
+      catechismShowSingle,
+      document,
+    } = this.state;
+
+    return (
+      <View style={[styles.confessionNav, { marginBottom: 20 }]}>
+        {catechismIndex === 0 ? (
+          <View style={{ width: 45 }} />
+        ) : (
+            <TouchableOpacity
+              onPress={() =>
+                this.setState({ catechismIndex: catechismIndex - 1 })
+              }
+            >
+              <View style={styles.confessionNavSection}>
+                <Icon.Entypo
+                  color="#039be5"
+                  name="chevron-thin-left"
+                  size={25}
+                />
+                <AppText bold style={styles.confessionNavTitle}>
+                  {catechismIndex}
+                </AppText>
+              </View>
+            </TouchableOpacity>
+          )}
+        <Slider
+          maximumValue={document.content.length - 1}
+          minimumValue={0}
+          step={1}
+          onValueChange={value => {
+            this.setState({ catechismIndex: value });
+          }}
+          style={{ width: Dimensions.get("window").width - 110 }}
+          value={catechismIndex}
+        />
+        {catechismIndex === document.content.length - 1 ? (
+          <View style={{ width: 45 }} />
+        ) : (
+            <TouchableOpacity
+              onPress={() =>
+                this.setState({ catechismIndex: catechismIndex + 1 })
+              }
+            >
+              <View style={styles.confessionNavSection}>
+                <AppText bold style={styles.confessionNavTitle}>
+                  {catechismIndex + 2}
+                </AppText>
+                <Icon.Entypo
+                  color="#039be5"
+                  name="chevron-thin-right"
+                  size={25}
+                />
+              </View>
+            </TouchableOpacity>
+          )}
+      </View>
+    )
+  }
+
+  renderCatechismQuestion(question, index) {
+    const { catechismShowAnswers, catechismViewMode } = this.state;
+
+    let footnoteCount = { count: 0 };
+    let belowFootnoteCount = { count: 0 };
+
+    return (
+      <View key={index} style={{ marginBottom: 25 }}>
+        <ReadingText bold>
+          {index + 1}.{" "}
+          {isArray(question.question)
+            ? this.renderParagraph(
+              question.question,
+              footnoteCount,
+              index
+            )
+            : question.question}
+        </ReadingText>
+        {catechismShowAnswers ? (
+          <View>
+            {isArray(question.answer[0])
+              ? question.answer.map((section, index1) => {
+                return this.renderParagraph(
+                  section,
+                  footnoteCount,
+                  index
+                );
+              })
+              : this.renderParagraph(
+                question.answer,
+                footnoteCount,
+                index
               )}
-            <Slider
-              maximumValue={document.content.length - 1}
-              minimumValue={0}
-              step={1}
-              onValueChange={value => {
-                this.setState({ catechismIndex: value });
-              }}
-              style={{ width: Dimensions.get("window").width - 110 }}
-              value={catechismIndex}
-            />
-            {catechismIndex === document.content.length - 1 ? (
-              <View style={{ width: 45 }} />
-            ) : (
-                <TouchableOpacity
-                  onPress={() =>
-                    this.setState({ catechismIndex: catechismIndex + 1 })
-                  }
-                >
-                  <View style={styles.confessionNavSection}>
-                    <AppText bold style={styles.confessionNavTitle}>
-                      {catechismIndex + 2}
-                    </AppText>
-                    <Icon.Entypo
-                      color="#039be5"
-                      name="chevron-thin-right"
-                      size={25}
-                    />
+            {
+              catechismViewMode === 'below' && isArray(question.answer[0])
+                ? (
+                  <View style={{ marginTop: 10 }}>
+                    {question.answer.map((section, index1) => {
+                      return this.renderBelowScriptures(section, belowFootnoteCount)
+                    })}
                   </View>
-                </TouchableOpacity>
-              )}
+                )
+                : (
+                  <View style={{ marginTop: 15 }}>
+                    {catechismViewMode === 'below'
+                      ? this.renderBelowScriptures(question.answer, belowFootnoteCount)
+                      : null}
+                  </View>
+                )
+            }
           </View>
         ) : null}
+
+
+      </View>
+    );
+  }
+
+  renderCatechism() {
+    const {
+      catechismIndex,
+      catechismShowSingle,
+      document,
+      onToggleSettings,
+      showSettings
+    } = this.state;
+
+    if (document.type !== "catechism") {
+      return null;
+    }
+
+    const singleCatechismQuestion = document.content[catechismIndex];
+
+    const content = catechismShowSingle
+      ? this.renderCatechismQuestion(singleCatechismQuestion, catechismIndex)
+      : document.content.map((question, index) => {
+        return this.renderCatechismQuestion(question, index);
+      });
+
+    return catechismShowSingle
+      ? (
+        <ScrollView
+          onScrollBeginDrag={() =>
+            showSettings ? onToggleSettings(false) : null
+          }
+          ref={readingView => (this.readingView = readingView)}
+          style={styles.readingContainer}
+        >
+          <View style={styles.paddingSides}>
+            {this.renderCatechismSettings()}
+            {this.renderCatechismNav()}
+
+            <View style={styles.paddingSides}>
+              {this.renderCatechismQuestion(singleCatechismQuestion, catechismIndex)}
+            </View>
+          </View>
+        </ScrollView>
+      )
+      : (
+        <View style={styles.paddingSides}>
+          <FlatList
+            data={['settings', ...document.content]}
+            keyExtractor={(item, index) => index.toString()}
+            onScrollBeginDrag={() =>
+              showSettings ? onToggleSettings(false) : null
+            }
+            renderItem={({ item, index }) => {
+              if (item === 'settings') {
+                return this.renderCatechismSettings();
+              } else {
+                return this.renderCatechismQuestion(item, index - 1);
+              }
+            }}
+            style={styles.readingContainer}
+          />
+        </View>
+      )
+
+    return (
+      <View>
+        {this.renderCatechismSettings()}
+        {catechismShowSingle ? this.renderCatechismNav() : null}
 
         <View style={styles.paddingSides}>{content}</View>
       </View>
@@ -737,13 +803,42 @@ class Reading extends React.Component {
       showSidebar,
     } = this.props;
 
-    const content = (
+    let finalContent;
+
+    const creedConfessionContent = (
       <View style={{ paddingBottom: 60 }}>
         {document.type === "creed" && this.renderCreed()}
         {document.type === "confession" && this.renderConfession()}
-        {document.type === "catechism" && this.renderCatechism()}
       </View>
     );
+
+    if (document.type === 'creed' || document.type === 'confession') {
+      finalContent = (
+        <ScrollView
+          onScrollBeginDrag={() =>
+            showSettings ? onToggleSettings(false) : null
+          }
+          ref={readingView => (this.readingView = readingView)}
+          style={styles.readingContainer}
+        >
+          {showSettings ? (
+            <TouchableWithoutFeedback onPress={() => onToggleSettings(false)}>
+              {creedConfessionContent}
+            </TouchableWithoutFeedback>
+          ) : (
+              <View style={{ paddingBottom: 25 }}>{creedConfessionContent}</View>
+            )}
+        </ScrollView>
+      )
+    } else if (document.type === 'catechism') {
+      finalContent = showSettings
+        ? (
+          <TouchableWithoutFeedback onPress={() => onToggleSettings(false)}>
+            {this.renderCatechism()}
+          </TouchableWithoutFeedback>
+        )
+        : this.renderCatechism()
+    }
 
     return (
       <Animated.View
@@ -789,22 +884,8 @@ class Reading extends React.Component {
               },
             ]}
           />
-          <Menu documentData={document} setCatechismIndex={this.setCatechismIndex} title={document.title} />
-          <ScrollView
-            onScrollBeginDrag={() =>
-              showSettings ? onToggleSettings(false) : null
-            }
-            ref={readingView => (this.readingView = readingView)}
-            style={styles.readingContainer}
-          >
-            {showSettings ? (
-              <TouchableWithoutFeedback onPress={() => onToggleSettings(false)}>
-                {content}
-              </TouchableWithoutFeedback>
-            ) : (
-                <View style={{ paddingBottom: 25 }}>{content}</View>
-              )}
-          </ScrollView>
+          <Menu documentType={document.type} setCatechismIndex={this.setCatechismIndex} title={document.title} />
+          {finalContent}
         </View>
       </Animated.View>
     );
