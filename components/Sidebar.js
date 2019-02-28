@@ -114,10 +114,10 @@ class Sidebar extends React.Component {
 
   render() {
     const {
-      documentData,
       onHandleSidebarDrag,
       onSetDocument,
       onToggleSidebar,
+      setCatechismIndex,
       showSidebar,
     } = this.props;
 
@@ -137,7 +137,10 @@ class Sidebar extends React.Component {
         ]}
       >
         <View style={styles.row}>
-          <TouchableOpacity onPress={() => onSetDocument(null)}>
+          <TouchableOpacity onPress={() => {
+            onSetDocument(null)
+            setCatechismIndex()
+          }}>
             <View style={styles.closeDocument}>
               <Icon.Ionicons
                 name="ios-arrow-down"

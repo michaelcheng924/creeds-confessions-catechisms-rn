@@ -38,6 +38,7 @@ class Menu extends React.Component {
       onSetDocument,
       onToggleSettings,
       onToggleSidebar,
+      setCatechismIndex
     } = this.props;
 
     return (
@@ -52,7 +53,10 @@ class Menu extends React.Component {
         ]}
       >
         <View style={styles.menuSection}>
-          <TouchableOpacity onPress={() => onSetDocument(null)}>
+          <TouchableOpacity onPress={() => {
+            onSetDocument(null)
+            setCatechismIndex()
+          }}>
             <Icon.Ionicons
               color="rgba(0, 0, 0, .84)"
               name="ios-arrow-down"

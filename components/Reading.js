@@ -96,6 +96,10 @@ class Reading extends React.Component {
     });
   };
 
+  setCatechismIndex = (index = 0) => {
+    this.setState({ catechismIndex: index })
+  }
+
   setCatechismSectionIndex = catechismSectionIndex => {
     this.setState({
       catechismSectionIndex,
@@ -761,6 +765,7 @@ class Reading extends React.Component {
           catechismSectionIndex={catechismSectionIndex}
           confessionChapterIndex={confessionChapterIndex}
           documentData={document}
+          setCatechismIndex={this.setCatechismIndex}
           setCatechismSectionIndex={this.setCatechismSectionIndex}
           setConfessionChapterIndex={this.setConfessionChapterIndex}
         />
@@ -784,7 +789,7 @@ class Reading extends React.Component {
               },
             ]}
           />
-          <Menu documentData={document} title={document.title} />
+          <Menu documentData={document} setCatechismIndex={this.setCatechismIndex} title={document.title} />
           <ScrollView
             onScrollBeginDrag={() =>
               showSettings ? onToggleSettings(false) : null
