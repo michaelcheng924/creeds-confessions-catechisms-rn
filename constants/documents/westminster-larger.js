@@ -860,7 +860,7 @@ const content = [
       {
         text:
           "who, being the eternal Son of God, of one substance and equal with the Father,138",
-        scriptures: "John 1:1, 14; 1 John 10:30; Phil. 2:6",
+        scriptures: "John 1:1, 14; John 10:30; Phil. 2:6",
       },
       {
         text: "in the fulness of time became man,139",
@@ -1268,7 +1268,7 @@ const content = [
       },
       {
         text: "and his coming again to judge the world.205",
-        scriptures: "cts 1:11; Acts 17:31",
+        scriptures: "Acts 1:11; Acts 17:31",
       },
     ],
   },
@@ -1779,7 +1779,7 @@ const content = [
       {
         text:
           "but only for the perfect obedience and full satisfaction of Christ, by God imputed to them289",
-        scriptures: "Rom. 3:24-25; 5:17�19; 4:6�8",
+        scriptures: "Rom. 3:24-25, 5:17-19, 4:6-8",
       },
       {
         text:
@@ -1791,7 +1791,7 @@ const content = [
 
   {
     number: 71,
-    question: "How is justification an act of God�s free grace?",
+    question: "How is justification an act of God's free grace?",
     answer: [
       {
         text:
@@ -1928,7 +1928,7 @@ const content = [
       {
         text:
           "Sanctification is a work of God's grace, whereby they whom God hath, before the foundation of the world, chosen to be holy, are in time, through the powerful operation of his Spirit314",
-        scriptures: "Eph. 1:4; 1 Cori 6:11; 2 Thess. 2:13",
+        scriptures: "Eph. 1:4; 1 Cor. 6:11; 2 Thess. 2:13",
       },
       {
         text: "applying the death and resurrection of Christ unto them,315",
@@ -3603,7 +3603,7 @@ const content = [
 
   {
     number: 117,
-    question: "How is the sabbath or the Lord�s day to be sanctified?",
+    question: "How is the sabbath or the Lord's day to be sanctified?",
     answer: [
       {
         text:
@@ -4518,7 +4518,7 @@ const content = [
       {
         text:
           "and all other provocations to, or acts of uncleanness, either in ourselves or others.799",
-        scriptures: "2 Kings 9:30; Jer. 4:30; Exes 23:40",
+        scriptures: "2 Kings 9:30; Jer. 4:30; Exo. 23:40",
       },
     ],
   },
@@ -5913,7 +5913,7 @@ const content = [
 
   {
     number: 168,
-    question: "What is the Lord�s supper?",
+    question: "What is the Lord's supper?",
     answer: [
       {
         text: "The Lord's supper is a sacrament of the New Testament,1077",
@@ -5922,7 +5922,7 @@ const content = [
       {
         text:
           "wherein, by giving and receiving bread and wine according to the appointment of Jesus Christ, his death is showed forth; and they that worthily communicate feed upon his body and blood, to their spiritual nourishment and growth in grace;1078",
-        scriptures: "Matt. 26:26-28; 1 Cor. 11:23-26; F",
+        scriptures: "Matt. 26:26-28; 1 Cor. 11:23-26",
       },
       {
         text: "have their union and communion with him confirmed;1079",
@@ -5985,7 +5985,7 @@ const content = [
 
   {
     number: 171,
-    question: "How are they that receive the sacrament of the Lord�s supper to prepare themselves before they come unto it?",
+    question: "How are they that receive the sacrament of the Lord's supper to prepare themselves before they come unto it?",
     answer: [
       {
         text:
@@ -6092,7 +6092,7 @@ const content = [
 
   {
     number: 173,
-    question: "May any who profess the faith, and desire to come to the Lord�s supper, be kept from it?",
+    question: "May any who profess the faith, and desire to come to the Lord's supper, be kept from it?",
     answer: [
       {
         text:
