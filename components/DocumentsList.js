@@ -1,9 +1,10 @@
 import React from "react";
 import { connect } from "react-redux";
 import {
+  Image,
+  Linking,
   ScrollView,
   StyleSheet,
-  Text,
   TouchableOpacity,
   View,
 } from "react-native";
@@ -169,6 +170,12 @@ class DocumentsList extends React.Component {
         {sortOption === "type" && this.renderType()}
         {sortOption === "name" && this.renderName()}
         {sortOption === "date" && this.renderDate()}
+        <TouchableOpacity onPress={() => Linking.openURL('https://bibleanswers.io')}>
+          <View style={styles.logoRow}>
+            <Image source={require('../assets/images/logo-nav.png')} />
+            <AppText style={{ color: '#039be5', marginLeft: 10 }}>bibleanswers.io</AppText>
+          </View>
+        </TouchableOpacity>
       </ScrollView>
     );
   }
@@ -219,6 +226,18 @@ const styles = StyleSheet.create({
   documentRowHeadingText: {
     fontSize: 22,
   },
+  logoRow: {
+    alignItems: 'center',
+    borderTopWidth: 1,
+    borderTopColor: "#757575",
+    display: 'flex',
+    flexDirection: 'row',
+    justifyContent: 'center',
+    paddingBottom: 10,
+    paddingLeft: 20,
+    paddingRight: 20,
+    paddingTop: 10,
+  }
 });
 
 const mapDispatchToProps = {
