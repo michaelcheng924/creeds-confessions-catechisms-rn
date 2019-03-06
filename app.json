@@ -4,11 +4,8 @@
     "slug": "reformed-library-1",
     "privacy": "public",
     "sdkVersion": "32.0.0",
-    "platforms": [
-      "ios",
-      "android"
-    ],
-    "version": "1.0.3",
+    "platforms": ["ios", "android"],
+    "version": "1.0.4",
     "orientation": "portrait",
     "icon": "./assets/app-icon.png",
     "splash": {
@@ -19,9 +16,7 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "bundleIdentifier": "com.reformedccc",
       "supportsTablet": true,
@@ -31,7 +26,7 @@
     },
     "android": {
       "package": "com.reformedccc",
-      "versionCode": 2
+      "versionCode": 3
     }
   }
 }

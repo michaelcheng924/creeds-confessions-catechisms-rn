@@ -6,9 +6,10 @@ import {
   ScrollView,
   StyleSheet,
   TouchableOpacity,
-  View,
+  View
 } from "react-native";
 import AppText from "./AppText";
+import Icon from "@expo/vector-icons";
 
 import { setDocument } from "../actions";
 
@@ -16,23 +17,178 @@ import { documents, documentsFlat } from "../constants/documents";
 
 const sortOptions = [
   {
+    label: "Relevance",
+    value: "relevance"
+  },
+  {
     label: "Type",
-    value: "type",
+    value: "type"
   },
   {
     label: "Name",
-    value: "name",
+    value: "name"
   },
   {
     label: "Date",
-    value: "date",
-  },
+    value: "date"
+  }
 ];
 
 class DocumentsList extends React.Component {
   state = {
-    sortOption: "type",
+    sortOption: "relevance"
   };
+
+  renderRelevance() {
+    return (
+      <View>
+        <View style={[styles.documentRow, styles.documentRowHeading]}>
+          <AppText semibold style={styles.documentRowHeadingText}>
+            Popular confessions (with interactive inline Scripture references)
+          </AppText>
+        </View>
+        <View style={styles.documentButtons}>
+          <TouchableOpacity
+            onPress={() => this.props.onSetDocument("westminster")}
+          >
+            <View
+              style={[styles.documentButton, { backgroundColor: "#1e88e5" }]}
+            >
+              <Icon.Entypo color="#fff" name="water" size={25} />
+              <AppText style={[styles.documentButtonText]}>
+                Westminster Confession of Faith
+              </AppText>
+            </View>
+          </TouchableOpacity>
+          <TouchableOpacity
+            onPress={() => this.props.onSetDocument("london-baptist")}
+          >
+            <View
+              style={[
+                styles.documentButton,
+                { backgroundColor: "#d81b60", marginBottom: 20 }
+              ]}
+            >
+              <Icon.MaterialCommunityIcons
+                color="#fff"
+                name="cup-water"
+                size={25}
+              />
+              <AppText style={[styles.documentButtonText]}>
+                1689 London Baptist Confession of Faith
+              </AppText>
+            </View>
+          </TouchableOpacity>
+        </View>
+        <View style={[styles.documentRow, styles.documentRowHeading]}>
+          <AppText semibold style={styles.documentRowHeadingText}>
+            Popular catechisms (with interactive options)
+          </AppText>
+        </View>
+        <View style={styles.documentButtons}>
+          <TouchableOpacity
+            onPress={() => this.props.onSetDocument("westminster-shorter")}
+          >
+            <View
+              style={[styles.documentButton, { backgroundColor: "#1e88e5" }]}
+            >
+              <Icon.Entypo color="#fff" name="water" size={25} />
+              <AppText style={[styles.documentButtonText]}>
+                Westminster Shorter Catechism
+              </AppText>
+            </View>
+          </TouchableOpacity>
+          <TouchableOpacity
+            onPress={() => this.props.onSetDocument("boys-girls")}
+          >
+            <View
+              style={[
+                styles.documentButton,
+                { backgroundColor: "#d81b60", marginBottom: 20 }
+              ]}
+            >
+              <Icon.MaterialCommunityIcons
+                color="#fff"
+                name="cup-water"
+                size={25}
+              />
+              <AppText style={[styles.documentButtonText]}>
+                Catechism for Boys and Girls
+              </AppText>
+            </View>
+          </TouchableOpacity>
+        </View>
+        <View style={[styles.documentRow, styles.documentRowHeading]}>
+          <AppText semibold style={styles.documentRowHeadingText}>
+            Other catechisms
+          </AppText>
+        </View>
+        <TouchableOpacity
+          onPress={() => this.props.onSetDocument("heidelberg-catechism")}
+        >
+          <View style={styles.documentRow}>
+            <AppText style={styles.documentRowText}>
+              Heidelberg Catechism
+            </AppText>
+          </View>
+        </TouchableOpacity>
+        <TouchableOpacity
+          onPress={() => this.props.onSetDocument("westminster-larger")}
+        >
+          <View style={styles.documentRow}>
+            <AppText style={styles.documentRowText}>
+              Westminster Larger Catechism
+            </AppText>
+          </View>
+        </TouchableOpacity>
+        <TouchableOpacity
+          onPress={() => this.props.onSetDocument("baptist-catechism")}
+        >
+          <View style={styles.documentRow}>
+            <AppText style={styles.documentRowText}>Baptist Catechism</AppText>
+          </View>
+        </TouchableOpacity>
+        <View style={[styles.documentRow, styles.documentRowHeading]}>
+          <AppText semibold style={styles.documentRowHeadingText}>
+            Other confessions
+          </AppText>
+        </View>
+        <TouchableOpacity
+          onPress={() => this.props.onSetDocument("belgic-confession")}
+        >
+          <View style={styles.documentRow}>
+            <AppText style={styles.documentRowText}>Belgic Confession</AppText>
+          </View>
+        </TouchableOpacity>
+        <TouchableOpacity
+          onPress={() => this.props.onSetDocument("canons-dort")}
+        >
+          <View style={styles.documentRow}>
+            <AppText style={styles.documentRowText}>Canons of Dort</AppText>
+          </View>
+        </TouchableOpacity>
+        <View style={[styles.documentRow, styles.documentRowHeading]}>
+          <AppText semibold style={styles.documentRowHeadingText}>
+            Creeds
+          </AppText>
+        </View>
+        {documents[0].items.map(document => {
+          return (
+            <TouchableOpacity
+              key={document.slug}
+              onPress={() => this.props.onSetDocument(document.slug)}
+            >
+              <View style={styles.documentRow}>
+                <AppText style={styles.documentRowText}>
+                  {document.title} ({document.date})
+                </AppText>
+              </View>
+            </TouchableOpacity>
+          );
+        })}
+      </View>
+    );
+  }
 
   renderType() {
     return (
@@ -46,16 +202,6 @@ class DocumentsList extends React.Component {
                 </AppText>
               </View>
               {category.items.map(document => {
-                if (!document.content) {
-                  return (
-                    <View key={document.slug} style={styles.documentRow}>
-                      <AppText italic style={{ color: "#9e9e9e" }}>
-                        {document.title} (Coming soon!)
-                      </AppText>
-                    </View>
-                  );
-                }
-
                 return (
                   <TouchableOpacity
                     key={document.slug}
@@ -124,8 +270,8 @@ class DocumentsList extends React.Component {
                   style={[
                     styles.documentRowText,
                     {
-                      flexShrink: 1,
-                    },
+                      flexShrink: 1
+                    }
                   ]}
                 >
                   {document.title}
@@ -167,13 +313,18 @@ class DocumentsList extends React.Component {
             );
           })}
         </View>
+        {sortOption === "relevance" && this.renderRelevance()}
         {sortOption === "type" && this.renderType()}
         {sortOption === "name" && this.renderName()}
         {sortOption === "date" && this.renderDate()}
-        <TouchableOpacity onPress={() => Linking.openURL('https://bibleanswers.io')}>
+        <TouchableOpacity
+          onPress={() => Linking.openURL("https://bibleanswers.io")}
+        >
           <View style={styles.logoRow}>
-            <Image source={require('../assets/images/logo-nav.png')} />
-            <AppText style={{ color: '#039be5', marginLeft: 10 }}>bibleanswers.io</AppText>
+            <Image source={require("../assets/images/logo-nav.png")} />
+            <AppText style={{ color: "#039be5", marginLeft: 10 }}>
+              bibleanswers.io
+            </AppText>
           </View>
         </TouchableOpacity>
       </ScrollView>
@@ -187,21 +338,22 @@ const styles = StyleSheet.create({
     borderBottomWidth: 1,
     display: "flex",
     flexDirection: "row",
+    flexWrap: "wrap",
     justifyContent: "center",
     paddingBottom: 10,
     paddingLeft: 20,
-    paddingRight: 20,
-    paddingTop: 10,
+    paddingRight: 20
   },
   sortOption: {
     color: "#757575",
     marginRight: 40,
+    marginTop: 10
   },
   sortOptionActive: {
-    color: "rgba(0, 0, 0, .84)",
+    color: "rgba(0, 0, 0, .84)"
   },
   sortOptionLabel: {
-    color: "#757575",
+    color: "#757575"
   },
   documentRow: {
     borderBottomColor: "#eee",
@@ -211,37 +363,62 @@ const styles = StyleSheet.create({
     paddingBottom: 10,
     paddingLeft: 20,
     paddingRight: 20,
-    paddingTop: 10,
+    paddingTop: 10
   },
   documentRowHeading: {
     backgroundColor: "#eeeeee",
     borderBottomColor: "rgba(0, 0, 0, .84)",
     borderBottomWidth: 1,
     borderTopColor: "rgba(0, 0, 0, .84)",
-    borderTopWidth: 1,
+    borderTopWidth: 1
   },
   documentRowTextDate: {
-    width: 100,
+    width: 100
   },
   documentRowHeadingText: {
-    fontSize: 22,
+    fontSize: 22
+  },
+  documentButtons: {
+    display: "flex",
+    flexDirection: "row",
+    flexWrap: "wrap",
+    justifyContent: "center"
+  },
+  documentButton: {
+    alignItems: "center",
+    borderRadius: 5,
+    display: "flex",
+    flexDirection: "row",
+    marginRight: 20,
+    marginTop: 20,
+    paddingBottom: 10,
+    paddingLeft: 10,
+    paddingRight: 10,
+    paddingTop: 10,
+    width: 300
+  },
+  documentButtonText: {
+    color: "#fff",
+    flexShrink: 1,
+    fontSize: 24,
+    marginLeft: 10
   },
   logoRow: {
-    alignItems: 'center',
+    alignItems: "center",
     borderTopWidth: 1,
     borderTopColor: "#757575",
-    display: 'flex',
-    flexDirection: 'row',
-    justifyContent: 'center',
+    display: "flex",
+    flexDirection: "row",
+    justifyContent: "center",
     paddingBottom: 10,
     paddingLeft: 20,
     paddingRight: 20,
-    paddingTop: 10,
+    paddingTop: 10
   }
 });
 
 const mapDispatchToProps = {
-  onSetDocument: setDocument,
+  onSetDocument: setDocument
 };
 
 export default connect(
