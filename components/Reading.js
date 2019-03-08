@@ -35,6 +35,7 @@ const bcv = new bcv_parser();
 
 class Reading extends React.Component {
   state = {
+    answerText: "",
     cccData: null,
     catechismIndex: 0,
     catechismSectionIndex: 0,
@@ -48,6 +49,7 @@ class Reading extends React.Component {
     document: {
       content: []
     },
+    hideCatechismSettings: true,
     opacityAnim: new Animated.Value(0),
     scriptures: null,
     showComments: false,
@@ -65,7 +67,7 @@ class Reading extends React.Component {
       });
 
       if (!likes) {
-        fetch("http://localhost:3002/ccc/initializeccc", {
+        fetch("https://mcc-admin.herokuapp.com/ccc/initializeccc", {
           method: "POST",
           headers: {
             "Content-Type": "application/json"
@@ -115,10 +117,9 @@ class Reading extends React.Component {
   }
 
   getCCCData() {
-    fetch("http://localhost:3002/ccc/documentsdata")
+    fetch("https://mcc-admin.herokuapp.com/ccc/documentsdata")
       .then(r => r.json())
       .then(r => {
-        console.log("==========", r);
         this.setState({ cccData: r.cccData });
       });
   }
@@ -135,7 +136,11 @@ class Reading extends React.Component {
   };
 
   setCatechismIndex = (index = 0) => {
-    this.setState({ catechismIndex: index, catechismShowSingleAnswer: false });
+    this.setState({
+      answerText: "",
+      catechismIndex: index,
+      catechismShowSingleAnswer: false
+    });
   };
 
   setCatechismSectionIndex = catechismSectionIndex => {
@@ -692,12 +697,7 @@ class Reading extends React.Component {
           <View style={{ width: 45 }} />
         ) : (
           <TouchableOpacity
-            onPress={() =>
-              this.setState({
-                catechismIndex: catechismIndex - 1,
-                catechismShowSingleAnswer: false
-              })
-            }
+            onPress={() => this.setCatechismIndex(catechismIndex - 1)}
           >
             <View style={styles.confessionNavSection}>
               <Icon.Entypo color="#039be5" name="chevron-thin-left" size={25} />
@@ -711,12 +711,7 @@ class Reading extends React.Component {
           maximumValue={document.content.length - 1}
           minimumValue={0}
           step={1}
-          onValueChange={value => {
-            this.setState({
-              catechismIndex: value,
-              catechismShowSingleAnswer: false
-            });
-          }}
+          onValueChange={value => this.setCatechismIndex(value)}
           style={{ width: Dimensions.get("window").width - 110 }}
           value={catechismIndex}
         />
@@ -724,12 +719,7 @@ class Reading extends React.Component {
           <View style={{ width: 45 }} />
         ) : (
           <TouchableOpacity
-            onPress={() =>
-              this.setState({
-                catechismIndex: catechismIndex + 1,
-                catechismShowSingleAnswer: false
-              })
-            }
+            onPress={() => this.setCatechismIndex(catechismIndex + 1)}
           >
             <View style={styles.confessionNavSection}>
               <AppText bold style={styles.confessionNavTitle}>
@@ -743,6 +733,92 @@ class Reading extends React.Component {
             </View>
           </TouchableOpacity>
         )}
+      </View>
+    );
+  }
+
+  renderAnswerForm(answer) {
+    const { answerText } = this.state;
+
+    const answersArr = [];
+
+    answer.forEach(item => {
+      if (isArray(item)) {
+        item.forEach(item1 => {
+          answersArr.push(item1.text);
+        });
+      } else {
+        answersArr.push(item.text);
+      }
+    });
+
+    const typedAnswerArr = answerText.split(" ");
+    const finalAnswerArr = answersArr.join(" ").split(" ");
+
+    let matchesArr = [];
+    let matches = true;
+
+    finalAnswerArr.forEach((word, index) => {
+      if (matches) {
+        let isMatch = false;
+
+        if (typedAnswerArr[index]) {
+          isMatch =
+            word.toLowerCase().replace(/[^a-z]/g, "") ===
+            typedAnswerArr[index].toLowerCase().replace(/[^a-z]/g, "");
+        }
+
+        if (isMatch) {
+          matchesArr.push(word);
+
+          if (matchesArr.length === finalAnswerArr.length) {
+            this.setState({ catechismShowSingleAnswer: true });
+          }
+        } else {
+          matchesArr.push(typedAnswerArr[index] || "");
+          matches = false;
+        }
+      }
+    });
+
+    let wrongWord;
+
+    if (!matches) {
+      wrongWord = matchesArr.pop();
+    }
+
+    return (
+      <View>
+        <TextInput
+          onChangeText={text => this.setState({ answerText: text })}
+          placeholder="Type answer here"
+          style={styles.answerInput}
+          underlineColorAndroid="transparent"
+          value={answerText}
+        />
+        <ReadingText>
+          <ReadingText style={{ color: "#43a047" }}>
+            {matchesArr.join(" ")}
+          </ReadingText>
+          {!matches ? (
+            <ReadingText style={{ color: "#f44336" }}>{`${
+              matchesArr.length ? " " : ""
+            }${wrongWord}`}</ReadingText>
+          ) : null}
+        </ReadingText>
+        {matchesArr.length < finalAnswerArr.length ? (
+          <TouchableOpacity
+            onPress={() => {
+              this.setState({
+                answerText: `${
+                  matchesArr.length ? matchesArr.join(" ") + " " : ""
+                }${finalAnswerArr[matchesArr.length]}`
+              });
+            }}
+          >
+            <AppText style={{ color: "#039be5" }}>Help</AppText>
+          </TouchableOpacity>
+        ) : null}
       </View>
     );
   }
@@ -786,10 +862,13 @@ class Reading extends React.Component {
     if (catechismShowSingle) {
       answersFinal = (
         <View>
-          {catechismShowSingleAnswer ? answersContent : null}
+          {catechismShowSingleAnswer
+            ? answersContent
+            : this.renderAnswerForm(question.answer)}
           <TouchableOpacity
             onPress={() =>
               this.setState({
+                answerText: "",
                 catechismShowSingleAnswer: !catechismShowSingleAnswer
               })
             }
@@ -913,7 +992,7 @@ class Reading extends React.Component {
           <View style={styles.interactions}>
             <TouchableOpacity
               onPress={() => {
-                fetch("http://localhost:3002/ccc/addlike", {
+                fetch("https://mcc-admin.herokuapp.com/ccc/addlike", {
                   method: "POST",
                   headers: {
                     "Content-Type": "application/json"
@@ -994,7 +1073,7 @@ class Reading extends React.Component {
               />
               <TouchableOpacity
                 onPress={() => {
-                  fetch("http://localhost:3002/ccc/addcomment", {
+                  fetch("https://mcc-admin.herokuapp.com/ccc/addcomment", {
                     method: "POST",
                     headers: {
                       "Content-Type": "application/json"
@@ -1262,6 +1341,15 @@ const styles = StyleSheet.create({
     borderColor: "rgba(0, 0, 0, .84)",
     borderWidth: 1,
     marginBottom: 10,
+    paddingBottom: 5,
+    paddingLeft: 10,
+    paddingRight: 10,
+    paddingTop: 5
+  },
+  answerInput: {
+    borderColor: "rgba(0, 0, 0, .84)",
+    borderWidth: 1,
+    marginTop: 20,
     paddingBottom: 5,
     paddingLeft: 10,
     paddingRight: 10,
