@@ -1,5 +1,6 @@
 import React from "react";
 import { connect } from "react-redux";
+import moment from "moment";
 import {
   Animated,
   Dimensions,
@@ -10,13 +11,14 @@ import {
   Slider,
   StyleSheet,
   Switch,
+  TextInput,
   TouchableOpacity,
   TouchableWithoutFeedback,
   View
 } from "react-native";
 import AppText from "./AppText";
 import ReadingText from "./ReadingText";
-import { defer, isArray, isString } from "lodash";
+import { defer, find, isArray, isString, map } from "lodash";
 import Icon from "@expo/vector-icons";
 
 import bibleMapping from "../constants/bibleMapping.js";
@@ -33,23 +35,47 @@ const bcv = new bcv_parser();
 
 class Reading extends React.Component {
   state = {
+    cccData: null,
     catechismIndex: 0,
     catechismSectionIndex: 0,
     catechismShowAnswers: true,
     catechismShowSingleAnswer: false,
     catechismShowSingle: true,
     catechismViewMode: "below",
+    commentComment: "",
+    commentName: "",
     confessionChapterIndex: 0,
     document: {
       content: []
     },
     opacityAnim: new Animated.Value(0),
     scriptures: null,
+    showComments: false,
     topAnim: new Animated.Value(Dimensions.get("window").height)
   };
 
+  componentDidMount() {
+    this.getCCCData();
+  }
+
   componentDidUpdate(prevProps, prevState) {
     if (!prevProps.document && this.props.document) {
+      const likes = find(this.state.cccData, data => {
+        return data.slug === `likes-${this.props.document}`;
+      });
+
+      if (!likes) {
+        fetch("http://localhost:3002/ccc/initializeccc", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json"
+          },
+          body: JSON.stringify({ slug: this.props.document })
+        }).then(() => {
+          this.getCCCData();
+        });
+      }
+
       Animated.timing(this.state.topAnim, {
         toValue: 0,
         duration: 300
@@ -86,6 +112,15 @@ class Reading extends React.Component {
         duration: 300
       }).start();
     }
+  }
+
+  getCCCData() {
+    fetch("http://localhost:3002/ccc/documentsdata")
+      .then(r => r.json())
+      .then(r => {
+        console.log("==========", r);
+        this.setState({ cccData: r.cccData });
+      });
   }
 
   setConfessionChapterIndex = confessionChapterIndex => {
@@ -846,7 +881,72 @@ class Reading extends React.Component {
   }
 
   renderTitleImage() {
-    const { document } = this.state;
+    const {
+      cccData,
+      commentComment,
+      commentName,
+      document,
+      showComments
+    } = this.state;
+
+    let interactions = null;
+    let comments;
+
+    if (cccData) {
+      const likes = find(
+        cccData,
+        item => item.slug === `likes-${this.props.document}`
+      );
+      comments = find(
+        cccData,
+        item => item.slug === `comments-${this.props.document}`
+      );
+
+      if (comments) {
+        comments.comments.sort((a, b) => {
+          return new Date(b.date) - new Date(a.date);
+        });
+      }
+
+      if (likes && comments) {
+        interactions = (
+          <View style={styles.interactions}>
+            <TouchableOpacity
+              onPress={() => {
+                fetch("http://localhost:3002/ccc/addlike", {
+                  method: "POST",
+                  headers: {
+                    "Content-Type": "application/json"
+                  },
+                  body: JSON.stringify({ slug: this.props.document })
+                }).then(() => {
+                  this.getCCCData();
+                });
+              }}
+            >
+              <View style={[styles.interaction, { marginBottom: 20 }]}>
+                <Icon.AntDesign name="like1" color="#039be5" size={25} />
+                <AppText style={{ marginLeft: 10 }}>
+                  {likes.likes} Likes
+                </AppText>
+              </View>
+            </TouchableOpacity>
+            <TouchableOpacity
+              onPress={() => this.setState({ showComments: !showComments })}
+            >
+              <View style={styles.interaction}>
+                <Icon.FontAwesome name="comments" color="#039be5" size={25} />
+                <AppText style={{ marginLeft: 10 }}>
+                  {comments.comments.length}{" "}
+                  {comments.comments.length === 1 ? "Comment" : "Comments"}{" "}
+                  {showComments ? "(Hide" : "(Show"} comments)
+                </AppText>
+              </View>
+            </TouchableOpacity>
+          </View>
+        );
+      }
+    }
 
     return (
       <View style={{ position: "relative" }}>
@@ -874,6 +974,68 @@ class Reading extends React.Component {
         >
           The {document.title}
         </ReadingText>
+        {interactions}
+        {showComments && comments ? (
+          <View style={styles.paddingSides}>
+            <View style={styles.comments}>
+              <TextInput
+                placeholder="Name"
+                onChangeText={text => this.setState({ commentName: text })}
+                style={styles.commentInput}
+                underlineColorAndroid="transparent"
+                value={commentName}
+              />
+              <TextInput
+                placeholder="Message"
+                onChangeText={text => this.setState({ commentComment: text })}
+                style={styles.commentInput}
+                underlineColorAndroid="transparent"
+                value={commentComment}
+              />
+              <TouchableOpacity
+                onPress={() => {
+                  fetch("http://localhost:3002/ccc/addcomment", {
+                    method: "POST",
+                    headers: {
+                      "Content-Type": "application/json"
+                    },
+                    body: JSON.stringify({
+                      slug: this.props.document,
+                      comment: {
+                        name: commentName,
+                        date: new Date().toISOString(),
+                        comment: commentComment
+                      }
+                    })
+                  }).then(() => {
+                    this.getCCCData();
+                    this.setState({
+                      commentComment: "",
+                      commentName: ""
+                    });
+                  });
+                }}
+              >
+                <AppText style={{ color: "#039be5", marginBottom: 20 }}>
+                  Submit
+                </AppText>
+              </TouchableOpacity>
+              <AppText bold style={{ marginBottom: 10 }}>
+                Comments
+              </AppText>
+              {map(comments.comments, (comment, index) => {
+                return (
+                  <View key={index} style={{ marginBottom: 20 }}>
+                    <ReadingText>{comment.comment}</ReadingText>
+                    <ReadingText italic>
+                      {comment.name} ({moment(comment.date).fromNow()})
+                    </ReadingText>
+                  </View>
+                );
+              })}
+            </View>
+          </View>
+        ) : null}
       </View>
     );
   }
@@ -1076,6 +1238,34 @@ const styles = StyleSheet.create({
     position: "relative",
     top: -2,
     maxWidth: (Dimensions.get("window").width - 80) / 2
+  },
+  interactions: {
+    alignItems: "center",
+    display: "flex",
+    marginBottom: 20
+  },
+  interaction: {
+    alignItems: "center",
+    display: "flex",
+    flexDirection: "row"
+  },
+  comments: {
+    borderColor: "rgba(0, 0, 0, .84)",
+    borderWidth: 1,
+    marginBottom: 20,
+    paddingBottom: 10,
+    paddingLeft: 20,
+    paddingRight: 20,
+    paddingTop: 10
+  },
+  commentInput: {
+    borderColor: "rgba(0, 0, 0, .84)",
+    borderWidth: 1,
+    marginBottom: 10,
+    paddingBottom: 5,
+    paddingLeft: 10,
+    paddingRight: 10,
+    paddingTop: 5
   }
 });
 
