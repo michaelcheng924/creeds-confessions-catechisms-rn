@@ -960,34 +960,17 @@ class Reading extends React.Component {
   }
 
   renderTitleImage() {
-    const {
-      cccData,
-      commentComment,
-      commentName,
-      document,
-      showComments
-    } = this.state;
+    const { cccData, document } = this.state;
 
     let interactions = null;
-    let comments;
 
     if (cccData) {
       const likes = find(
         cccData,
         item => item.slug === `likes-${this.props.document}`
       );
-      comments = find(
-        cccData,
-        item => item.slug === `comments-${this.props.document}`
-      );
 
-      if (comments) {
-        comments.comments.sort((a, b) => {
-          return new Date(b.date) - new Date(a.date);
-        });
-      }
-
-      if (likes && comments) {
+      if (likes) {
         interactions = (
           <View style={styles.interactions}>
             <TouchableOpacity
@@ -1007,18 +990,6 @@ class Reading extends React.Component {
                 <Icon.AntDesign name="like1" color="#039be5" size={25} />
                 <AppText style={{ marginLeft: 10 }}>
                   {likes.likes} Likes
-                </AppText>
-              </View>
-            </TouchableOpacity>
-            <TouchableOpacity
-              onPress={() => this.setState({ showComments: !showComments })}
-            >
-              <View style={styles.interaction}>
-                <Icon.FontAwesome name="comments" color="#039be5" size={25} />
-                <AppText style={{ marginLeft: 10 }}>
-                  {comments.comments.length}{" "}
-                  {comments.comments.length === 1 ? "Comment" : "Comments"}{" "}
-                  {showComments ? "(Hide" : "(Show"} comments)
                 </AppText>
               </View>
             </TouchableOpacity>
@@ -1054,67 +1025,6 @@ class Reading extends React.Component {
           The {document.title}
         </ReadingText>
         {interactions}
-        {showComments && comments ? (
-          <View style={styles.paddingSides}>
-            <View style={styles.comments}>
-              <TextInput
-                placeholder="Name"
-                onChangeText={text => this.setState({ commentName: text })}
-                style={styles.commentInput}
-                underlineColorAndroid="transparent"
-                value={commentName}
-              />
-              <TextInput
-                placeholder="Message"
-                onChangeText={text => this.setState({ commentComment: text })}
-                style={styles.commentInput}
-                underlineColorAndroid="transparent"
-                value={commentComment}
-              />
-              <TouchableOpacity
-                onPress={() => {
-                  fetch("https://mcc-admin.herokuapp.com/ccc/addcomment", {
-                    method: "POST",
-                    headers: {
-                      "Content-Type": "application/json"
-                    },
-                    body: JSON.stringify({
-                      slug: this.props.document,
-                      comment: {
-                        name: commentName,
-                        date: new Date().toISOString(),
-                        comment: commentComment
-                      }
-                    })
-                  }).then(() => {
-                    this.getCCCData();
-                    this.setState({
-                      commentComment: "",
-                      commentName: ""
-                    });
-                  });
-                }}
-              >
-                <AppText style={{ color: "#039be5", marginBottom: 20 }}>
-                  Submit
-                </AppText>
-              </TouchableOpacity>
-              <AppText bold style={{ marginBottom: 10 }}>
-                Comments
-              </AppText>
-              {map(comments.comments, (comment, index) => {
-                return (
-                  <View key={index} style={{ marginBottom: 20 }}>
-                    <ReadingText>{comment.comment}</ReadingText>
-                    <ReadingText italic>
-                      {comment.name} ({moment(comment.date).fromNow()})
-                    </ReadingText>
-                  </View>
-                );
-              })}
-            </View>
-          </View>
-        ) : null}
       </View>
     );
   }
